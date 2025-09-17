@@ -23,7 +23,13 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      # Není potřeba instalovat nic z requirements.txt
+      # >>> DŮLEŽITÉ: doinstaluj Playwright jako pip balíček + prohlížeč
+      - name: Install Playwright (pip) + browser
+        run: |
+          python -V
+          pip install --no-cache-dir playwright==1.55.0
+          python -c "import playwright, sys; print('playwright', playwright.__version__)"
+          python -m playwright install --with-deps chromium
 
       - name: Run scraper
         env:
