@@ -1,0 +1,38 @@
+name: STIS soupisky export
+on:
+  workflow_dispatch:
+    inputs:
+      rocnik:
+        description: 'Rocnik (default 2025)'
+        required: false
+  schedule:
+    - cron: '7 4,12,20 * * *'   # 3× denně (UTC)
+
+concurrency:
+  group: stis-soupisky
+  cancel-in-progress: true
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+      - run: pip install -r requirements.txt
+      - run: python -m playwright install --with-deps chromium
+      - name: Run scraper
+        env:
+          ROCNIK: ${{ inputs.rocnik || '2025' }}
+        run: python scrape_soupisky.py
+      - name: Commit CSV
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/*.csv || true
+          git diff --cached --quiet || git commit -m "Update CSV [skip ci]"
+          git push
