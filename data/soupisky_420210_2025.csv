@@ -1,414 +1,414 @@
-oddil;poradi;prijmeni;jmeno;rocnik;soutez
-;1..;Kačerovský Zdeněk;1975;reg. muži 35,5;
-;2..;Tolar Jakub;1995;reg. muži 35,5;
-;3..;Miroš Karel;1961;reg. muži 55,5;
-;4..;Tolar Petr;1970;reg. muži 85,5;
-;5..;Pelant Jakub;1980;reg. muži 105,5;
-;6..;Popelka Pavel;1973;reg. muži 105,5;
-;7..;Vanson Patrick;1967;reg. muži 135,5;
-;8..;Brejcha Petr;1961;reg. muži 155,5;
-;9..;Tříska Luboš;1961;reg. muži 160,5;
-;1..;Tesař Ondřej;1982;kraj. muži 901. - 1000.;
-;2..;Hadrava Miloslav;1955;reg. muži 91. - 100.;
-;3..;Ducháčková Radka;1979;reg. muži 101. - 110.;
-;4..;Dvořák Jiří;1970;reg. muži 111. - 120.;
-;5..;Krásný Antonín;1952;reg. muži 111. - 120.;
-;6..;Kozel Vilém;1966;reg. muži 131. - 140.;
-;7..;Ducháček Petr;2009;reg. muži 141. - 150.;
-;8..;Kozel Petr;1968;reg. muži 151. - 160.;
-;9..;Dvořáková Martina;1971;reg. muži 171. - 179.;
-;10..;Horony Tibor;1971;reg. muži 171. - 179.N;
-;11..;Otépka Radim;1968;reg. muži nez.;
-;12..;Kočárek Martin;1976;reg. muži nez.;
-;13..;Carvan Miloslav;1957;reg. muži nez.;
-;14..;Vorm Petr;1977;reg. muži nez.;
-;1..;Vodička Jiří;1962;kraj. muži 401.-450.;
-;2..;Dvořák Pavel;1975;kraj. muži 501.-600.;
-;3..;Urban Roman;1965;kraj. muži 501.-600.;
-;4..;Nykl Václav;1970;kraj. muži 601.-700.;
-;5..;Neumann Radim;1971;kraj. muži 801.-900.;
-;6..;Plicka Vladimír;1971;kraj. muži 801.-900.;
-;7..;Kosek Jiří;1971;kraj. muži 801.-900.;
-;8..;Holeček David;1975;kraj. muži 901.-1000.;
-;9..;Květoň Jan;1964;reg. muži 95,5;
-;10..;Freisleben Zdeněk;1955;reg. muži 105,5;
-;11..;Jagoš Václav;1959;reg. muži 110,5;
-;12..;Černý Radek;1987;reg. muži 115,5;
-;13..;Knýbel Pavel;1976;reg. muži 120,5;
-;14..;Jenický Eduard;1969;reg. muži 125,5;
-;15..;Václavek Petr;1974;reg. muži 165,5;
-;1..;Vraštil Petr;1975;kraj. muži 451. - 500.;
-;2..;Nágr Pavel;1966;kraj. muži 601. - 700.;
-;3..;Foltyn Jiří;1985;kraj. muži 701. - 800.N;
-;4..;Jelínek Vladimír;1964;kraj. muži 801. - 900.;
-;5..;Švehla Miroslav;1970;kraj. muži 801. - 900.;
-;6..;Kolbušovský Michal;2005;kraj. muži 901. - 1000.;
-;7..;Sloup Jiří;1966;reg. muži 101. - 110.;
-;8..;Wimmerová Lucie;1975;reg. muži 111. - 120.;
-;9..;Jurenka David;2007;reg. muži 121. - 130.;
-;10..;Charvát Vojtěch;1951;reg. muži 131. - 140.;
-;11..;Bosch Maya;2008;reg. muži 141. - 150.;
-;12..;Bosch Maxmilian;2005;reg. muži 141. - 150.;
-;13..;Kreyndel Ilya;1955;reg. muži 161. - 170.;
-;14..;Švehla Filip;2009;reg. muži 171. - 179.N;
-;15..;Novotný David;1980;reg. muži 171. - 179.N;
-;16..;Klika Jakub;2009;nez.;
-;17..;Kunc Šimon;2013;nez.;
-;18..;Cihelka Jaroslav;1946;nez.;
-;19..;Šenbauer Jiří;1958;nez.;
-;1..;Zacharda Aleš;1972;kraj. muži 701. - 800.;
-;2..;Píš Daniel;1969;kraj. muži 801. - 900.;
-;3..;Stejskal Michal;1997;kraj. muži 801. - 900.;
-;4..;Bulín Zdeněk;1972;kraj. muži 801. - 900.;
-;5..;Matoušek Michal;1982;kraj. muži 801. - 900.;
-;6..;Matoušek Tomáš;1985;kraj. muži 901. - 1000.;
-;7..;Veverka Jan;1997;kraj. muži 901. - 1000.;
-;8..;Blažek Jiří;1994;reg. muži 91. - 100.;
-;9..;Hruška Ondřej;1995;reg. muži 101. - 110.;
-;10..;Pavlín Jiří;1962;reg. muži 101. - 110.;
-;11..;Křižka Václav;1972;reg. muži 101. - 110.N;
-;12..;Veverka Václav ml.;2000;reg. muži 121. - 130.;
-;13..;Heřman Miroslav;1978;reg. muži 121. - 130.;
-;14..;Teleňko Jaroslav;2006;reg. muži 121. - 130.;
-;15..;Fürst Mirko;1946;reg. muži 131. - 141.N;
-;16..;Yaroslavtsev Vitaly;1959;reg. muži 141. - 150.;
-;17..;Timonina Vjatsheslavovna Valerija (E);1999;nez.;
-;1..;Skoupil Lukáš;1984;kraj. muži 401. - 450.;
-;2..;Pospíšil Antonín;1964;kraj. muži 501. - 600.;
-;3..;Tůma Martin;1982;kraj. muži 501. - 600.;
-;4..;Freisleben Radek;1984;kraj. muži 901. - 1000.;
-;5..;Dáňa Martin;1963;reg. muži 91. - 100.;
-;6..;Polavka Zdeněk;1959;reg. muži 101. - 110.;
-;7..;Stržínek Jiří;1950;reg. muži 111. - 120.;
-;8..;Kuncl Marek;1975;reg. muži 121. - 130.;
-;9..;Tkáč Ivan;1978;reg. muži 121. - 130.;
-;10..;Doležal Tomáš;1988;reg. muži N;
-;11..;Kalousek Jindřich;1950;reg. muži N;
-;1..;Česák Michal;1991;kraj. muži 251-300;
-;2..;Richter Jaroslav ml.;1973;kraj. muži 301-350;
-;3..;Šulc Dalibor;1953;kraj. muži 451-500;
-;4..;Telipský Josef;1968;kraj. muži 801-900;
-;5..;Framberk Jan;1977;kraj. muži 701-800;
-;6..;Špiegel Jan;1961;kraj. muži 701-800;
-;7..;Klinga Petr;1963;kraj. muži 801-900;
-;8..;Richter Jaroslav st.;1951;reg. muži 111-120;
-;9..;Tkadlec Jaroslav;1951;reg. muži 131-140;
-;10..;Nesterchuk Volodymyr;1971;reg. muži 131-140;
-;11..;Tobolář Karel;1976;reg. muži 141-150;
-;12..;Konvalinka Michal;1985;reg. muži 151-160;
-;13..;Kulštejn David;1973;reg. muži 171-179;
-;14..;Framberk Mikuláš;2013;nez.;
-;1..;Zmatlík Lukáš;1993;kraj. muži 601. - 700.;
-;2..;Hron Matyáš;2009;kraj. muži 601. - 700.;
-;3..;Lágner Petr;1974;kraj. muži 901. - 1000.;
-;4..;Souček Jan;2000;reg. muži 101. - 110.;
-;5..;Zmatlík Petr;1957;reg. muži 111. - 120.;
-;6..;Veselý Petr;1987;reg. muži 121. - 130.;
-;7..;Šteiger Dominik;2002;reg. muži 131. - 140.;
-;8..;Nosek Michal;1985;reg. muži 131. - 140.;
-;9..;Charvát Petr;1947;reg. muži 121. - 130.N;
-;10..;Šercl Jan;1965;reg. muži 151. - 160.;
-;11..;Holmanová Emma;2009;reg. muži 171. - 179.;
-;12..;Kaiserová Karolína;2012;reg. muži 171. - 179.;
-;13..;Zúbek Ondřej;2003;nez.;
-;14..;Dziaková Alena;1982;nez.;
-;15..;Prokeš Damián;2012;nez.;
-;1..;Fischer Jiří;1964;kraj. muži 601. - 700.N;
-;2..;Cimler Lukáš;1987;kraj. muži 701. - 800.;
-;3..;Strakoš Jan;1974;kraj. muži 901. - 1000.;
-;4..;Hlavenka Eli Theodor;2010;reg. muži 101. - 110.;
-;5..;Hrdina Pavel;1971;reg. muži 111. - 120.;
-;6..;Čáp Martin;1975;reg. muži 111. - 120.;
-;7..;Suchý Michal;1976;reg. muži 121. - 130.;
-;8..;Tichý Jiří;1947;reg. muži 141. - 150.N;
-;9..;Roztočilová Tereza;2001;reg. muži 171. - 179.;
-;10..;Tvrdý Samuel;2012;reg. muži 171. - 179.;
-;11..;Vlasák Jakub;2014;nez.;
-;12..;Zborník František;2011;nez.;
-;1..;Faltin Miloš;1972;kraj. muži 501-600;
-;2..;Potužník Václav;1972;kraj. muži 601-700;
-;3..;Zelinka Mikuláš;1991;reg. muži 91-100;
-;4..;Hrouda Jakub;2002;reg. muži 141-150;
-;5..;Trubnikov Stanislav;1965;reg. muži 111-120;
-;6..;Sitta Radomír;1969;reg. muži 141-150;
-;7..;Kratochvíl Jiří;1969;reg. muži 141-150;
-;8..;Hurych Vlastislav;1972;reg. muži 151-160;
-;9..;Javůrek Filip;1991;reg. muži 151-160;
-;10..;Anderson Ben;1958;reg. muži 161-170;
-;11..;Freisleben Robin;1971;reg. muži 161-170;
-;12..;Krupička Radim;1974;reg. muži 161-170;
-;13..;Brigant Karel;1979;reg. muži 171-179;
-;14..;Hájková Kateřina;1973;reg. ženy 171-179;
-;1..;Švarc Martin;1976;kraj. muži 501-600;
-;2..;Šturm Vojtěch;2002;kraj. muži 601-700;
-;3..;Příhonský Ernesto;2010;kraj. muži 601-700;
-;4..;Šimon Matyáš;2003;kraj. muži 901-1000;
-;5..;Cabicar Šimon;2005;kraj. muži 701-800;
-;6..;Pöschl Miroslav st.;1960;kraj. muži 801-900;
-;7..;Horák Jakub;2013;kraj. M13 2;
-;8..;Vacek Jiří;1978;reg. muži 91-100;
-;9..;Zwiefelhofer Jiří;1964;reg. muži 91-100;
-;10..;Lukáš Lukáš;2006;reg. muži 131-140;
-;11..;Vondrová Kristýna nejst.;2003;reg. muži 151-160;
-;12..;Stříbrný Jiří Maxmilián;2006;reg. muži 151-160;
-;13..;Kuchtová Klára;2005;reg. muži 161-170;
-;14..;Ciněk David;2008;nez.;
-;15..;Huml František;2012;nez.;
-;16..;Kanka Daniel;2011;nez.;
-;17..;Kočí Lukáš;2011;nez.;
-;18..;Lukáš Filip nejml.;2011;nez.;
-;19..;Lukáš Jakub;1979;nez.;
-;20..;Lukeš Václav;2011;nez.;
-;21..;Sladkovský Jaroslav;2014;nez.;
-;22..;Stříbrný Ben;2010;nez.;
-;23..;Suchopárek Jan;2011;nez.;
-;24..;Vašků Karolína;2010;nez.;
-;25..;Vyhlídka Ondřej;2012;nez.;
-;1..;Pelant Jakub;1980;reg. muži 105,5;
-;2..;Popelka Pavel;1973;reg. muži 105,5;
-;3..;Vanson Patrick;1967;reg. muži 135,5;
-;4..;Brejcha Petr;1961;reg. muži 155,5;
-;5..;Tříska Luboš;1961;reg. muži 160,5;
-;6..;Matějka Zdeněk;1963;nez.;
-;7..;Vanson Stanislas;2006;nez.;
-;1..;Sloup Jiří;1966;reg. muži 101. - 110.;
-;2..;Wimmerová Lucie;1975;reg. muži 111. - 120.;
-;3..;Bosch Maya;2008;reg. muži 141. - 150.;
-;4..;Bosch Maxmilian;2005;reg. muži 141. - 150.;
-;5..;Kreyndel Ilya;1955;reg. muži 161. - 170.;
-;6..;Klika Jakub;2009;nez.;
-;7..;Kunc Šimon;2013;nez.;
-;8..;Cihelka Jaroslav;1946;nez.;
-;9..;Cacek Mikuláš;2015;nez.;
-;1..;Neumann Radim;1971;kraj. muži 801.-900.;
-;2..;Plicka Vladimír;1971;kraj. muži 801.-900.;
-;3..;Kosek Jiří;1971;kraj. muži 801.-900.;
-;4..;Holeček David;1975;kraj. muži 901.-1000.;
-;5..;Květoň Jan;1964;reg. muži 95,5;
-;6..;Freisleben Zdeněk;1955;reg. muži 105,5;
-;7..;Jagoš Václav;1959;reg. muži 110,5;
-;8..;Černý Radek;1987;reg. muži 115,5;
-;9..;Knýbel Pavel;1976;reg. muži 120,5;
-;10..;Jenický Eduard;1969;reg. muži 125,5;
-;11..;Václavek Petr;1974;reg. muži 165,5;
-;1..;Švehla Miroslav;1970;kraj. muži 801. - 900.;
-;2..;Kolbušovský Michal;2005;kraj. muži 901. - 1000.;
-;3..;Jurenka David;2007;reg. muži 121. - 130.;
-;4..;Charvát Vojtěch;1951;reg. muži 131. - 140.;
-;5..;Švehla Filip;2009;reg. muži 171. - 179.N;
-;6..;Novotný David;1980;reg. muži 171. - 179.N;
-;7..;Šenbauer Jiří;1958;nez.;
-;1..;Matoušek Michal;1982;kraj. muži 801. - 900.;
-;2..;Matoušek Tomáš;1985;kraj. muži 901. - 1000.;
-;3..;Veverka Jan;1997;kraj. muži 901. - 1000.;
-;4..;Pavlín Jiří;1962;reg. muži 101. - 110.;
-;5..;Křižka Václav;1972;reg. muži 101. - 110.N;
-;6..;Fürst Mirko;1946;reg. muži 131. - 141.N;
-;7..;Matoušek Zdeněk;1956;reg. muži 141. - 150.;
-;8..;Veverka Václav st.;1961;reg. muži 161. - 170.N;
-;9..;Paliatka Jakub;2009;reg. muži 171. - 179.;
-;10..;Kohlík Miroslav ml.;1973;nez.;
-;11..;Olexa Jakub;2011;nez.;
-;12..;Juan Tiago;2014;nez.;
-;1..;Blažek Jiří;1994;reg. muži 91. - 100.;
-;2..;Hruška Ondřej;1995;reg. muži 101. - 110.;
-;3..;Veverka Václav ml.;2000;reg. muži 121. - 130.;
-;4..;Heřman Miroslav;1978;reg. muži 121. - 130.;
-;5..;Teleňko Jaroslav;2006;reg. muži 121. - 130.;
-;6..;Yaroslavtsev Vitaly;1959;reg. muži 141. - 150.;
-;7..;Koteljuk Adam;2010;reg. muži 161. - 170.;
-;8..;Krejčová Barbora;1996;reg. muži 161. - 170.N;
-;9..;Píš Ondřej;1995;nez.;
-;10..;Čierny Alexander;1971;nez.;
-;11..;Daniš Lukáš;2010;nez.;
-;12..;Schvenger Václav;2011;nez.;
-;1..;Dáňa Martin;1963;reg. muži 91. - 100.;
-;2..;Polavka Zdeněk;1959;reg. muži 101. - 110.;
-;3..;Stržínek Jiří;1950;reg. muži 111. - 120.;
-;4..;Kuncl Marek;1975;reg. muži 121. - 130.;
-;5..;Tkáč Ivan;1978;reg. muži 121. - 130.;
-;6..;Doležal Tomáš;1988;reg. muži N;
-;7..;Kalousek Jindřich;1950;reg. muži N;
-;1..;Framberk Jan;1977;kraj. muži 701-800;
-;2..;Špiegel Jan;1961;kraj. muži 701-800;
-;3..;Klinga Petr;1963;kraj. muži 801-900;
-;4..;Richter Jaroslav st.;1951;reg. muži 111-120;
-;5..;Tkadlec Jaroslav;1951;reg. muži 131-140;
-;6..;Nesterchuk Volodymyr;1971;reg. muži 131-140;
-;7..;Tobolář Karel;1976;reg. muži 141-150;
-;8..;Konvalinka Michal;1985;reg. muži 151-160;
-;9..;Kulštejn David;1973;reg. muži 171-179;
-;10..;Framberk Mikuláš;2013;nez.;
-;1..;Hozman Bohumil;1954;kraj. muži 601-700;
-;2..;Jungvirt Tomáš;1981;kraj. muži 701-800;
-;3..;Šperl Michal;1969;kraj. muži 801-900;
-;4..;Novotný Lukáš;2005;kraj. muži 801-900;
-;5..;Silovský Martin;1966;kraj. muži 901-1000;
-;6..;Halodová Petra;1974;kraj. muži 901-1000N;
-;7..;Malínek Lukáš;1972;reg. muži 91-100;
-;8..;Máca Michal;1979;reg. muži 141-150;
-;9..;Štefan Martin;1982;reg. muži 151-160;
-;10..;Kramárik Matúš (E);1988;reg. muži 161-170;
-;11..;Ostatnická Jana;1983;reg. muži 161-170;
-;1..;Zmatlík Petr;1957;reg. muži 111. - 120.;
-;2..;Hrdina Pavel;1971;reg. muži 111. - 120.;
-;3..;Čáp Martin;1975;reg. muži 111. - 120.;
-;4..;Veselý Petr;1987;reg. muži 121. - 130.;
-;5..;Suchý Michal;1976;reg. muži 121. - 130.;
-;6..;Šteiger Dominik;2002;reg. muži 131. - 140.;
-;7..;Nosek Michal;1985;reg. muži 131. - 140.;
-;8..;Tichý Jiří;1947;reg. muži 141. - 150.N;
-;9..;Šercl Jan;1965;reg. muži 151. - 160.;
-;10..;Roztočilová Tereza;2001;reg. muži 171. - 179.;
-;11..;Charvát Petr;1947;reg. muži 121. - 130.N;
-;12..;Holmanová Emma;2009;reg. muži 171. - 179.;
-;13..;Kaiserová Karolína;2012;reg. muži 171. - 179.;
-;14..;Tvrdý Samuel;2012;reg. muži 171. - 179.;
-;15..;Zúbek Ondřej;2003;nez.;
-;16..;Dziaková Alena;1982;nez.;
-;17..;Prokeš Damián;2012;nez.;
-;18..;Vlasák Jakub;2014;nez.;
-;19..;Zborník František;2011;nez.;
-;1..;Cabicar Šimon;2005;kraj. muži 701-800;
-;2..;Pöschl Miroslav st.;1960;kraj. muži 801-900;
-;3..;Horák Jakub;2013;kraj. M13 2;
-;4..;Vacek Jiří;1978;reg. muži 91-100;
-;5..;Zwiefelhofer Jiří;1964;reg. muži 91-100;
-;6..;Lukáš Lukáš;2006;reg. muži 131-140;
-;7..;Vondrová Kristýna nejst.;2003;reg. muži 151-160;
-;8..;Stříbrný Jiří Maxmilián;2006;reg. muži 151-160;
-;9..;Kuchtová Klára;2005;reg. muži 161-170;
-;10..;Ciněk David;2008;nez.;
-;11..;Huml František;2012;nez.;
-;12..;Kanka Daniel;2011;nez.;
-;13..;Kočí Lukáš;2011;nez.;
-;14..;Lukáš Filip nejml.;2011;nez.;
-;15..;Lukáš Jakub;1979;nez.;
-;16..;Lukeš Václav;2011;nez.;
-;17..;Sladkovský Jaroslav;2014;nez.;
-;18..;Stříbrný Ben;2010;nez.;
-;19..;Suchopárek Jan;2011;nez.;
-;20..;Vašků Karolína;2010;nez.;
-;21..;Vyhlídka Ondřej;2012;nez.;
-;1..;Krásný Antonín;1952;reg. muži 111. - 120.;
-;2..;Kozel Vilém;1966;reg. muži 131. - 140.;
-;3..;Ducháček Petr;2009;reg. muži 141. - 150.;
-;4..;Kozel Petr;1968;reg. muži 151. - 160.;
-;5..;Dvořáková Martina;1971;reg. muži 171. - 179.;
-;6..;Horony Tibor;1971;reg. muži 171. - 179.N;
-;7..;Carvan Miloslav;1957;reg. muži nez.;
-;8..;Kočárek Martin;1976;reg. muži nez.;
-;9..;Matousch Ota;1969;reg. muži nez.;
-;10..;Otépka Radim;1968;reg. muži nez.;
-;11..;Vorm Petr;1977;reg. muži nez.;
-;12..;Pojeta Tomáš;1976;reg. muži nez.;
-;1..;Květoň Jan;1964;reg. muži 95,5;
-;2..;Freisleben Zdeněk;1955;reg. muži 105,5;
-;3..;Jagoš Václav;1959;reg. muži 110,5;
-;4..;Černý Radek;1987;reg. muži 115,5;
-;5..;Knýbel Pavel;1976;reg. muži 120,5;
-;6..;Jenický Eduard;1969;reg. muži 125,5;
-;7..;Václavek Petr;1974;reg. muži 165,5;
-;1..;Kruch Petr;1966;reg. muži 121-130;
-;2..;Nágl Václav;1951;reg. muži 141-150;
-;3..;Makovec Milan;1962;reg. muži 151-160;
-;4..;Tománek František;1966;nez.;
-;5..;Chromych Jan;2006;nez.;
-;6..;Prokůpek Jiří;2009;nez.;
-;7..;Lundák Pavel;2011;nez.;
-;1..;Křižka Václav;1972;reg. muži 101. - 110.N;
-;2..;Teleňko Jaroslav;2006;reg. muži 121. - 130.;
-;3..;Fürst Mirko;1946;reg. muži 131. - 141.N;
-;4..;Matoušek Zdeněk;1956;reg. muži 141. - 150.;
-;5..;Severa Martin;1968;reg. muži 161. - 170.;
-;6..;Yaroslavtsev Vitaly;1959;reg. muži 141. - 150.;
-;7..;Koteljuk Adam;2010;reg. muži 161. - 170.;
-;8..;Veverka Václav st.;1961;reg. muži 161. - 170.N;
-;9..;Paliatka Jakub;2009;reg. muži 171. - 179.;
-;10..;Pražská Lenka;1966;nez.;
-;11..;Horák Tomáš;2007;nez.;
-;12..;Novotný Jan;2010;nez.;
-;13..;Olexa Jakub;2011;nez.;
-;14..;Juan Tiago;2014;nez.;
-;15..;Schvenger Václav;2011;nez.;
-;16..;Daniš Lukáš;2010;nez.;
-;17..;Hrstka Adam;2017;nez.;
-;1..;Silovský Martin;1966;kraj. muži 901-1000;
-;2..;Halodová Petra;1974;kraj. muži 900-1000N;
-;3..;Malínek Lukáš;1972;reg. muži 91-100;
-;4..;Máca Michal;1979;reg. muži 141-150;
-;5..;Štefan Martin;1982;reg. muži 151-160;
-;6..;Kramárik Matúš (E);1988;reg. muži 161-170;
-;7..;Ostatnická Jana;1983;reg. muži 161-170;
-;8..;Ihl Roman;1967;reg. muži nez.;
-;9..;Řízek Jiří;1956;reg. muži nez.;
-;10..;Rusová Barbora;1985;reg. muži nez.;
-;11..;Petřinová Markéta;1982;reg. muži nez.;
-;12..;Coubal Kamil;1966;reg. muži nez.;
-;1..;Kreyndel Ilya;1955;reg. muži 161. - 170.;
-;2..;Švehla Filip;2009;reg. muži 171. - 179.N;
-;3..;Novotný David;1980;reg. muži 171. - 179.N;
-;4..;Klika Jakub;2009;nez.;
-;5..;Kunc Šimon;2013;nez.;
-;6..;Šimora Peter (E);1990;nez.;
-;7..;Cihelka Jaroslav;1946;nez.;
-;8..;Cacek Mikuláš;2015;nez.;
-;9..;Šenbauer Jiří;1958;nez.;
-;10..;Klika Václav;1983;nez.;
-;1..;Suchý Michal;1976;reg. muži 121. - 130.;
-;2..;Šteiger Dominik;2002;reg. muži 131. - 140.;
-;3..;Nosek Michal;1985;reg. muži 131. - 140.;
-;4..;Tichý Jiří;1947;reg. muži 141. - 150.N;
-;5..;Šercl Jan;1965;reg. muži 151. - 160.;
-;6..;Roztočilová Tereza;2001;reg. muži 171. - 179.;
-;7..;Spěvák Tomáš;1970;nez.;
-;1..;Charvát Petr;1947;reg. muži 121. - 130.N;
-;2..;Holmanová Emma;2009;reg. muži 171. - 179.;
-;3..;Kaiserová Karolína;2012;reg. muži 171. - 179.;
-;4..;Tvrdý Samuel;2012;reg. muži 171. - 179.;
-;5..;Zúbek Ondřej;2003;nez.;
-;6..;Dziaková Alena;1982;nez.;
-;7..;Prokeš Damián;2012;nez.;
-;8..;Vlasák Jakub;2014;nez.;
-;9..;Zborník František;2011;nez.;
-;10..;Přichystal Tomáš;1978;nez.;
-;1..;Trubnikov Stanislav;1965;reg. muži 111-120;
-;2..;Sitta Radomír;1969;reg. muži 141-150;
-;3..;Kratochvíl Jiří;1969;reg. muži 141-150;
-;4..;Hurych Vlastislav;1972;reg. muži 151-160;
-;5..;Javůrek Filip;1991;reg. muži 151-160;
-;6..;Anderson Ben;1958;reg. muži 161-170;
-;7..;Freisleben Robin;1971;reg. muži 161-170;
-;8..;Krupička Radim;1974;reg. muži 161-170;
-;9..;Brigant Karel;1979;reg. muži 171-179;
-;10..;Hájková Kateřina;1973;reg. ženy 171-179;
-;11..;Franc Martin;1973;nez.;
-;12..;Macháč Jan;2012;nez.;
-;13..;Pánik Lubomír;1982;nez.;
-;14..;Ženíšek Jakub;2011;nez.;
-;15..;Ženíšek Jan;2013;nez.;
-;1..;Pavlík Ondřej;1991;reg. muži 131-140;
-;2..;Prudík Tomáš;1984;reg. muži 161-170;
-;3..;Müller Ondřej;2005;nez.;
-;4..;Koliha Antonín;1956;nez.;
-;5..;Pála Patrik;2006;nez.;
-;6..;Lesa Tadeáš;2011;nez.;
-;7..;Klouček Petr;1979;nez.;
-;8..;Bernard Michal;1980;nez.;
-;1..;Zwiefelhofer Jiří;1964;reg. muži 91-100;
-;2..;Lukáš Lukáš;2006;reg. muži 131-140;
-;3..;Vondrová Kristýna nejst.;2003;reg. muži 151-160;
-;4..;Stříbrný Jiří Maxmilián;2006;reg. muži 151-160;
-;5..;Kuchtová Klára;2005;reg. muži 161-170;
-;6..;Ciněk David;2008;nez.;
-;7..;Huml František;2012;nez.;
-;8..;Kanka Daniel;2011;nez.;
-;9..;Kočí Lukáš;2011;nez.;
-;10..;Lukáš Filip nejml.;2011;nez.;
-;11..;Lukáš Jakub;1979;nez.;
-;12..;Lukeš Václav;2011;nez.;
-;13..;Sladkovský Jaroslav;2014;nez.;
-;14..;Stříbrný Ben;2010;nez.;
-;15..;Suchopárek Jan;2011;nez.;
-;16..;Vašků Karolína;2010;nez.;
-;17..;Vyhlídka Ondřej;2012;nez.;
+Oddil;P.č.;Příjmení a jméno;Rok.nar.;Umístění na žebříčku;Soutez
+Sokol Středokluky A;1.;Kačerovský Zdeněk;1975;1.;Okresní přebor 1. třída
+Sokol Středokluky A;2.;Tolar Jakub;1995;2.;Okresní přebor 1. třída
+Sokol Středokluky A;3.;Miroš Karel;1961;3.;Okresní přebor 1. třída
+Sokol Středokluky A;4.;Tolar Petr;1970;4.;Okresní přebor 1. třída
+Sokol Středokluky A;5.;Pelant Jakub;1980;5.;Okresní přebor 1. třída
+Sokol Středokluky A;6.;Popelka Pavel;1973;6.;Okresní přebor 1. třída
+Sokol Středokluky A;7.;Vanson Patrick;1967;7.;Okresní přebor 1. třída
+Sokol Středokluky A;8.;Brejcha Petr;1961;8.;Okresní přebor 1. třída
+Sokol Středokluky A;9.;Tříska Luboš;1961;9.;Okresní přebor 1. třída
+TJ Úholičky C;1.;Tesař Ondřej;1982;1.;Okresní přebor 1. třída
+TJ Úholičky C;2.;Hadrava Miloslav;1955;2.;Okresní přebor 1. třída
+TJ Úholičky C;3.;Ducháčková Radka;1979;3.;Okresní přebor 1. třída
+TJ Úholičky C;4.;Dvořák Jiří;1970;4.;Okresní přebor 1. třída
+TJ Úholičky C;5.;Krásný Antonín;1952;5.;Okresní přebor 1. třída
+TJ Úholičky C;6.;Kozel Vilém;1966;6.;Okresní přebor 1. třída
+TJ Úholičky C;7.;Ducháček Petr;2009;7.;Okresní přebor 1. třída
+TJ Úholičky C;8.;Kozel Petr;1968;8.;Okresní přebor 1. třída
+TJ Úholičky C;9.;Dvořáková Martina;1971;9.;Okresní přebor 1. třída
+TJ Úholičky C;10.;Horony Tibor;1971;10.;Okresní přebor 1. třída
+TJ Úholičky C;11.;Otépka Radim;1968;11.;Okresní přebor 1. třída
+TJ Úholičky C;12.;Kočárek Martin;1976;12.;Okresní přebor 1. třída
+TJ Úholičky C;13.;Carvan Miloslav;1957;13.;Okresní přebor 1. třída
+TJ Úholičky C;14.;Vorm Petr;1977;14.;Okresní přebor 1. třída
+Sokol Lety A;1.;Vodička Jiří;1962;1.;Okresní přebor 1. třída
+Sokol Lety A;2.;Dvořák Pavel;1975;2.;Okresní přebor 1. třída
+Sokol Lety A;3.;Urban Roman;1965;3.;Okresní přebor 1. třída
+Sokol Lety A;4.;Nykl Václav;1970;4.;Okresní přebor 1. třída
+Sokol Lety A;5.;Neumann Radim;1971;5.;Okresní přebor 1. třída
+Sokol Lety A;6.;Plicka Vladimír;1971;6.;Okresní přebor 1. třída
+Sokol Lety A;7.;Kosek Jiří;1971;7.;Okresní přebor 1. třída
+Sokol Lety A;8.;Holeček David;1975;8.;Okresní přebor 1. třída
+Sokol Lety A;9.;Květoň Jan;1964;9.;Okresní přebor 1. třída
+Sokol Lety A;10.;Freisleben Zdeněk;1955;10.;Okresní přebor 1. třída
+Sokol Lety A;11.;Jagoš Václav;1959;11.;Okresní přebor 1. třída
+Sokol Lety A;12.;Černý Radek;1987;12.;Okresní přebor 1. třída
+Sokol Lety A;13.;Knýbel Pavel;1976;13.;Okresní přebor 1. třída
+Sokol Lety A;14.;Jenický Eduard;1969;14.;Okresní přebor 1. třída
+Sokol Lety A;15.;Václavek Petr;1974;15.;Okresní přebor 1. třída
+Sokol Rudná A;1.;Vraštil Petr;1975;1.;Okresní přebor 1. třída
+Sokol Rudná A;2.;Nágr Pavel;1966;2.;Okresní přebor 1. třída
+Sokol Rudná A;3.;Foltyn Jiří;1985;3.;Okresní přebor 1. třída
+Sokol Rudná A;4.;Jelínek Vladimír;1964;4.;Okresní přebor 1. třída
+Sokol Rudná A;5.;Švehla Miroslav;1970;5.;Okresní přebor 1. třída
+Sokol Rudná A;6.;Kolbušovský Michal;2005;6.;Okresní přebor 1. třída
+Sokol Rudná A;7.;Sloup Jiří;1966;7.;Okresní přebor 1. třída
+Sokol Rudná A;8.;Wimmerová Lucie;1975;8.;Okresní přebor 1. třída
+Sokol Rudná A;9.;Jurenka David;2007;9.;Okresní přebor 1. třída
+Sokol Rudná A;10.;Charvát Vojtěch;1951;10.;Okresní přebor 1. třída
+Sokol Rudná A;11.;Bosch Maya;2008;11.;Okresní přebor 1. třída
+Sokol Rudná A;12.;Bosch Maxmilian;2005;12.;Okresní přebor 1. třída
+Sokol Rudná A;13.;Kreyndel Ilya;1955;13.;Okresní přebor 1. třída
+Sokol Rudná A;14.;Švehla Filip;2009;14.;Okresní přebor 1. třída
+Sokol Rudná A;15.;Novotný David;1980;15.;Okresní přebor 1. třída
+Sokol Rudná A;16.;Klika Jakub;2009;16.;Okresní přebor 1. třída
+Sokol Rudná A;17.;Kunc Šimon;2013;17.;Okresní přebor 1. třída
+Sokol Rudná A;18.;Cihelka Jaroslav;1946;18.;Okresní přebor 1. třída
+Sokol Rudná A;19.;Šenbauer Jiří;1958;19.;Okresní přebor 1. třída
+SK Viktorie Ořech C;1.;Zacharda Aleš;1972;1.;Okresní přebor 1. třída
+SK Viktorie Ořech C;2.;Píš Daniel;1969;2.;Okresní přebor 1. třída
+SK Viktorie Ořech C;3.;Stejskal Michal;1997;3.;Okresní přebor 1. třída
+SK Viktorie Ořech C;4.;Bulín Zdeněk;1972;4.;Okresní přebor 1. třída
+SK Viktorie Ořech C;5.;Matoušek Michal;1982;5.;Okresní přebor 1. třída
+SK Viktorie Ořech C;6.;Matoušek Tomáš;1985;6.;Okresní přebor 1. třída
+SK Viktorie Ořech C;7.;Veverka Jan;1997;7.;Okresní přebor 1. třída
+SK Viktorie Ořech C;8.;Blažek Jiří;1994;8.;Okresní přebor 1. třída
+SK Viktorie Ořech C;9.;Hruška Ondřej;1995;9.;Okresní přebor 1. třída
+SK Viktorie Ořech C;10.;Pavlín Jiří;1962;10.;Okresní přebor 1. třída
+SK Viktorie Ořech C;11.;Křižka Václav;1972;11.;Okresní přebor 1. třída
+SK Viktorie Ořech C;12.;Veverka Václav ml.;2000;12.;Okresní přebor 1. třída
+SK Viktorie Ořech C;13.;Heřman Miroslav;1978;13.;Okresní přebor 1. třída
+SK Viktorie Ořech C;14.;Teleňko Jaroslav;2006;14.;Okresní přebor 1. třída
+SK Viktorie Ořech C;15.;Fürst Mirko;1946;15.;Okresní přebor 1. třída
+SK Viktorie Ořech C;16.;Yaroslavtsev Vitaly;1959;16.;Okresní přebor 1. třída
+SK Viktorie Ořech C;17.;Timonina Vjatsheslavovna Valerija (E);1999;17.;Okresní přebor 1. třída
+Sokol Mníšek pod Brdy C;1.;Skoupil Lukáš;1984;1.;Okresní přebor 1. třída
+Sokol Mníšek pod Brdy C;2.;Pospíšil Antonín;1964;2.;Okresní přebor 1. třída
+Sokol Mníšek pod Brdy C;3.;Tůma Martin;1982;3.;Okresní přebor 1. třída
+Sokol Mníšek pod Brdy C;4.;Freisleben Radek;1984;4.;Okresní přebor 1. třída
+Sokol Mníšek pod Brdy C;5.;Dáňa Martin;1963;5.;Okresní přebor 1. třída
+Sokol Mníšek pod Brdy C;6.;Polavka Zdeněk;1959;6.;Okresní přebor 1. třída
+Sokol Mníšek pod Brdy C;7.;Stržínek Jiří;1950;7.;Okresní přebor 1. třída
+Sokol Mníšek pod Brdy C;8.;Kuncl Marek;1975;8.;Okresní přebor 1. třída
+Sokol Mníšek pod Brdy C;9.;Tkáč Ivan;1978;9.;Okresní přebor 1. třída
+Sokol Mníšek pod Brdy C;10.;Doležal Tomáš;1988;10.;Okresní přebor 1. třída
+Sokol Mníšek pod Brdy C;11.;Kalousek Jindřich;1950;11.;Okresní přebor 1. třída
+Sokol Libčice nad Vlt. B;1.;Česák Michal;1991;1.;Okresní přebor 1. třída
+Sokol Libčice nad Vlt. B;2.;Richter Jaroslav ml.;1973;2.;Okresní přebor 1. třída
+Sokol Libčice nad Vlt. B;3.;Šulc Dalibor;1953;3.;Okresní přebor 1. třída
+Sokol Libčice nad Vlt. B;4.;Telipský Josef;1968;4.;Okresní přebor 1. třída
+Sokol Libčice nad Vlt. B;5.;Framberk Jan;1977;5.;Okresní přebor 1. třída
+Sokol Libčice nad Vlt. B;6.;Špiegel Jan;1961;6.;Okresní přebor 1. třída
+Sokol Libčice nad Vlt. B;7.;Klinga Petr;1963;7.;Okresní přebor 1. třída
+Sokol Libčice nad Vlt. B;8.;Richter Jaroslav st.;1951;8.;Okresní přebor 1. třída
+Sokol Libčice nad Vlt. B;9.;Tkadlec Jaroslav;1951;9.;Okresní přebor 1. třída
+Sokol Libčice nad Vlt. B;10.;Nesterchuk Volodymyr;1971;10.;Okresní přebor 1. třída
+Sokol Libčice nad Vlt. B;11.;Tobolář Karel;1976;11.;Okresní přebor 1. třída
+Sokol Libčice nad Vlt. B;12.;Konvalinka Michal;1985;12.;Okresní přebor 1. třída
+Sokol Libčice nad Vlt. B;13.;Kulštejn David;1973;13.;Okresní přebor 1. třída
+Sokol Libčice nad Vlt. B;14.;Framberk Mikuláš;2013;14.;Okresní přebor 1. třída
+Sokol Černošice B;1.;Zmatlík Lukáš;1993;1.;Okresní přebor 1. třída
+Sokol Černošice B;2.;Hron Matyáš;2009;2.;Okresní přebor 1. třída
+Sokol Černošice B;3.;Lágner Petr;1974;3.;Okresní přebor 1. třída
+Sokol Černošice B;4.;Souček Jan;2000;4.;Okresní přebor 1. třída
+Sokol Černošice B;5.;Zmatlík Petr;1957;5.;Okresní přebor 1. třída
+Sokol Černošice B;6.;Veselý Petr;1987;6.;Okresní přebor 1. třída
+Sokol Černošice B;7.;Šteiger Dominik;2002;7.;Okresní přebor 1. třída
+Sokol Černošice B;8.;Nosek Michal;1985;8.;Okresní přebor 1. třída
+Sokol Černošice B;9.;Charvát Petr;1947;9.;Okresní přebor 1. třída
+Sokol Černošice B;10.;Šercl Jan;1965;10.;Okresní přebor 1. třída
+Sokol Černošice B;11.;Holmanová Emma;2009;11.;Okresní přebor 1. třída
+Sokol Černošice B;12.;Kaiserová Karolína;2012;12.;Okresní přebor 1. třída
+Sokol Černošice B;13.;Zúbek Ondřej;2003;13.;Okresní přebor 1. třída
+Sokol Černošice B;14.;Dziaková Alena;1982;14.;Okresní přebor 1. třída
+Sokol Černošice B;15.;Prokeš Damián;2012;15.;Okresní přebor 1. třída
+Sokol Černošice C;1.;Fischer Jiří;1964;1.;Okresní přebor 1. třída
+Sokol Černošice C;2.;Cimler Lukáš;1987;2.;Okresní přebor 1. třída
+Sokol Černošice C;3.;Strakoš Jan;1974;3.;Okresní přebor 1. třída
+Sokol Černošice C;4.;Hlavenka Eli Theodor;2010;4.;Okresní přebor 1. třída
+Sokol Černošice C;5.;Hrdina Pavel;1971;5.;Okresní přebor 1. třída
+Sokol Černošice C;6.;Čáp Martin;1975;6.;Okresní přebor 1. třída
+Sokol Černošice C;7.;Suchý Michal;1976;7.;Okresní přebor 1. třída
+Sokol Černošice C;8.;Tichý Jiří;1947;8.;Okresní přebor 1. třída
+Sokol Černošice C;9.;Roztočilová Tereza;2001;9.;Okresní přebor 1. třída
+Sokol Černošice C;10.;Tvrdý Samuel;2012;10.;Okresní přebor 1. třída
+Sokol Černošice C;11.;Vlasák Jakub;2014;11.;Okresní přebor 1. třída
+Sokol Černošice C;12.;Zborník František;2011;12.;Okresní přebor 1. třída
+Sokol Unětice A;1.;Faltin Miloš;1972;1.;Okresní přebor 1. třída
+Sokol Unětice A;2.;Potužník Václav;1972;2.;Okresní přebor 1. třída
+Sokol Unětice A;3.;Zelinka Mikuláš;1991;3.;Okresní přebor 1. třída
+Sokol Unětice A;4.;Hrouda Jakub;2002;4.;Okresní přebor 1. třída
+Sokol Unětice A;5.;Trubnikov Stanislav;1965;5.;Okresní přebor 1. třída
+Sokol Unětice A;6.;Sitta Radomír;1969;6.;Okresní přebor 1. třída
+Sokol Unětice A;7.;Kratochvíl Jiří;1969;7.;Okresní přebor 1. třída
+Sokol Unětice A;8.;Hurych Vlastislav;1972;8.;Okresní přebor 1. třída
+Sokol Unětice A;9.;Javůrek Filip;1991;9.;Okresní přebor 1. třída
+Sokol Unětice A;10.;Anderson Ben;1958;10.;Okresní přebor 1. třída
+Sokol Unětice A;11.;Freisleben Robin;1971;11.;Okresní přebor 1. třída
+Sokol Unětice A;12.;Krupička Radim;1974;12.;Okresní přebor 1. třída
+Sokol Unětice A;13.;Brigant Karel;1979;13.;Okresní přebor 1. třída
+Sokol Unětice A;14.;Hájková Kateřina;1973;14.;Okresní přebor 1. třída
+Sokol Roztoky B;1.;Švarc Martin;1976;1.;Okresní přebor 1. třída
+Sokol Roztoky B;2.;Šturm Vojtěch;2002;2.;Okresní přebor 1. třída
+Sokol Roztoky B;3.;Příhonský Ernesto;2010;3.;Okresní přebor 1. třída
+Sokol Roztoky B;4.;Šimon Matyáš;2003;4.;Okresní přebor 1. třída
+Sokol Roztoky B;5.;Cabicar Šimon;2005;5.;Okresní přebor 1. třída
+Sokol Roztoky B;6.;Pöschl Miroslav st.;1960;6.;Okresní přebor 1. třída
+Sokol Roztoky B;7.;Horák Jakub;2013;7.;Okresní přebor 1. třída
+Sokol Roztoky B;8.;Vacek Jiří;1978;8.;Okresní přebor 1. třída
+Sokol Roztoky B;9.;Zwiefelhofer Jiří;1964;9.;Okresní přebor 1. třída
+Sokol Roztoky B;10.;Lukáš Lukáš;2006;10.;Okresní přebor 1. třída
+Sokol Roztoky B;11.;Vondrová Kristýna nejst.;2003;11.;Okresní přebor 1. třída
+Sokol Roztoky B;12.;Stříbrný Jiří Maxmilián;2006;12.;Okresní přebor 1. třída
+Sokol Roztoky B;13.;Kuchtová Klára;2005;13.;Okresní přebor 1. třída
+Sokol Roztoky B;14.;Ciněk David;2008;14.;Okresní přebor 1. třída
+Sokol Roztoky B;15.;Huml František;2012;15.;Okresní přebor 1. třída
+Sokol Roztoky B;16.;Kanka Daniel;2011;16.;Okresní přebor 1. třída
+Sokol Roztoky B;17.;Kočí Lukáš;2011;17.;Okresní přebor 1. třída
+Sokol Roztoky B;18.;Lukáš Filip nejml.;2011;18.;Okresní přebor 1. třída
+Sokol Roztoky B;19.;Lukáš Jakub;1979;19.;Okresní přebor 1. třída
+Sokol Roztoky B;20.;Lukeš Václav;2011;20.;Okresní přebor 1. třída
+Sokol Roztoky B;21.;Sladkovský Jaroslav;2014;21.;Okresní přebor 1. třída
+Sokol Roztoky B;22.;Stříbrný Ben;2010;22.;Okresní přebor 1. třída
+Sokol Roztoky B;23.;Suchopárek Jan;2011;23.;Okresní přebor 1. třída
+Sokol Roztoky B;24.;Vašků Karolína;2010;24.;Okresní přebor 1. třída
+Sokol Roztoky B;25.;Vyhlídka Ondřej;2012;25.;Okresní přebor 1. třída
+Sokol Středokluky B;1.;Pelant Jakub;1980;1.;Okresní přebor 2. třída
+Sokol Středokluky B;2.;Popelka Pavel;1973;2.;Okresní přebor 2. třída
+Sokol Středokluky B;3.;Vanson Patrick;1967;3.;Okresní přebor 2. třída
+Sokol Středokluky B;4.;Brejcha Petr;1961;4.;Okresní přebor 2. třída
+Sokol Středokluky B;5.;Tříska Luboš;1961;5.;Okresní přebor 2. třída
+Sokol Středokluky B;6.;Matějka Zdeněk;1963;6.;Okresní přebor 2. třída
+Sokol Středokluky B;7.;Vanson Stanislas;2006;7.;Okresní přebor 2. třída
+Sokol Rudná C;1.;Sloup Jiří;1966;1.;Okresní přebor 2. třída
+Sokol Rudná C;2.;Wimmerová Lucie;1975;2.;Okresní přebor 2. třída
+Sokol Rudná C;3.;Bosch Maya;2008;3.;Okresní přebor 2. třída
+Sokol Rudná C;4.;Bosch Maxmilian;2005;4.;Okresní přebor 2. třída
+Sokol Rudná C;5.;Kreyndel Ilya;1955;5.;Okresní přebor 2. třída
+Sokol Rudná C;6.;Klika Jakub;2009;6.;Okresní přebor 2. třída
+Sokol Rudná C;7.;Kunc Šimon;2013;7.;Okresní přebor 2. třída
+Sokol Rudná C;8.;Cihelka Jaroslav;1946;8.;Okresní přebor 2. třída
+Sokol Rudná C;9.;Cacek Mikuláš;2015;9.;Okresní přebor 2. třída
+Sokol Lety B;1.;Neumann Radim;1971;1.;Okresní přebor 2. třída
+Sokol Lety B;2.;Plicka Vladimír;1971;2.;Okresní přebor 2. třída
+Sokol Lety B;3.;Kosek Jiří;1971;3.;Okresní přebor 2. třída
+Sokol Lety B;4.;Holeček David;1975;4.;Okresní přebor 2. třída
+Sokol Lety B;5.;Květoň Jan;1964;5.;Okresní přebor 2. třída
+Sokol Lety B;6.;Freisleben Zdeněk;1955;6.;Okresní přebor 2. třída
+Sokol Lety B;7.;Jagoš Václav;1959;7.;Okresní přebor 2. třída
+Sokol Lety B;8.;Černý Radek;1987;8.;Okresní přebor 2. třída
+Sokol Lety B;9.;Knýbel Pavel;1976;9.;Okresní přebor 2. třída
+Sokol Lety B;10.;Jenický Eduard;1969;10.;Okresní přebor 2. třída
+Sokol Lety B;11.;Václavek Petr;1974;11.;Okresní přebor 2. třída
+Sokol Rudná B;1.;Švehla Miroslav;1970;1.;Okresní přebor 2. třída
+Sokol Rudná B;2.;Kolbušovský Michal;2005;2.;Okresní přebor 2. třída
+Sokol Rudná B;3.;Jurenka David;2007;3.;Okresní přebor 2. třída
+Sokol Rudná B;4.;Charvát Vojtěch;1951;4.;Okresní přebor 2. třída
+Sokol Rudná B;5.;Švehla Filip;2009;5.;Okresní přebor 2. třída
+Sokol Rudná B;6.;Novotný David;1980;6.;Okresní přebor 2. třída
+Sokol Rudná B;7.;Šenbauer Jiří;1958;7.;Okresní přebor 2. třída
+SK Viktorie Ořech D;1.;Matoušek Michal;1982;1.;Okresní přebor 2. třída
+SK Viktorie Ořech D;2.;Matoušek Tomáš;1985;2.;Okresní přebor 2. třída
+SK Viktorie Ořech D;3.;Veverka Jan;1997;3.;Okresní přebor 2. třída
+SK Viktorie Ořech D;4.;Pavlín Jiří;1962;4.;Okresní přebor 2. třída
+SK Viktorie Ořech D;5.;Křižka Václav;1972;5.;Okresní přebor 2. třída
+SK Viktorie Ořech D;6.;Fürst Mirko;1946;6.;Okresní přebor 2. třída
+SK Viktorie Ořech D;7.;Matoušek Zdeněk;1956;7.;Okresní přebor 2. třída
+SK Viktorie Ořech D;8.;Veverka Václav st.;1961;8.;Okresní přebor 2. třída
+SK Viktorie Ořech D;9.;Paliatka Jakub;2009;9.;Okresní přebor 2. třída
+SK Viktorie Ořech D;10.;Kohlík Miroslav ml.;1973;10.;Okresní přebor 2. třída
+SK Viktorie Ořech D;11.;Olexa Jakub;2011;11.;Okresní přebor 2. třída
+SK Viktorie Ořech D;12.;Juan Tiago;2014;12.;Okresní přebor 2. třída
+SK Viktorie Ořech E;1.;Blažek Jiří;1994;1.;Okresní přebor 2. třída
+SK Viktorie Ořech E;2.;Hruška Ondřej;1995;2.;Okresní přebor 2. třída
+SK Viktorie Ořech E;3.;Veverka Václav ml.;2000;3.;Okresní přebor 2. třída
+SK Viktorie Ořech E;4.;Heřman Miroslav;1978;4.;Okresní přebor 2. třída
+SK Viktorie Ořech E;5.;Teleňko Jaroslav;2006;5.;Okresní přebor 2. třída
+SK Viktorie Ořech E;6.;Yaroslavtsev Vitaly;1959;6.;Okresní přebor 2. třída
+SK Viktorie Ořech E;7.;Koteljuk Adam;2010;7.;Okresní přebor 2. třída
+SK Viktorie Ořech E;8.;Krejčová Barbora;1996;8.;Okresní přebor 2. třída
+SK Viktorie Ořech E;9.;Píš Ondřej;1995;9.;Okresní přebor 2. třída
+SK Viktorie Ořech E;10.;Čierny Alexander;1971;10.;Okresní přebor 2. třída
+SK Viktorie Ořech E;11.;Daniš Lukáš;2010;11.;Okresní přebor 2. třída
+SK Viktorie Ořech E;12.;Schvenger Václav;2011;12.;Okresní přebor 2. třída
+Sokol Mníšek pod Brdy D;1.;Dáňa Martin;1963;1.;Okresní přebor 2. třída
+Sokol Mníšek pod Brdy D;2.;Polavka Zdeněk;1959;2.;Okresní přebor 2. třída
+Sokol Mníšek pod Brdy D;3.;Stržínek Jiří;1950;3.;Okresní přebor 2. třída
+Sokol Mníšek pod Brdy D;4.;Kuncl Marek;1975;4.;Okresní přebor 2. třída
+Sokol Mníšek pod Brdy D;5.;Tkáč Ivan;1978;5.;Okresní přebor 2. třída
+Sokol Mníšek pod Brdy D;6.;Doležal Tomáš;1988;6.;Okresní přebor 2. třída
+Sokol Mníšek pod Brdy D;7.;Kalousek Jindřich;1950;7.;Okresní přebor 2. třída
+Sokol Libčice nad Vlt. C;1.;Framberk Jan;1977;1.;Okresní přebor 2. třída
+Sokol Libčice nad Vlt. C;2.;Špiegel Jan;1961;2.;Okresní přebor 2. třída
+Sokol Libčice nad Vlt. C;3.;Klinga Petr;1963;3.;Okresní přebor 2. třída
+Sokol Libčice nad Vlt. C;4.;Richter Jaroslav st.;1951;4.;Okresní přebor 2. třída
+Sokol Libčice nad Vlt. C;5.;Tkadlec Jaroslav;1951;5.;Okresní přebor 2. třída
+Sokol Libčice nad Vlt. C;6.;Nesterchuk Volodymyr;1971;6.;Okresní přebor 2. třída
+Sokol Libčice nad Vlt. C;7.;Tobolář Karel;1976;7.;Okresní přebor 2. třída
+Sokol Libčice nad Vlt. C;8.;Konvalinka Michal;1985;8.;Okresní přebor 2. třída
+Sokol Libčice nad Vlt. C;9.;Kulštejn David;1973;9.;Okresní přebor 2. třída
+Sokol Libčice nad Vlt. C;10.;Framberk Mikuláš;2013;10.;Okresní přebor 2. třída
+Viktoria Vestec B;1.;Hozman Bohumil;1954;1.;Okresní přebor 2. třída
+Viktoria Vestec B;2.;Jungvirt Tomáš;1981;2.;Okresní přebor 2. třída
+Viktoria Vestec B;3.;Šperl Michal;1969;3.;Okresní přebor 2. třída
+Viktoria Vestec B;4.;Novotný Lukáš;2005;4.;Okresní přebor 2. třída
+Viktoria Vestec B;5.;Silovský Martin;1966;5.;Okresní přebor 2. třída
+Viktoria Vestec B;6.;Halodová Petra;1974;6.;Okresní přebor 2. třída
+Viktoria Vestec B;7.;Malínek Lukáš;1972;7.;Okresní přebor 2. třída
+Viktoria Vestec B;8.;Máca Michal;1979;8.;Okresní přebor 2. třída
+Viktoria Vestec B;9.;Štefan Martin;1982;9.;Okresní přebor 2. třída
+Viktoria Vestec B;10.;Kramárik Matúš (E);1988;10.;Okresní přebor 2. třída
+Viktoria Vestec B;11.;Ostatnická Jana;1983;11.;Okresní přebor 2. třída
+Sokol Černošice D;1.;Zmatlík Petr;1957;1.;Okresní přebor 2. třída
+Sokol Černošice D;2.;Hrdina Pavel;1971;2.;Okresní přebor 2. třída
+Sokol Černošice D;3.;Čáp Martin;1975;3.;Okresní přebor 2. třída
+Sokol Černošice D;4.;Veselý Petr;1987;4.;Okresní přebor 2. třída
+Sokol Černošice D;5.;Suchý Michal;1976;5.;Okresní přebor 2. třída
+Sokol Černošice D;6.;Šteiger Dominik;2002;6.;Okresní přebor 2. třída
+Sokol Černošice D;7.;Nosek Michal;1985;7.;Okresní přebor 2. třída
+Sokol Černošice D;8.;Tichý Jiří;1947;8.;Okresní přebor 2. třída
+Sokol Černošice D;9.;Šercl Jan;1965;9.;Okresní přebor 2. třída
+Sokol Černošice D;10.;Roztočilová Tereza;2001;10.;Okresní přebor 2. třída
+Sokol Černošice D;11.;Charvát Petr;1947;11.;Okresní přebor 2. třída
+Sokol Černošice D;12.;Holmanová Emma;2009;12.;Okresní přebor 2. třída
+Sokol Černošice D;13.;Kaiserová Karolína;2012;13.;Okresní přebor 2. třída
+Sokol Černošice D;14.;Tvrdý Samuel;2012;14.;Okresní přebor 2. třída
+Sokol Černošice D;15.;Zúbek Ondřej;2003;15.;Okresní přebor 2. třída
+Sokol Černošice D;16.;Dziaková Alena;1982;16.;Okresní přebor 2. třída
+Sokol Černošice D;17.;Prokeš Damián;2012;17.;Okresní přebor 2. třída
+Sokol Černošice D;18.;Vlasák Jakub;2014;18.;Okresní přebor 2. třída
+Sokol Černošice D;19.;Zborník František;2011;19.;Okresní přebor 2. třída
+Sokol Roztoky C;1.;Cabicar Šimon;2005;1.;Okresní přebor 2. třída
+Sokol Roztoky C;2.;Pöschl Miroslav st.;1960;2.;Okresní přebor 2. třída
+Sokol Roztoky C;3.;Horák Jakub;2013;3.;Okresní přebor 2. třída
+Sokol Roztoky C;4.;Vacek Jiří;1978;4.;Okresní přebor 2. třída
+Sokol Roztoky C;5.;Zwiefelhofer Jiří;1964;5.;Okresní přebor 2. třída
+Sokol Roztoky C;6.;Lukáš Lukáš;2006;6.;Okresní přebor 2. třída
+Sokol Roztoky C;7.;Vondrová Kristýna nejst.;2003;7.;Okresní přebor 2. třída
+Sokol Roztoky C;8.;Stříbrný Jiří Maxmilián;2006;8.;Okresní přebor 2. třída
+Sokol Roztoky C;9.;Kuchtová Klára;2005;9.;Okresní přebor 2. třída
+Sokol Roztoky C;10.;Ciněk David;2008;10.;Okresní přebor 2. třída
+Sokol Roztoky C;11.;Huml František;2012;11.;Okresní přebor 2. třída
+Sokol Roztoky C;12.;Kanka Daniel;2011;12.;Okresní přebor 2. třída
+Sokol Roztoky C;13.;Kočí Lukáš;2011;13.;Okresní přebor 2. třída
+Sokol Roztoky C;14.;Lukáš Filip nejml.;2011;14.;Okresní přebor 2. třída
+Sokol Roztoky C;15.;Lukáš Jakub;1979;15.;Okresní přebor 2. třída
+Sokol Roztoky C;16.;Lukeš Václav;2011;16.;Okresní přebor 2. třída
+Sokol Roztoky C;17.;Sladkovský Jaroslav;2014;17.;Okresní přebor 2. třída
+Sokol Roztoky C;18.;Stříbrný Ben;2010;18.;Okresní přebor 2. třída
+Sokol Roztoky C;19.;Suchopárek Jan;2011;19.;Okresní přebor 2. třída
+Sokol Roztoky C;20.;Vašků Karolína;2010;20.;Okresní přebor 2. třída
+Sokol Roztoky C;21.;Vyhlídka Ondřej;2012;21.;Okresní přebor 2. třída
+TJ Úholičky D;1.;Krásný Antonín;1952;1.;Okresní přebor 3. třída
+TJ Úholičky D;2.;Kozel Vilém;1966;2.;Okresní přebor 3. třída
+TJ Úholičky D;3.;Ducháček Petr;2009;3.;Okresní přebor 3. třída
+TJ Úholičky D;4.;Kozel Petr;1968;4.;Okresní přebor 3. třída
+TJ Úholičky D;5.;Dvořáková Martina;1971;5.;Okresní přebor 3. třída
+TJ Úholičky D;6.;Horony Tibor;1971;6.;Okresní přebor 3. třída
+TJ Úholičky D;7.;Carvan Miloslav;1957;7.;Okresní přebor 3. třída
+TJ Úholičky D;8.;Kočárek Martin;1976;8.;Okresní přebor 3. třída
+TJ Úholičky D;9.;Matousch Ota;1969;9.;Okresní přebor 3. třída
+TJ Úholičky D;10.;Otépka Radim;1968;10.;Okresní přebor 3. třída
+TJ Úholičky D;11.;Vorm Petr;1977;11.;Okresní přebor 3. třída
+TJ Úholičky D;12.;Pojeta Tomáš;1976;12.;Okresní přebor 3. třída
+Sokol Lety C;1.;Květoň Jan;1964;1.;Okresní přebor 3. třída
+Sokol Lety C;2.;Freisleben Zdeněk;1955;2.;Okresní přebor 3. třída
+Sokol Lety C;3.;Jagoš Václav;1959;3.;Okresní přebor 3. třída
+Sokol Lety C;4.;Černý Radek;1987;4.;Okresní přebor 3. třída
+Sokol Lety C;5.;Knýbel Pavel;1976;5.;Okresní přebor 3. třída
+Sokol Lety C;6.;Jenický Eduard;1969;6.;Okresní přebor 3. třída
+Sokol Lety C;7.;Václavek Petr;1974;7.;Okresní přebor 3. třída
+Slavoj Davle;1.;Kruch Petr;1966;1.;Okresní přebor 3. třída
+Slavoj Davle;2.;Nágl Václav;1951;2.;Okresní přebor 3. třída
+Slavoj Davle;3.;Makovec Milan;1962;3.;Okresní přebor 3. třída
+Slavoj Davle;4.;Tománek František;1966;4.;Okresní přebor 3. třída
+Slavoj Davle;5.;Chromych Jan;2006;5.;Okresní přebor 3. třída
+Slavoj Davle;6.;Prokůpek Jiří;2009;6.;Okresní přebor 3. třída
+Slavoj Davle;7.;Lundák Pavel;2011;7.;Okresní přebor 3. třída
+SK Viktorie Ořech F;1.;Křižka Václav;1972;1.;Okresní přebor 3. třída
+SK Viktorie Ořech F;2.;Teleňko Jaroslav;2006;2.;Okresní přebor 3. třída
+SK Viktorie Ořech F;3.;Fürst Mirko;1946;3.;Okresní přebor 3. třída
+SK Viktorie Ořech F;4.;Matoušek Zdeněk;1956;4.;Okresní přebor 3. třída
+SK Viktorie Ořech F;5.;Severa Martin;1968;5.;Okresní přebor 3. třída
+SK Viktorie Ořech F;6.;Yaroslavtsev Vitaly;1959;6.;Okresní přebor 3. třída
+SK Viktorie Ořech F;7.;Koteljuk Adam;2010;7.;Okresní přebor 3. třída
+SK Viktorie Ořech F;8.;Veverka Václav st.;1961;8.;Okresní přebor 3. třída
+SK Viktorie Ořech F;9.;Paliatka Jakub;2009;9.;Okresní přebor 3. třída
+SK Viktorie Ořech F;10.;Pražská Lenka;1966;10.;Okresní přebor 3. třída
+SK Viktorie Ořech F;11.;Horák Tomáš;2007;11.;Okresní přebor 3. třída
+SK Viktorie Ořech F;12.;Novotný Jan;2010;12.;Okresní přebor 3. třída
+SK Viktorie Ořech F;13.;Olexa Jakub;2011;13.;Okresní přebor 3. třída
+SK Viktorie Ořech F;14.;Juan Tiago;2014;14.;Okresní přebor 3. třída
+SK Viktorie Ořech F;15.;Schvenger Václav;2011;15.;Okresní přebor 3. třída
+SK Viktorie Ořech F;16.;Daniš Lukáš;2010;16.;Okresní přebor 3. třída
+SK Viktorie Ořech F;17.;Hrstka Adam;2017;17.;Okresní přebor 3. třída
+Viktoria Vestec C;1.;Silovský Martin;1966;1.;Okresní přebor 3. třída
+Viktoria Vestec C;2.;Halodová Petra;1974;2.;Okresní přebor 3. třída
+Viktoria Vestec C;3.;Malínek Lukáš;1972;3.;Okresní přebor 3. třída
+Viktoria Vestec C;4.;Máca Michal;1979;4.;Okresní přebor 3. třída
+Viktoria Vestec C;5.;Štefan Martin;1982;5.;Okresní přebor 3. třída
+Viktoria Vestec C;6.;Kramárik Matúš (E);1988;6.;Okresní přebor 3. třída
+Viktoria Vestec C;7.;Ostatnická Jana;1983;7.;Okresní přebor 3. třída
+Viktoria Vestec C;8.;Ihl Roman;1967;8.;Okresní přebor 3. třída
+Viktoria Vestec C;9.;Řízek Jiří;1956;9.;Okresní přebor 3. třída
+Viktoria Vestec C;10.;Rusová Barbora;1985;10.;Okresní přebor 3. třída
+Viktoria Vestec C;11.;Petřinová Markéta;1982;11.;Okresní přebor 3. třída
+Viktoria Vestec C;12.;Coubal Kamil;1966;12.;Okresní přebor 3. třída
+Sokol Rudná D;1.;Kreyndel Ilya;1955;1.;Okresní přebor 3. třída
+Sokol Rudná D;2.;Švehla Filip;2009;2.;Okresní přebor 3. třída
+Sokol Rudná D;3.;Novotný David;1980;3.;Okresní přebor 3. třída
+Sokol Rudná D;4.;Klika Jakub;2009;4.;Okresní přebor 3. třída
+Sokol Rudná D;5.;Kunc Šimon;2013;5.;Okresní přebor 3. třída
+Sokol Rudná D;6.;Šimora Peter (E);1990;6.;Okresní přebor 3. třída
+Sokol Rudná D;7.;Cihelka Jaroslav;1946;7.;Okresní přebor 3. třída
+Sokol Rudná D;8.;Cacek Mikuláš;2015;8.;Okresní přebor 3. třída
+Sokol Rudná D;9.;Šenbauer Jiří;1958;9.;Okresní přebor 3. třída
+Sokol Rudná D;10.;Klika Václav;1983;10.;Okresní přebor 3. třída
+Sokol Černošice E;1.;Suchý Michal;1976;1.;Okresní přebor 3. třída
+Sokol Černošice E;2.;Šteiger Dominik;2002;2.;Okresní přebor 3. třída
+Sokol Černošice E;3.;Nosek Michal;1985;3.;Okresní přebor 3. třída
+Sokol Černošice E;4.;Tichý Jiří;1947;4.;Okresní přebor 3. třída
+Sokol Černošice E;5.;Šercl Jan;1965;5.;Okresní přebor 3. třída
+Sokol Černošice E;6.;Roztočilová Tereza;2001;6.;Okresní přebor 3. třída
+Sokol Černošice E;7.;Spěvák Tomáš;1970;7.;Okresní přebor 3. třída
+Sokol Černošice F;1.;Charvát Petr;1947;1.;Okresní přebor 3. třída
+Sokol Černošice F;2.;Holmanová Emma;2009;2.;Okresní přebor 3. třída
+Sokol Černošice F;3.;Kaiserová Karolína;2012;3.;Okresní přebor 3. třída
+Sokol Černošice F;4.;Tvrdý Samuel;2012;4.;Okresní přebor 3. třída
+Sokol Černošice F;5.;Zúbek Ondřej;2003;5.;Okresní přebor 3. třída
+Sokol Černošice F;6.;Dziaková Alena;1982;6.;Okresní přebor 3. třída
+Sokol Černošice F;7.;Prokeš Damián;2012;7.;Okresní přebor 3. třída
+Sokol Černošice F;8.;Vlasák Jakub;2014;8.;Okresní přebor 3. třída
+Sokol Černošice F;9.;Zborník František;2011;9.;Okresní přebor 3. třída
+Sokol Černošice F;10.;Přichystal Tomáš;1978;10.;Okresní přebor 3. třída
+Sokol Unětice B;1.;Trubnikov Stanislav;1965;1.;Okresní přebor 3. třída
+Sokol Unětice B;2.;Sitta Radomír;1969;2.;Okresní přebor 3. třída
+Sokol Unětice B;3.;Kratochvíl Jiří;1969;3.;Okresní přebor 3. třída
+Sokol Unětice B;4.;Hurych Vlastislav;1972;4.;Okresní přebor 3. třída
+Sokol Unětice B;5.;Javůrek Filip;1991;5.;Okresní přebor 3. třída
+Sokol Unětice B;6.;Anderson Ben;1958;6.;Okresní přebor 3. třída
+Sokol Unětice B;7.;Freisleben Robin;1971;7.;Okresní přebor 3. třída
+Sokol Unětice B;8.;Krupička Radim;1974;8.;Okresní přebor 3. třída
+Sokol Unětice B;9.;Brigant Karel;1979;9.;Okresní přebor 3. třída
+Sokol Unětice B;10.;Hájková Kateřina;1973;10.;Okresní přebor 3. třída
+Sokol Unětice B;11.;Franc Martin;1973;11.;Okresní přebor 3. třída
+Sokol Unětice B;12.;Macháč Jan;2012;12.;Okresní přebor 3. třída
+Sokol Unětice B;13.;Pánik Lubomír;1982;13.;Okresní přebor 3. třída
+Sokol Unětice B;14.;Ženíšek Jakub;2011;14.;Okresní přebor 3. třída
+Sokol Unětice B;15.;Ženíšek Jan;2013;15.;Okresní přebor 3. třída
+Sokol Jílové u Prahy;1.;Pavlík Ondřej;1991;1.;Okresní přebor 3. třída
+Sokol Jílové u Prahy;2.;Prudík Tomáš;1984;2.;Okresní přebor 3. třída
+Sokol Jílové u Prahy;3.;Müller Ondřej;2005;3.;Okresní přebor 3. třída
+Sokol Jílové u Prahy;4.;Koliha Antonín;1956;4.;Okresní přebor 3. třída
+Sokol Jílové u Prahy;5.;Pála Patrik;2006;5.;Okresní přebor 3. třída
+Sokol Jílové u Prahy;6.;Lesa Tadeáš;2011;6.;Okresní přebor 3. třída
+Sokol Jílové u Prahy;7.;Klouček Petr;1979;7.;Okresní přebor 3. třída
+Sokol Jílové u Prahy;8.;Bernard Michal;1980;8.;Okresní přebor 3. třída
+Sokol Roztoky D;1.;Zwiefelhofer Jiří;1964;1.;Okresní přebor 3. třída
+Sokol Roztoky D;2.;Lukáš Lukáš;2006;2.;Okresní přebor 3. třída
+Sokol Roztoky D;3.;Vondrová Kristýna nejst.;2003;3.;Okresní přebor 3. třída
+Sokol Roztoky D;4.;Stříbrný Jiří Maxmilián;2006;4.;Okresní přebor 3. třída
+Sokol Roztoky D;5.;Kuchtová Klára;2005;5.;Okresní přebor 3. třída
+Sokol Roztoky D;6.;Ciněk David;2008;6.;Okresní přebor 3. třída
+Sokol Roztoky D;7.;Huml František;2012;7.;Okresní přebor 3. třída
+Sokol Roztoky D;8.;Kanka Daniel;2011;8.;Okresní přebor 3. třída
+Sokol Roztoky D;9.;Kočí Lukáš;2011;9.;Okresní přebor 3. třída
+Sokol Roztoky D;10.;Lukáš Filip nejml.;2011;10.;Okresní přebor 3. třída
+Sokol Roztoky D;11.;Lukáš Jakub;1979;11.;Okresní přebor 3. třída
+Sokol Roztoky D;12.;Lukeš Václav;2011;12.;Okresní přebor 3. třída
+Sokol Roztoky D;13.;Sladkovský Jaroslav;2014;13.;Okresní přebor 3. třída
+Sokol Roztoky D;14.;Stříbrný Ben;2010;14.;Okresní přebor 3. třída
+Sokol Roztoky D;15.;Suchopárek Jan;2011;15.;Okresní přebor 3. třída
+Sokol Roztoky D;16.;Vašků Karolína;2010;16.;Okresní přebor 3. třída
+Sokol Roztoky D;17.;Vyhlídka Ondřej;2012;17.;Okresní přebor 3. třída
