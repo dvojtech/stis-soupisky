@@ -20,8 +20,15 @@ jobs:
     runs-on: ubuntu-latest
     container:
       image: mcr.microsoft.com/playwright/python:v1.55.0-jammy
+    defaults:
+      run:
+        working-directory: ${{ github.workspace }}
+
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
 
       - name: Install Playwright (pip) + browser
         run: |
@@ -47,9 +54,27 @@ jobs:
           if-no-files-found: ignore
 
       - name: Commit CSV
+        env:
+          GIT_AUTHOR_NAME:  github-actions[bot]
+          GIT_AUTHOR_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
+          GIT_COMMITTER_NAME:  github-actions[bot]
+          GIT_COMMITTER_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
         run: |
-          git config user.name  "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/*.csv || true
-          git diff --cached --quiet || git commit -m "Update CSV [skip ci]"
-          git push || true
+          echo "Workspace: $GITHUB_WORKSPACE"
+          git config --global --add safe.directory "$GITHUB_WORKSPACE"
+          git status || true
+          ls -la data || true
+
+          # přidej CSV, pokud existují
+          if ls data/*.csv >/dev/null 2>&1; then
+            git add data/*.csv
+            if git diff --cached --quiet; then
+              echo "Žádné změny k commitu."
+            else
+              git commit -m "Update CSV [skip ci]"
+              git push
+            fi
+          else
+            echo "CSV se nevygenerovala (žádný soubor data/*.csv)."
+          fi
+
