@@ -1,12 +1,12 @@
 # scrape_soupisky.py
-# Export STIS soupisky do CSV:
+# CSV hlavička:
 # Oddil;P.č.;Příjmení a jméno;Rok.nar.;Umístění na žebříčku;Soutez
 
 import os, csv, time, pathlib, re
 from playwright.sync_api import sync_playwright
 
-# ----- konfigurace -----
-SVAZY   = ["420103", "420210"]                     # můžeš doplnit další svazy
+# ===== konfigurace =====
+SVAZY   = ["420103", "420210"]                 # doplň dle potřeby
 ROCNIK  = os.getenv("ROCNIK", "2025")
 BASE    = "https://stis.ping-pong.cz"
 OUTDIR  = "data"
@@ -17,9 +17,9 @@ UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
 pathlib.Path(OUTDIR).mkdir(parents=True, exist_ok=True)
 pathlib.Path(DEBUG).mkdir(parents=True, exist_ok=True)
 
-# ----- pomocné funkce -----
+# ===== pomocné funkce =====
 def cells_texts(row):
-    # vrátí texty ze všech buněk (td i th), očištěné
+    # texty ze všech buněk (td i th), ořezané
     cells = row.query_selector_all("td, th")
     out = []
     for c in cells:
@@ -32,29 +32,45 @@ def cells_texts(row):
 def is_year(s: str) -> bool:
     return bool(re.fullmatch(r"(19|20)\d{2}", s.strip()))
 
-def is_rank(s: str) -> bool:
-    s = s.strip()
-    # 14 | 14. | 21-30 | 21.-30. | 21.-30.N
-    return bool(
-        re.fullmatch(r"\d+\.?", s) or
-        re.fullmatch(r"\d+\s*[-–]\s*\d+\.?(?:[A-Za-z])?", s)
-    )
-
 def norm_poradi(s: str) -> str:
     m = re.search(r"\d+", s)
     return (m.group(0) + ".") if m else s
+
+def looks_like_rank_any(s: str) -> bool:
+    """povol běžné tvary umístění: 1., 21.-30., 21.-30.N, apod."""
+    t = s.strip()
+    if not t or is_year(t):  # rok to není
+        return False
+    return bool(
+        re.fullmatch(r"\d+\.?", t) or
+        re.fullmatch(r"\d+\s*[-–]\s*\d+\.?(?:[A-Za-z])?", t)
+    )
+
+def split_comp_and_rank(text: str):
+    """
+    'kraj. muži 14.' -> ('kraj. muži', '14.')
+    pokud číslo na konci není, vrátí (text, '')
+    """
+    t = text.strip()
+    m = re.search(r"(\d+)\.?\s*$", t)
+    if m:
+        comp = t[:m.start()].strip(" .,-")
+        rank = m.group(1) + "."
+        return comp, rank
+    return t, ""
 
 def find_table(page):
     sel = "table.soupisky, table.table.soupisky, table.table-bordered.soupisky"
     return page.query_selector(sel)
 
-# ----- parsování jedné tabulky -----
+# ===== parser jedné tabulky =====
 def parse_table(tbl):
     rows = tbl.query_selector_all("tr")
     y = 0
     oddil = ""
-    soutez = ""
+    soutez_text = ""
     predsoutez = ""
+    header_rank = ""         # např. '14.' z hlavičky "kraj. muži 14."
     out = []
 
     for r in rows:
@@ -64,11 +80,11 @@ def parse_table(tbl):
 
         first = cols[0].strip()
 
-        # Datový řádek hráče – první buňka je pořadí (číslo)
+        # Datový řádek – první buňka je pořadí (číslo)
         if first[:1].isdigit() and re.match(r"^\d+\.?$", first):
             poradi = norm_poradi(first)
 
-            # Najdi index roku narození a vytáhni celé jméno
+            # zjisti rok narození + celé jméno (nedělíme)
             year_idx = next((i for i, v in enumerate(cols) if is_year(v)), -1)
             rocnik = ""
             cele_jmeno = ""
@@ -76,7 +92,7 @@ def parse_table(tbl):
 
             if year_idx >= 0:
                 rocnik = cols[year_idx].strip()
-                # Jméno bývá těsně před rokem; fallback na další sloupce
+                # jméno bývá těsně před rokem; fallback na další sloupce
                 if year_idx - 1 >= 1:
                     cele_jmeno = cols[year_idx - 1].strip()
                 elif len(cols) > 2:
@@ -84,18 +100,25 @@ def parse_table(tbl):
                 elif len(cols) > 1:
                     cele_jmeno = cols[1].strip()
 
-                # zkus buňku za rokem jako „Umístění na žebříčku“
-                if year_idx + 1 < len(cols) and is_rank(cols[year_idx + 1]):
+                # ⬅️ KLÍČOVÁ ZMĚNA: vezmi umístění přímo z buňky ZA rokem (bez filtru)
+                if year_idx + 1 < len(cols):
                     umisteni = cols[year_idx + 1].strip()
 
-            # fallbacky, kdyby rok nenašel
+            # fallbacky
             if not cele_jmeno:
                 cele_jmeno = cols[2].strip() if len(cols) > 2 else (cols[1].strip() if len(cols) > 1 else "")
+
             if not umisteni:
-                for v in cols:
-                    if is_rank(v):
+                # hledej kdekoli v řádku položku vypadající jako umístění (kromě 1. sloupce P.č.)
+                for idx, v in enumerate(cols):
+                    if idx == 0:
+                        continue
+                    if looks_like_rank_any(v):
                         umisteni = v.strip()
                         break
+
+            if not umisteni and header_rank:
+                umisteni = header_rank  # použij číslo z hlavičky, např. '14.'
 
             out.append([
                 oddil,          # Oddil
@@ -103,33 +126,39 @@ def parse_table(tbl):
                 cele_jmeno,     # Příjmení a jméno (v jednom poli)
                 rocnik,         # Rok.nar.
                 umisteni,       # Umístění na žebříčku
-                soutez          # Soutez
+                soutez_text     # Soutez (bez čísla)
             ])
             y = 2
             continue
 
-        # ---- Hlavičky (oddíl / soutěž) – čteme i <th> ----
+        # ---- hlavičky (oddíl / soutěž) – čteme i <th> ----
         y += 1
         val = first
-        if   y == 1: pass              # „Soupiska…“ – neukládáme
-        elif y == 2: soutez = val      # soutěž
-        elif y == 3: oddil  = val      # oddíl
-        elif y == 4:                   # někdy se prohodí
-            predsoutez, soutez, oddil = soutez, oddil, val
+        if   y == 1:
+            pass                              # „Soupiska…“ – neukládáme
+        elif y == 2:
+            # řádek se soutěží – může mít i pořadí na konci (kraj. muži 14.)
+            comp, rank = split_comp_and_rank(val)
+            soutez_text = comp                # např. 'kraj. muži' / 'Divize'
+            header_rank = rank or header_rank # např. '14.' (pro fallback)
+        elif y == 3:
+            oddil  = val
+        elif y == 4:                          # někdy se prohodí
+            predsoutez, soutez_text, oddil = soutez_text, oddil, val
         elif y == 5:
             oddil = val
-            soutez = predsoutez
+            soutez_text = predsoutez
             y = 4
 
     return out
 
-# ----- warmup + export jednoho svazu s retry -----
+# ===== warmup + export jednoho svazu s retry =====
 def warmup(page):
     page.set_extra_http_headers({"Accept-Language":"cs,en;q=0.8"})
     page.set_default_timeout(45000)
     page.goto(BASE + "/", wait_until="domcontentloaded")
     page.wait_for_load_state("networkidle")
-    page.wait_for_timeout(500)  # nechat doběhnout skripty
+    page.wait_for_timeout(500)
 
 def export_svaz(page, svaz):
     url = f"{BASE}/soupisky/svaz-{svaz}/rocnik-{ROCNIK}"
@@ -137,7 +166,6 @@ def export_svaz(page, svaz):
     for a in range(1, attempts+1):
         resp = page.goto(url, wait_until="domcontentloaded", timeout=45000)
         status = resp.status if resp else None
-
         try:
             page.wait_for_load_state("networkidle", timeout=15000)
         except:
@@ -148,12 +176,12 @@ def export_svaz(page, svaz):
         if tbl:
             rows = parse_table(tbl)
             if rows:
-                out = os.path.join(OUTDIR, f"soupisky_{svaz}_{ROCNIK}.csv")
-                with open(out, "w", newline="", encoding="utf-8") as f:
+                outp = os.path.join(OUTDIR, f"soupisky_{svaz}_{ROCNIK}.csv")
+                with open(outp, "w", newline="", encoding="utf-8") as f:
                     w = csv.writer(f, delimiter=";")
                     w.writerow(["Oddil","P.č.","Příjmení a jméno","Rok.nar.","Umístění na žebříčku","Soutez"])
                     w.writerows(rows)
-                print(f"{svaz}: {len(rows)} řádků -> {out}")
+                print(f"{svaz}: {len(rows)} řádků -> {outp}")
                 return
 
         # --- debug + další pokus ---
@@ -166,11 +194,11 @@ def export_svaz(page, svaz):
                             full_page=True)
         except:
             pass
-        time.sleep(0.8 + 0.4*a)
+        time.sleep(0.6 + 0.4*a)
 
     raise RuntimeError(f"Nenalezena tabulka pro svaz {svaz} po {attempts} pokusech")
 
-# ----- main -----
+# ===== main =====
 def main():
     with sync_playwright() as pw:
         browser = pw.chromium.launch(
