@@ -152,13 +152,21 @@ def parse_table(tbl):
 
     return out
 
-# ===== warmup + export jednoho svazu s retry =====
 def warmup(page):
-    page.set_extra_http_headers({"Accept-Language":"cs,en;q=0.8"})
+    # získat session cookie, ale nečekat na "networkidle" (na STIS často nikdy nenastane)
+    page.set_extra_http_headers({"Accept-Language": "cs,en;q=0.8"})
     page.set_default_timeout(45000)
-    page.goto(BASE + "/", wait_until="domcontentloaded")
-    page.wait_for_load_state("networkidle")
-    page.wait_for_timeout(500)
+
+    # stačí DOMContentLoaded; networkidle vynecháme
+    page.goto(BASE + "/", wait_until="domcontentloaded", timeout=45000)
+    try:
+        # lehké dovyčkání na onload, ale krátké a tolerantní
+        page.wait_for_load_state("load", timeout=5000)
+    except:
+        pass
+
+    # nechat doběhnout kratší skripty
+    page.wait_for_timeout(400)
 
 def export_svaz(page, svaz):
     url = f"{BASE}/soupisky/svaz-{svaz}/rocnik-{ROCNIK}"
