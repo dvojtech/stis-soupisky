@@ -28,8 +28,12 @@ jobs:
         run: |
           python -V
           pip install --no-cache-dir playwright==1.55.0
-          python -c "import playwright, sys; print('playwright', playwright.__version__)"
+          python - << 'PY'
+          import importlib.metadata as im
+          print("playwright", im.version("playwright"))
+          PY
           python -m playwright install --with-deps chromium
+
 
       - name: Run scraper
         env:
