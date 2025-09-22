@@ -1,5 +1,5 @@
 # scrape_zebricek.py
-# CSV: Poradi;Příjmení a jméno;Rok.nar.;Oddil;Body;Svaz;Kategorie;Rocnik
+# CSV: Poradi;Příjmení a jméno;Rok.nar.;Oddil;Zápasy;STR;STR stabil;STR+-;Svaz;Kategorie;Rocnik
 
 import os, csv, time, pathlib, re, unicodedata
 from playwright.sync_api import sync_playwright, TimeoutError as PWTimeout
@@ -18,13 +18,16 @@ UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
 pathlib.Path(OUTDIR).mkdir(parents=True, exist_ok=True)
 pathlib.Path(DEBUG).mkdir(parents=True, exist_ok=True)
 
+# ---------- util ----------
 def stripdia(s: str) -> str:
-    return unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode("ascii")
+    return unicodedata.normalize("NFKD", s or "").encode("ascii", "ignore").decode("ascii")
 
 def normhdr(s: str) -> str:
-    s = stripdia(s or "").lower().strip()
-    s = re.sub(r"\s+", " ", s)
-    return s
+    t = stripdia(s).lower()
+    t = t.replace("•", " ").replace("±", "+-").replace("+−", "+-").replace("–", "-").replace("—", "-")
+    t = re.sub(r"[^a-z0-9+\- ]", " ", t)
+    t = re.sub(r"\s+", " ", t).strip()
+    return t
 
 def cells_texts(row):
     cells = row.query_selector_all("th, td")
@@ -47,15 +50,13 @@ def warmup(page):
     page.wait_for_timeout(300)
 
 def wait_rows_ready(page, timeout_ms=60000):
-    # počkej, až bude na stránce aspoň jedna tabulka s > 5 řádky v <tbody>
     page.wait_for_function(
         """() => {
             const tbls = Array.from(document.querySelectorAll('table'));
             for (const t of tbls) {
               const tb = t.tBodies && t.tBodies[0];
               if (!tb) continue;
-              const rows = tb.querySelectorAll('tr');
-              if (rows.length >= 5) return true;
+              if (tb.querySelectorAll('tr').length >= 3) return true;
             }
             return false;
         }""",
@@ -64,57 +65,72 @@ def wait_rows_ready(page, timeout_ms=60000):
 
 def find_best_table(page):
     tbls = page.query_selector_all("table")
-    best = None
-    best_score = -1
+    best, score_best = None, -1
     for t in tbls:
-        score = 0
-        # skóruj podle hlaviček
+        sc = 0
         thead = t.query_selector("thead")
         headers = []
         if thead:
-            hrow = thead.query_selector("tr")
-            if hrow:
-                headers = [normhdr(x) for x in cells_texts(hrow)]
+            tr = thead.query_selector("tr")
+            if tr: headers = [normhdr(x) for x in cells_texts(tr)]
         else:
-            # fallback: vezmi první řádek jako pseudo hlavičku
             tr0 = t.query_selector("tr")
-            if tr0:
-                headers = [normhdr(x) for x in cells_texts(tr0)]
+            if tr0: headers = [normhdr(x) for x in cells_texts(tr0)]
+
         for h in headers:
-            if "por" in h: score += 1       # pořadí
-            if "jmen" in h: score += 2      # jméno
-            if "rok" in h and ("nar" in h or "naro" in h): score += 2
-            if "oddil" in h or "klub" in h or "tym" in h: score += 2
-            if "body" in h: score += 3
-        # přidej body za počet řádků
+            if "por" in h: sc += 1
+            if "hrac" in h or "jmen" in h or "prijmeni" in h: sc += 2
+            if "rok" in h and ("nar" in h or "naro" in h): sc += 2
+            if "oddil" in h or "klub" in h or "tym" in h: sc += 2
+            if "zapasy" in h: sc += 3
+            if h == "str": sc += 3
+            if "str stabil" in h: sc += 3
+            if "str+-" in h: sc += 3
         tb = t.query_selector("tbody") or t
-        rcnt = len(tb.query_selector_all("tr"))
-        score += min(rcnt, 100) / 20.0
-        if score > best_score:
-            best = t; best_score = score
+        sc += min(len(tb.query_selector_all("tr")), 100) / 20.0
+        if sc > score_best:
+            best, score_best = t, sc
     return best
 
 def map_columns(table):
-    # vrať indexy sloupců podle textu hlavičky
     thead = table.query_selector("thead")
     hdrs = []
     if thead:
         tr = thead.query_selector("tr")
-        if tr:
-            hdrs = [normhdr(x) for x in cells_texts(tr)]
-    # mapování
-    idx = {"poradi": None, "jmeno": None, "rok": None, "oddil": None, "body": None}
+        if tr: hdrs = [normhdr(x) for x in cells_texts(tr)]
+
+    idx = {"poradi": None, "jmeno": None, "rok": None, "oddil": None,
+           "zapasy": None, "str": None, "str_stabil": None, "str_pm": None}
+
     for i, h in enumerate(hdrs):
-        if idx["poradi"] is None and ("poradi" in h or "por ad" in h or "po" in h and "adi" in h):
+        # pořadí (někdy nijak nepojmenované – necháme fallback)
+        if idx["poradi"] is None and ("poradi" in h or h in ("por", "#")):
             idx["poradi"] = i
-        if idx["jmeno"] is None and ("jmen" in h or "prijmeni" in h):
+
+        # jméno
+        if idx["jmeno"] is None and ("hrac" in h or "jmen" in h or "prijmeni" in h):
             idx["jmeno"] = i
+
+        # rok narození
         if idx["rok"] is None and ("rok" in h and ("nar" in h or "naro" in h)):
             idx["rok"] = i
+
+        # oddíl
         if idx["oddil"] is None and ("oddil" in h or "klub" in h or "tym" in h):
             idx["oddil"] = i
-        if idx["body"] is None and ("body" in h):
-            idx["body"] = i
+
+        # zápasy
+        if idx["zapasy"] is None and "zapasy" in h:
+            idx["zapasy"] = i
+
+        # důležité: nejdřív STR stabil / STR+-, až potom prostý STR
+        if idx["str_stabil"] is None and ("str stabil" in h or h == "strstabil"):
+            idx["str_stabil"] = i
+        if idx["str_pm"] is None and ("str+-" in h or "str +-" in h):
+            idx["str_pm"] = i
+        if idx["str"] is None and h == "str":
+            idx["str"] = i
+
     return idx
 
 def is_year(s: str) -> bool:
@@ -125,70 +141,71 @@ def is_num(s: str) -> bool:
     return bool(re.fullmatch(r"\d+(?:\.\d+)?", t))
 
 def parse_page_rows(table, svaz):
-    # Přečti všechny řádky aktuální stránky tabulky
     out = []
     tbody = table.query_selector("tbody") or table
     rows = tbody.query_selector_all("tr")
     hdrmap = map_columns(table)
+
     for r in rows:
         cols = cells_texts(r)
-        if not cols: continue
-        # vynech řádky bez čísla pořadí
-        if not any(ch.isdigit() for ch in cols[0]):
-            # fallback: některé tabulky mají v prvním sloupci prázdno a pořadí jinde
-            pass
-        poradi = ""
-        jmeno  = ""
-        rok    = ""
-        oddil  = ""
-        body   = ""
+        if not cols: 
+            continue
 
-        # preferuj mapování z hlavičky
+        # --- fields ---
         def get(i):
             return cols[i].strip() if (i is not None and i < len(cols)) else ""
+
         poradi = get(hdrmap["poradi"])
         jmeno  = get(hdrmap["jmeno"])
         rok    = get(hdrmap["rok"])
         oddil  = get(hdrmap["oddil"])
-        body   = get(hdrmap["body"])
+        zapasy = get(hdrmap["zapasy"])
+        str_v  = get(hdrmap["str"])
+        str_s  = get(hdrmap["str_stabil"])
+        str_pm = get(hdrmap["str_pm"])
 
-        # doplň fallbacky heuristikou
+        # --- fallbacky ---
         if not poradi:
-            m = re.match(r"^\d+", cols[0].strip())
-            poradi = m.group(0) if m else ""
+            m = re.match(r"^\s*(\d+)", cols[0])
+            poradi = m.group(1) if m else ""
         if not rok:
             for v in cols:
                 if is_year(v): rok = v; break
-        if not body:
-            # poslední číselná buňka (kromě poradi)
-            for v in reversed(cols[1:]):
-                if is_num(v): body = v; break
         if not oddil:
-            # poslední „textová“ buňka před body
-            if body:
-                bi = next((i for i in range(len(cols)-1, -1, -1) if cols[i].strip() == body), -1)
-            else:
-                bi = len(cols)
-            for i in range(bi-1, 0, -1):
-                v = cols[i].strip()
-                if v and not is_num(v) and not is_year(v):
+            # poslední „textová“ buňka
+            for v in reversed(cols):
+                if v and not is_num(v) and not is_year(v) and v != jmeno:
                     oddil = v; break
         if not jmeno:
-            # nejdelší text mimo oddíl/čísla/rok
+            # nejdelší text mimo oddíl/čísla
             best = ""
-            for v in cols[1:]:
-                if v and v != oddil and not is_num(v) and not is_year(v):
-                    if len(v) > len(best): best = v
+            for v in cols:
+                if v and v != oddil and not is_year(v):
+                    # jméno bývá „nejhezčí“ text
+                    if len(v) > len(best) and not re.search(r"^\d", v):
+                        best = v
             jmeno = best
 
-        if not poradi and not jmeno:
-            continue
+        # STR/STR stabil/STR+- – pokud chybí indexy, zkus najít čísla u konce řádku
+        nums = [v for v in cols if is_num(v)]
+        if not str_v and len(nums) >= 1:
+            str_v = nums[-3] if len(nums) >= 3 else nums[-1]
+        if not str_s and len(nums) >= 2:
+            str_s = nums[-2] if len(nums) >= 2 else ""
+        if not str_pm:
+            # poslední „číslo“ může být +- (může být i záporné bez desetinné čárky)
+            pm = ""
+            for v in reversed(cols):
+                vv = v.strip().replace(",", ".")
+                if re.fullmatch(r"-?\d+(?:\.\d+)?", vv):
+                    pm = v; break
+            str_pm = pm
 
-        out.append([poradi, jmeno, rok, oddil, body, svaz, KAT.upper(), ROCNIK])
+        out.append([poradi, jmeno, rok, oddil, zapasy, str_v, str_s, str_pm,
+                    svaz, KAT.upper(), ROCNIK])
     return out
 
 def click_next_if_any(page, table):
-    # zkus různé podoby "Next" v DataTables
     candidates = [
         "a.paginate_button.next:not(.disabled)",
         "li.paginate_button.next:not(.disabled) a",
@@ -198,26 +215,22 @@ def click_next_if_any(page, table):
     for sel in candidates:
         el = page.query_selector(sel)
         if el:
-            # porovnáme první řádek před/po kliku, abychom poznali změnu stránky
             tb = table.query_selector("tbody") or table
-            first_before = (tb.query_selector("tr td") or tb.query_selector("tr th"))
-            before_txt = first_before.inner_text().strip() if first_before else ""
+            cell = tb.query_selector("tr td, tr th")
+            before = cell.inner_text().strip() if cell else ""
             el.click()
             try:
-                page.wait_for_timeout(400)
+                page.wait_for_timeout(300)
                 page.wait_for_function(
-                    """(txt) => {
+                    """(prev) => {
                         const tb = document.querySelector('table tbody') || document.querySelector('table');
-                        if (!tb) return false;
-                        const cell = tb.querySelector('tr td, tr th');
-                        const now = cell ? (cell.textContent||'').trim() : '';
-                        return now && now !== txt;
+                        const c = tb && tb.querySelector('tr td, tr th');
+                        const now = c ? (c.textContent||'').trim() : '';
+                        return now && now !== prev;
                     }""",
-                    timeout=4000,
-                    arg=before_txt
+                    timeout=4000, arg=before
                 )
             except PWTimeout:
-                # možná žádná další stránka
                 return False
             return True
     return False
@@ -228,34 +241,31 @@ def export_zebricek(page, svaz):
     for a in range(1, attempts+1):
         resp = page.goto(url, wait_until="domcontentloaded", timeout=45000)
         status = resp.status if resp else None
-        # krátce počkej na řádky
         try:
-            wait_rows_ready(page, timeout_ms=20000 + a*5000)
+            wait_rows_ready(page, timeout_ms=18000 + a*4000)
         except PWTimeout:
             pass
 
         table = find_best_table(page)
         rows_all = []
         if table:
-            # seber řádky z aktuální stránky
             rows_all.extend(parse_page_rows(table, svaz))
-            # projdi případné stránkování
-            pagesteps = 0
-            while click_next_if_any(page, table) and pagesteps < 50:
+            step = 0
+            while click_next_if_any(page, table) and step < 80:
                 table = find_best_table(page) or table
                 rows_all.extend(parse_page_rows(table, svaz))
-                pagesteps += 1
+                step += 1
 
         if rows_all:
             outp = os.path.join(OUTDIR, f"zebricek_{svaz}_{ROCNIK}_kat-{KAT}.csv")
             with open(outp, "w", newline="", encoding="utf-8") as f:
                 w = csv.writer(f, delimiter=";")
-                w.writerow(["Poradi","Příjmení a jméno","Rok.nar.","Oddil","Body","Svaz","Kategorie","Rocnik"])
+                w.writerow(["Poradi","Příjmení a jméno","Rok.nar.","Oddil","Zápasy","STR","STR stabil","STR+-","Svaz","Kategorie","Rocnik"])
                 w.writerows(rows_all)
             print(f"{svaz}: žebříček ({KAT}) {len(rows_all)} řádků -> {outp}")
             return
 
-        # --- debug + další pokus ---
+        # debug + retry
         html = page.content()
         with open(os.path.join(DEBUG, f"zebricek_{svaz}_attempt{a}_status{status or 0}.html"), "w", encoding="utf-8") as f:
             f.write(html)
