@@ -60,6 +60,15 @@ jobs:
           ROCNIK: ${{ inputs.rocnik || '2025' }}
         run: python scrape_soupisky.py
 
+      - name: Run rankings scraper (zebricek)
+        env:
+          ROCNIK: ${{ inputs.rocnik || '2025' }}
+          ZEBR_SVAZY: "420210"      # případně "420210,420103" apod.
+          KATEGORIE: "s"            # kategorie v URL
+          ZVYSSICH: "ano"           # "ano" nebo "ne"
+        run: python scrape_zebricek.py
+
+
       - name: Upload debug (on failure)
         if: failure()
         uses: actions/upload-artifact@v4
