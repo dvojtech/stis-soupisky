@@ -1,5 +1,6 @@
 # scrape_zebricek.py
-# CSV: Poradi;Příjmení a jméno;Rok.nar.;Oddil;Zápasy;STR;STR stabil;STR+-;Svaz;Kategorie;Rocnik
+# CSV: Poradi;Příjmení a jméno;Rok.nar.;Oddil;Zápasy;STR;STR stabil;STR+-;
+#      HracURL;HracID;OddilURL;OddilID;Svaz;Kategorie;Rocnik
 
 import os, csv, time, pathlib, re, unicodedata
 from playwright.sync_api import sync_playwright, TimeoutError as PWTimeout
@@ -29,6 +30,12 @@ def normhdr(s: str) -> str:
     t = re.sub(r"\s+", " ", t).strip()
     return t
 
+def normcmp(s: str) -> str:
+    # pro porovnávání textů (jméno/oddíl vs. text odkazu)
+    t = stripdia(s or "").lower()
+    t = re.sub(r"\s+", " ", t).strip()
+    return t
+
 def cells_texts(row):
     cells = row.query_selector_all("th, td")
     out = []
@@ -38,6 +45,35 @@ def cells_texts(row):
         except:
             out.append("")
     return out
+
+def make_abs_url(href: str) -> str:
+    if not href:
+        return ""
+    if href.startswith("http://") or href.startswith("https://"):
+        return href
+    if href.startswith("/"):
+        return BASE + href
+    return BASE + "/" + href
+
+def extract_id_from_url(url: str) -> str:
+    if not url:
+        return ""
+    pats = [
+        r'(?i)(?:hracid|osobaid|klubid|oddilid|druzstvoid|id)=\s*(\d+)',
+        r'/hrac(?:/|[-_])(\d+)',
+        r'/osoba(?:/|[-_])(\d+)',
+        r'/klub(?:/|[-_])(\d+)',
+        r'/oddil(?:/|[-_])(\d+)',
+        r'/druzstvo(?:/|[-_])(\d+)',
+        r'[?&]id=(\d+)',
+    ]
+    for p in pats:
+        m = re.search(p, url)
+        if m:
+            return m.group(1)
+    # fallback: poslední číslo v URL
+    m = re.search(r'(\d+)(?!.*\d)', url)
+    return m.group(1) if m else ""
 
 def warmup(page):
     page.set_extra_http_headers({"Accept-Language":"cs,en;q=0.8"})
@@ -103,34 +139,22 @@ def map_columns(table):
            "zapasy": None, "str": None, "str_stabil": None, "str_pm": None}
 
     for i, h in enumerate(hdrs):
-        # pořadí (někdy nijak nepojmenované – necháme fallback)
         if idx["poradi"] is None and ("poradi" in h or h in ("por", "#")):
             idx["poradi"] = i
-
-        # jméno
         if idx["jmeno"] is None and ("hrac" in h or "jmen" in h or "prijmeni" in h):
             idx["jmeno"] = i
-
-        # rok narození
         if idx["rok"] is None and ("rok" in h and ("nar" in h or "naro" in h)):
             idx["rok"] = i
-
-        # oddíl
         if idx["oddil"] is None and ("oddil" in h or "klub" in h or "tym" in h):
             idx["oddil"] = i
-
-        # zápasy
         if idx["zapasy"] is None and "zapasy" in h:
             idx["zapasy"] = i
-
-        # důležité: nejdřív STR stabil / STR+-, až potom prostý STR
         if idx["str_stabil"] is None and ("str stabil" in h or h == "strstabil"):
             idx["str_stabil"] = i
         if idx["str_pm"] is None and ("str+-" in h or "str +-" in h):
             idx["str_pm"] = i
         if idx["str"] is None and h == "str":
             idx["str"] = i
-
     return idx
 
 def is_year(s: str) -> bool:
@@ -138,7 +162,7 @@ def is_year(s: str) -> bool:
 
 def is_num(s: str) -> bool:
     t = s.strip().replace(",", ".")
-    return bool(re.fullmatch(r"\d+(?:\.\d+)?", t))
+    return bool(re.fullmatch(r"-?\d+(?:\.\d+)?", t))
 
 def parse_page_rows(table, svaz):
     out = []
@@ -151,7 +175,6 @@ def parse_page_rows(table, svaz):
         if not cols: 
             continue
 
-        # --- fields ---
         def get(i):
             return cols[i].strip() if (i is not None and i < len(cols)) else ""
 
@@ -172,36 +195,51 @@ def parse_page_rows(table, svaz):
             for v in cols:
                 if is_year(v): rok = v; break
         if not oddil:
-            # poslední „textová“ buňka
             for v in reversed(cols):
-                if v and not is_num(v) and not is_year(v) and v != jmeno:
-                    oddil = v; break
+                if v and not is_num(v) and not is_year(v):
+                    if normcmp(v) != normcmp(jmeno):
+                        oddil = v; break
         if not jmeno:
-            # nejdelší text mimo oddíl/čísla
             best = ""
             for v in cols:
                 if v and v != oddil and not is_year(v):
-                    # jméno bývá „nejhezčí“ text
                     if len(v) > len(best) and not re.search(r"^\d", v):
                         best = v
             jmeno = best
 
-        # STR/STR stabil/STR+- – pokud chybí indexy, zkus najít čísla u konce řádku
+        # STR/STR stabil/STR+- – když chybí, zkus čísla u konce
         nums = [v for v in cols if is_num(v)]
         if not str_v and len(nums) >= 1:
             str_v = nums[-3] if len(nums) >= 3 else nums[-1]
         if not str_s and len(nums) >= 2:
             str_s = nums[-2] if len(nums) >= 2 else ""
         if not str_pm:
-            # poslední „číslo“ může být +- (může být i záporné bez desetinné čárky)
             pm = ""
             for v in reversed(cols):
-                vv = v.strip().replace(",", ".")
-                if re.fullmatch(r"-?\d+(?:\.\d+)?", vv):
-                    pm = v; break
+                if is_num(v): pm = v; break
             str_pm = pm
 
+        # --- odkazy / ID ---
+        hrac_url = ""
+        oddil_url = ""
+        try:
+            for a in r.query_selector_all("a"):
+                atxt = (a.inner_text() or "").strip()
+                href = a.get_attribute("href") or ""
+                url  = make_abs_url(href)
+                n_atxt = normcmp(atxt)
+                if not hrac_url and (n_atxt == normcmp(jmeno) or re.search(r'/(hrac|osoba)', href, re.I)):
+                    hrac_url = url
+                if not oddil_url and (n_atxt == normcmp(oddil) or re.search(r'/(oddil|klub|druzstvo)', href, re.I)):
+                    oddil_url = url
+        except:
+            pass
+
+        hrac_id  = extract_id_from_url(hrac_url)
+        oddil_id = extract_id_from_url(oddil_url)
+
         out.append([poradi, jmeno, rok, oddil, zapasy, str_v, str_s, str_pm,
+                    hrac_url, hrac_id, oddil_url, oddil_id,
                     svaz, KAT.upper(), ROCNIK])
     return out
 
@@ -260,7 +298,13 @@ def export_zebricek(page, svaz):
             outp = os.path.join(OUTDIR, f"zebricek_{svaz}_{ROCNIK}_kat-{KAT}.csv")
             with open(outp, "w", newline="", encoding="utf-8") as f:
                 w = csv.writer(f, delimiter=";")
-                w.writerow(["Poradi","Příjmení a jméno","Rok.nar.","Oddil","Zápasy","STR","STR stabil","STR+-","Svaz","Kategorie","Rocnik"])
+                w.writerow([
+                    "Poradi","Příjmení a jméno","Rok.nar.","Oddil",
+                    "Zápasy","STR","STR stabil","STR+-",
+                    "HracURL","HracID","OddilURL","OddilID",
+                    "Svaz","Kategorie","Rocnik"
+                ])
+            #   psát po částech kvůli velikosti? tady stačí jednou:
                 w.writerows(rows_all)
             print(f"{svaz}: žebříček ({KAT}) {len(rows_all)} řádků -> {outp}")
             return
