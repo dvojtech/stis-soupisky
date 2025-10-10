@@ -43,11 +43,11 @@ TTC Brandýs n.L. A;4.;Strnad Richard;1997;kraj. muži 71.-100.;Divize
 TTC Brandýs n.L. A;5.;Sysel Vojtěch;2000;kraj. muži 71.-100.;Divize
 TTC Brandýs n.L. A;6.;Šubrt Jaroslav;1976;kraj. muži 71.-100.;Divize
 TTC Brandýs n.L. A;7.;Zatřepálek Pavel;1968;kraj. muži 101.-130.;Divize
-TTC Brandýs n.L. A;8.;Gräf Miloš;1972;kraj. muži 101.-130.N;Divize
-TTC Brandýs n.L. A;9.;Mifka Alexius;1962;kraj. muži 131.-160.;Divize
-TTC Brandýs n.L. A;10.;Mühlfeit Luboš;1975;kraj. muži 251.-300.;Divize
-TTC Brandýs n.L. A;11.;Hendrych Ladislav;1983;kraj. muži 301.-350.;Divize
-TTC Brandýs n.L. A;12.;Ivan Milan;1964;kraj. muži 301.-350.;Divize
+TTC Brandýs n.L. A;8.;Sysel Pavel;1964;kraj. muži 101.-130.N;Divize
+TTC Brandýs n.L. A;9.;Gräf Miloš;1972;kraj. muži 101.-130.N;Divize
+TTC Brandýs n.L. A;10.;Mifka Alexius;1962;kraj. muži 131.-160.;Divize
+TTC Brandýs n.L. A;11.;Mühlfeit Luboš;1975;kraj. muži 251.-300.;Divize
+TTC Brandýs n.L. A;12.;Hendrych Ladislav;1983;kraj. muži 301.-350.;Divize
 TTC Brandýs n.L. A;13.;Jablončík Tomáš;2006;kraj. muži 251. - 300.;Divize
 KST Rakovník A;1.;Přibík Jan;1974;kraj. muži 51.-70.;Divize
 KST Rakovník A;2.;Štepka Vladimír;1987;kraj. muži 71.-100.;Divize
@@ -527,26 +527,27 @@ Sokol Dolní Beřkovice;11.;Šimon Vladimír;1952;reg. muži 61.-70.;Krajská so
 Sokol Dolní Beřkovice;12.;Danaj Milan;1945;reg. muži 101.-110.;Krajská soutěž 2.třídy sk. A
 Sokol Dolní Beřkovice;13.;Pejšman Petr;1974;reg. muži 141.-146.;Krajská soutěž 2.třídy sk. A
 Sokol Dolní Beřkovice;14.;Hrdý Radek;1995;nez.;Krajská soutěž 2.třídy sk. A
-TTC Brandýs n.L. C;1.;Mifka Alexius;1962;kraj. muži 131.-160.;Krajská soutěž 2.třídy sk. A
-TTC Brandýs n.L. C;2.;Mühlfeit Luboš;1975;kraj. muži 251.-300.;Krajská soutěž 2.třídy sk. A
-TTC Brandýs n.L. C;3.;Hendrych Ladislav;1983;kraj. muži 301.-350.;Krajská soutěž 2.třídy sk. A
-TTC Brandýs n.L. C;4.;Ivan Milan;1964;kraj. muži 301.-350.;Krajská soutěž 2.třídy sk. A
-TTC Brandýs n.L. C;5.;Zatřepálková Lenka;1968;kraj. muži 401.-450.;Krajská soutěž 2.třídy sk. A
-TTC Brandýs n.L. C;6.;Vošahlík Radek;1976;kraj. muži 501.-600.;Krajská soutěž 2.třídy sk. A
-TTC Brandýs n.L. C;7.;Svoboda Milan st.;1975;kraj. muži 501.-600.;Krajská soutěž 2.třídy sk. A
-TTC Brandýs n.L. C;8.;Nekola Tomáš st.;1973;kraj. muži 501.-600.N;Krajská soutěž 2.třídy sk. A
-TTC Brandýs n.L. C;9.;Semián Richard;1973;kraj. muži 601.-700.;Krajská soutěž 2.třídy sk. A
-TTC Brandýs n.L. C;10.;Lang Petr;1971;reg. muži 101.-130.;Krajská soutěž 2.třídy sk. A
-TTC Brandýs n.L. C;11.;Hliněnský Martin;2005;reg. muži 101.-130.;Krajská soutěž 2.třídy sk. A
-TTC Brandýs n.L. C;12.;Bessenyey Vaszil;1963;reg. muži 131.-160.;Krajská soutěž 2.třídy sk. A
-TTC Brandýs n.L. C;13.;Baštecký Jan;2006;reg. muži 131.-160.;Krajská soutěž 2.třídy sk. A
-TTC Brandýs n.L. C;14.;Jeník Tadeáš;2008;reg. muži 131.-160.;Krajská soutěž 2.třídy sk. A
-TTC Brandýs n.L. C;15.;Baštová Zuzana;2011;reg. muži 131.-160.N;Krajská soutěž 2.třídy sk. A
-TTC Brandýs n.L. C;16.;Přenosil Lukáš;2013;ČR M13 39.;Krajská soutěž 2.třídy sk. A
-TTC Brandýs n.L. C;17.;Mráz Jáchym;2015;ČR M11 17.;Krajská soutěž 2.třídy sk. A
-TTC Brandýs n.L. C;18.;Balák Kryštof;2001;nez.;Krajská soutěž 2.třídy sk. A
-TTC Brandýs n.L. C;19.;Pokorná Bára;2003;nez.;Krajská soutěž 2.třídy sk. A
-TTC Brandýs n.L. C;20.;Kůsová Adéla;2007;kraj. muži 601. - 700.;Krajská soutěž 2.třídy sk. A
+TTC Brandýs n.L. C;1.;Gräf Miloš;1972;kraj. muži 101.-130.N;Krajská soutěž 2.třídy sk. A
+TTC Brandýs n.L. C;2.;Mifka Alexius;1962;kraj. muži 131.-160.;Krajská soutěž 2.třídy sk. A
+TTC Brandýs n.L. C;3.;Mühlfeit Luboš;1975;kraj. muži 251.-300.;Krajská soutěž 2.třídy sk. A
+TTC Brandýs n.L. C;4.;Hendrych Ladislav;1983;kraj. muži 301.-350.;Krajská soutěž 2.třídy sk. A
+TTC Brandýs n.L. C;5.;Ivan Milan;1964;kraj. muži 301.-350.;Krajská soutěž 2.třídy sk. A
+TTC Brandýs n.L. C;6.;Zatřepálková Lenka;1968;kraj. muži 401.-450.;Krajská soutěž 2.třídy sk. A
+TTC Brandýs n.L. C;7.;Vošahlík Radek;1976;kraj. muži 501.-600.;Krajská soutěž 2.třídy sk. A
+TTC Brandýs n.L. C;8.;Svoboda Milan st.;1975;kraj. muži 501.-600.;Krajská soutěž 2.třídy sk. A
+TTC Brandýs n.L. C;9.;Nekola Tomáš st.;1973;kraj. muži 501.-600.N;Krajská soutěž 2.třídy sk. A
+TTC Brandýs n.L. C;10.;Semián Richard;1973;kraj. muži 601.-700.;Krajská soutěž 2.třídy sk. A
+TTC Brandýs n.L. C;11.;Lang Petr;1971;reg. muži 101.-130.;Krajská soutěž 2.třídy sk. A
+TTC Brandýs n.L. C;12.;Hliněnský Martin;2005;reg. muži 101.-130.;Krajská soutěž 2.třídy sk. A
+TTC Brandýs n.L. C;13.;Bessenyey Vaszil;1963;reg. muži 131.-160.;Krajská soutěž 2.třídy sk. A
+TTC Brandýs n.L. C;14.;Baštecký Jan;2006;reg. muži 131.-160.;Krajská soutěž 2.třídy sk. A
+TTC Brandýs n.L. C;15.;Jeník Tadeáš;2008;reg. muži 131.-160.;Krajská soutěž 2.třídy sk. A
+TTC Brandýs n.L. C;16.;Baštová Zuzana;2011;reg. muži 131.-160.N;Krajská soutěž 2.třídy sk. A
+TTC Brandýs n.L. C;17.;Přenosil Lukáš;2013;ČR M13 39.;Krajská soutěž 2.třídy sk. A
+TTC Brandýs n.L. C;18.;Mráz Jáchym;2015;ČR M11 17.;Krajská soutěž 2.třídy sk. A
+TTC Brandýs n.L. C;19.;Balák Kryštof;2001;nez.;Krajská soutěž 2.třídy sk. A
+TTC Brandýs n.L. C;20.;Pokorná Bára;2003;nez.;Krajská soutěž 2.třídy sk. A
+TTC Brandýs n.L. C;21.;Kůsová Adéla;2007;kraj. muži 601. - 700.;Krajská soutěž 2.třídy sk. A
 TJ Dvory A;1.;Prisčák Petr;1997;kraj. muži 131-160;Krajská soutěž 2.třídy sk. A
 TJ Dvory A;2.;Kňažík Ondřej;1993;kraj. muži 251-300 N;Krajská soutěž 2.třídy sk. A
 TJ Dvory A;3.;Zeman Radek;1977;kraj. muži 401-450;Krajská soutěž 2.třídy sk. A
