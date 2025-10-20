@@ -143,10 +143,10 @@ TTC Kladno A;4.;Pavlíček Ondřej;1979;kraj. muži 71-100;Divize
 TTC Kladno A;5.;Špalek Miroslav;1978;kraj. muži 71-100;Divize
 TTC Kladno A;6.;Škach Martin;1970;kraj. muži 71-100;Divize
 TTC Kladno A;7.;Hrubý Vlastimil;1967;kraj. muži 101-130;Divize
-TTC Kladno A;8.;Jelínek Filip;2007;kraj. muži 301-350;Divize
-TTC Kladno A;9.;Jedlička Stanislav;1959;kraj. muži 301-350;Divize
-TTC Kladno A;10.;Hlava Jiří;1947;kraj. muži 301-350;Divize
-TTC Kladno A;11.;Bílý Tomáš;1978;kraj. muži 301-350;Divize
+TTC Kladno A;8.;Macák Milan;1976;kraj. muži 161-200.N;Divize
+TTC Kladno A;9.;Jelínek Filip;2007;kraj. muži 301-350;Divize
+TTC Kladno A;10.;Jedlička Stanislav;1959;kraj. muži 301-350;Divize
+TTC Kladno A;11.;Hlava Jiří;1947;kraj. muži 301-350;Divize
 TTC Kladno A;12.;Prágr Lukáš;1987;nez.;Divize
 TTC Příbram A;1.;Kadeřábek Ondřej;2006;kraj. muži 41. - 50.;Divize
 TTC Příbram A;2.;Křivánek Aleš;1990;kraj. muži 131. - 160.;Divize
@@ -445,20 +445,21 @@ TTC Kladno B;1.;Bajer Jiří;1976;kraj. muži 21-30;Krajská soutěž 1.třídy 
 TTC Kladno B;2.;Špalek Miroslav;1978;kraj. muži 71-100;Krajská soutěž 1.třídy sk. B
 TTC Kladno B;3.;Škach Martin;1970;kraj. muži 71-100;Krajská soutěž 1.třídy sk. B
 TTC Kladno B;4.;Hrubý Vlastimil;1967;kraj. muži 101-130;Krajská soutěž 1.třídy sk. B
-TTC Kladno B;5.;Jelínek Filip;2007;kraj. muži 301-350;Krajská soutěž 1.třídy sk. B
-TTC Kladno B;6.;Jedlička Stanislav;1959;kraj. muži 301-350;Krajská soutěž 1.třídy sk. B
-TTC Kladno B;7.;Hlava Jiří;1947;kraj. muži 301-350;Krajská soutěž 1.třídy sk. B
-TTC Kladno B;8.;Bílý Tomáš;1978;kraj. muži 301-350;Krajská soutěž 1.třídy sk. B
-TTC Kladno B;9.;Levenec Alexandr;1977;kraj. muži 351-400;Krajská soutěž 1.třídy sk. B
-TTC Kladno B;10.;Krous Martin;1970;kraj. muži 401-450;Krajská soutěž 1.třídy sk. B
-TTC Kladno B;11.;Rybička Jan;1986;kraj. muži 451-500;Krajská soutěž 1.třídy sk. B
-TTC Kladno B;12.;Tuček Miroslav;1963;kraj. muži 501-600;Krajská soutěž 1.třídy sk. B
-TTC Kladno B;13.;Jůza Jan;1976;kraj. muži 601-700;Krajská soutěž 1.třídy sk. B
-TTC Kladno B;14.;Pachman Tomáš;1967;kraj. muži 601-700;Krajská soutěž 1.třídy sk. B
-TTC Kladno B;15.;Šulc Ladislav;1951;kraj. muži 601-700;Krajská soutěž 1.třídy sk. B
-TTC Kladno B;16.;Hloch Matěj;2011;reg. muži 91-100;Krajská soutěž 1.třídy sk. B
-TTC Kladno B;17.;Fleislébr Jiří;1969;reg. muži 101-115;Krajská soutěž 1.třídy sk. B
-TTC Kladno B;18.;Gábriš Michal;1962;nez.;Krajská soutěž 1.třídy sk. B
+TTC Kladno B;5.;Macák Milan;1976;kraj. muži 161-200.N;Krajská soutěž 1.třídy sk. B
+TTC Kladno B;6.;Jelínek Filip;2007;kraj. muži 301-350;Krajská soutěž 1.třídy sk. B
+TTC Kladno B;7.;Jedlička Stanislav;1959;kraj. muži 301-350;Krajská soutěž 1.třídy sk. B
+TTC Kladno B;8.;Hlava Jiří;1947;kraj. muži 301-350;Krajská soutěž 1.třídy sk. B
+TTC Kladno B;9.;Bílý Tomáš;1978;kraj. muži 301-350;Krajská soutěž 1.třídy sk. B
+TTC Kladno B;10.;Levenec Alexandr;1977;kraj. muži 351-400;Krajská soutěž 1.třídy sk. B
+TTC Kladno B;11.;Krous Martin;1970;kraj. muži 401-450;Krajská soutěž 1.třídy sk. B
+TTC Kladno B;12.;Rybička Jan;1986;kraj. muži 451-500;Krajská soutěž 1.třídy sk. B
+TTC Kladno B;13.;Tuček Miroslav;1963;kraj. muži 501-600;Krajská soutěž 1.třídy sk. B
+TTC Kladno B;14.;Jůza Jan;1976;kraj. muži 601-700;Krajská soutěž 1.třídy sk. B
+TTC Kladno B;15.;Pachman Tomáš;1967;kraj. muži 601-700;Krajská soutěž 1.třídy sk. B
+TTC Kladno B;16.;Šulc Ladislav;1951;kraj. muži 601-700;Krajská soutěž 1.třídy sk. B
+TTC Kladno B;17.;Hloch Matěj;2011;reg. muži 91-100;Krajská soutěž 1.třídy sk. B
+TTC Kladno B;18.;Fleislébr Jiří;1969;reg. muži 101-115;Krajská soutěž 1.třídy sk. B
+TTC Kladno B;19.;Gábriš Michal;1962;nez.;Krajská soutěž 1.třídy sk. B
 SK Březnice A;1.;Šimek Jakub;1994;kraj. muži 71.-100.;Krajská soutěž 1.třídy sk. B
 SK Březnice A;2.;Provazník Lukáš;1995;kraj. muži 101-130N;Krajská soutěž 1.třídy sk. B
 SK Březnice A;3.;Drábek Martin;1996;kraj. muži 131.-160.;Krajská soutěž 1.třídy sk. B
@@ -925,29 +926,29 @@ SKST Králův Dvůr A;11.;Veverka Jakub;2010;reg. muži 141-160;Krajská soutě�
 SKST Králův Dvůr A;12.;Trögler Šimon;1995;reg. muži 141-160N;Krajská soutěž 2.třídy sk. C
 SKST Králův Dvůr A;13.;Švinger Martin st.;1979;reg. muži 161-180;Krajská soutěž 2.třídy sk. C
 SKST Králův Dvůr A;14.;Peřich Patrik;2009;reg. muži 161-180N;Krajská soutěž 2.třídy sk. C
-TTC Kladno C;1.;Jelínek Filip;2007;kraj. muži 301-350;Krajská soutěž 2.třídy sk. C
-TTC Kladno C;2.;Jedlička Stanislav;1959;kraj. muži 301-350;Krajská soutěž 2.třídy sk. C
-TTC Kladno C;3.;Hlava Jiří;1947;kraj. muži 301-350;Krajská soutěž 2.třídy sk. C
-TTC Kladno C;4.;Bílý Tomáš;1978;kraj. muži 301-350;Krajská soutěž 2.třídy sk. C
-TTC Kladno C;5.;Levenec Alexandr;1977;kraj. muži 351-400;Krajská soutěž 2.třídy sk. C
-TTC Kladno C;6.;Krous Martin;1970;kraj. muži 401-450;Krajská soutěž 2.třídy sk. C
-TTC Kladno C;7.;Rybička Jan;1986;kraj. muži 451-500;Krajská soutěž 2.třídy sk. C
-TTC Kladno C;8.;Tuček Miroslav;1963;kraj. muži 501-600;Krajská soutěž 2.třídy sk. C
-TTC Kladno C;9.;Horbaj Dušan;1980;kraj. muži 601-700;Krajská soutěž 2.třídy sk. C
-TTC Kladno C;10.;Jůza Jan;1976;kraj. muži 601-700;Krajská soutěž 2.třídy sk. C
-TTC Kladno C;11.;Pachman Tomáš;1967;kraj. muži 601-700;Krajská soutěž 2.třídy sk. C
-TTC Kladno C;12.;Šulc Ladislav;1951;kraj. muži 601-700;Krajská soutěž 2.třídy sk. C
-TTC Kladno C;13.;Čermák Milan;1956;kraj. muži 601-700.N;Krajská soutěž 2.třídy sk. C
-TTC Kladno C;14.;Kříž Petr;1959;kraj. muži 701-800;Krajská soutěž 2.třídy sk. C
-TTC Kladno C;15.;Peltán Petr;1956;kraj. muži 701-800;Krajská soutěž 2.třídy sk. C
-TTC Kladno C;16.;Strejc Václav;1969;kraj. muži 701-800;Krajská soutěž 2.třídy sk. C
-TTC Kladno C;17.;Lážnovský Jiří;1959;kraj. muži 701-800.N;Krajská soutěž 2.třídy sk. C
-TTC Kladno C;18.;Čierný Jan;1951;kraj. muži 801-900.N;Krajská soutěž 2.třídy sk. C
-TTC Kladno C;19.;Hloch Matěj;2011;reg. muži 91-100;Krajská soutěž 2.třídy sk. C
-TTC Kladno C;20.;Podivínský Radoslav;1960;reg. muži 91-100;Krajská soutěž 2.třídy sk. C
-TTC Kladno C;21.;Březina Jan;1983;reg. muži 101-115;Krajská soutěž 2.třídy sk. C
-TTC Kladno C;22.;Mencl Jiří;1990;nez.;Krajská soutěž 2.třídy sk. C
-TTC Kladno C;23.;Macák Milan;1976;nez.;Krajská soutěž 2.třídy sk. C
+TTC Kladno C;1.;Macák Milan;1976;kraj. muži 161-200.N;Krajská soutěž 2.třídy sk. C
+TTC Kladno C;2.;Jelínek Filip;2007;kraj. muži 301-350;Krajská soutěž 2.třídy sk. C
+TTC Kladno C;3.;Jedlička Stanislav;1959;kraj. muži 301-350;Krajská soutěž 2.třídy sk. C
+TTC Kladno C;4.;Hlava Jiří;1947;kraj. muži 301-350;Krajská soutěž 2.třídy sk. C
+TTC Kladno C;5.;Bílý Tomáš;1978;kraj. muži 301-350;Krajská soutěž 2.třídy sk. C
+TTC Kladno C;6.;Levenec Alexandr;1977;kraj. muži 351-400;Krajská soutěž 2.třídy sk. C
+TTC Kladno C;7.;Krous Martin;1970;kraj. muži 401-450;Krajská soutěž 2.třídy sk. C
+TTC Kladno C;8.;Rybička Jan;1986;kraj. muži 451-500;Krajská soutěž 2.třídy sk. C
+TTC Kladno C;9.;Tuček Miroslav;1963;kraj. muži 501-600;Krajská soutěž 2.třídy sk. C
+TTC Kladno C;10.;Horbaj Dušan;1980;kraj. muži 601-700;Krajská soutěž 2.třídy sk. C
+TTC Kladno C;11.;Jůza Jan;1976;kraj. muži 601-700;Krajská soutěž 2.třídy sk. C
+TTC Kladno C;12.;Pachman Tomáš;1967;kraj. muži 601-700;Krajská soutěž 2.třídy sk. C
+TTC Kladno C;13.;Šulc Ladislav;1951;kraj. muži 601-700;Krajská soutěž 2.třídy sk. C
+TTC Kladno C;14.;Čermák Milan;1956;kraj. muži 601-700.N;Krajská soutěž 2.třídy sk. C
+TTC Kladno C;15.;Kříž Petr;1959;kraj. muži 701-800;Krajská soutěž 2.třídy sk. C
+TTC Kladno C;16.;Peltán Petr;1956;kraj. muži 701-800;Krajská soutěž 2.třídy sk. C
+TTC Kladno C;17.;Strejc Václav;1969;kraj. muži 701-800;Krajská soutěž 2.třídy sk. C
+TTC Kladno C;18.;Lážnovský Jiří;1959;kraj. muži 701-800.N;Krajská soutěž 2.třídy sk. C
+TTC Kladno C;19.;Čierný Jan;1951;kraj. muži 801-900.N;Krajská soutěž 2.třídy sk. C
+TTC Kladno C;20.;Hloch Matěj;2011;reg. muži 91-100;Krajská soutěž 2.třídy sk. C
+TTC Kladno C;21.;Podivínský Radoslav;1960;reg. muži 91-100;Krajská soutěž 2.třídy sk. C
+TTC Kladno C;22.;Březina Jan;1983;reg. muži 101-115;Krajská soutěž 2.třídy sk. C
+TTC Kladno C;23.;Mencl Jiří;1990;nez.;Krajská soutěž 2.třídy sk. C
 TTC Kladno C;24.;Vychodil Luděk;1966;nez.;Krajská soutěž 2.třídy sk. C
 Sokol Roztoky A;1.;Eibich Jan;1999;kraj. muži 201-250;Krajská soutěž 2.třídy sk. C
 Sokol Roztoky A;2.;Rein Tomáš;2005;kraj. muži 251-300;Krajská soutěž 2.třídy sk. C
