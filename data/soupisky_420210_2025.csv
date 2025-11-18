@@ -59,22 +59,22 @@ Sokol Rudná A;18.;Kunc Šimon;2013;nez.;Okresní přebor 1. třída
 Sokol Rudná A;19.;Cihelka Jaroslav;1946;nez.;Okresní přebor 1. třída
 Sokol Rudná A;20.;Šenbauer Jiří;1958;nez.;Okresní přebor 1. třída
 SK Viktorie Ořech C;1.;Zacharda Aleš;1972;kraj. muži 701. - 800.;Okresní přebor 1. třída
-SK Viktorie Ořech C;2.;Píš Daniel;1969;kraj. muži 801. - 900.;Okresní přebor 1. třída
-SK Viktorie Ořech C;3.;Stejskal Michal;1997;kraj. muži 801. - 900.;Okresní přebor 1. třída
-SK Viktorie Ořech C;4.;Bulín Zdeněk;1972;kraj. muži 801. - 900.;Okresní přebor 1. třída
-SK Viktorie Ořech C;5.;Matoušek Michal;1982;kraj. muži 801. - 900.;Okresní přebor 1. třída
-SK Viktorie Ořech C;6.;Matoušek Tomáš;1985;kraj. muži 901. - 1000.;Okresní přebor 1. třída
-SK Viktorie Ořech C;7.;Veverka Jan;1997;kraj. muži 901. - 1000.;Okresní přebor 1. třída
-SK Viktorie Ořech C;8.;Blažek Jiří;1994;reg. muži 91. - 100.;Okresní přebor 1. třída
-SK Viktorie Ořech C;9.;Hruška Ondřej;1995;reg. muži 101. - 110.;Okresní přebor 1. třída
-SK Viktorie Ořech C;10.;Pavlín Jiří;1962;reg. muži 101. - 110.;Okresní přebor 1. třída
-SK Viktorie Ořech C;11.;Křižka Václav;1972;reg. muži 101. - 110.N;Okresní přebor 1. třída
-SK Viktorie Ořech C;12.;Veverka Václav ml.;2000;reg. muži 121. - 130.;Okresní přebor 1. třída
-SK Viktorie Ořech C;13.;Heřman Miroslav;1978;reg. muži 121. - 130.;Okresní přebor 1. třída
-SK Viktorie Ořech C;14.;Teleňko Jaroslav;2006;reg. muži 121. - 130.;Okresní přebor 1. třída
-SK Viktorie Ořech C;15.;Fürst Mirko;1946;reg. muži 131. - 141.N;Okresní přebor 1. třída
-SK Viktorie Ořech C;16.;Yaroslavtsev Vitaly;1959;reg. muži 141. - 150.;Okresní přebor 1. třída
-SK Viktorie Ořech C;17.;Timonina Vjatsheslavovna Valerija (E);1999;nez.;Okresní přebor 1. třída
+SK Viktorie Ořech C;2.;Timonina Vjatsheslavovna Valerija (E);1999;kraj. muži 701.-800.N;Okresní přebor 1. třída
+SK Viktorie Ořech C;3.;Píš Daniel;1969;kraj. muži 801. - 900.;Okresní přebor 1. třída
+SK Viktorie Ořech C;4.;Stejskal Michal;1997;kraj. muži 801. - 900.;Okresní přebor 1. třída
+SK Viktorie Ořech C;5.;Bulín Zdeněk;1972;kraj. muži 801. - 900.;Okresní přebor 1. třída
+SK Viktorie Ořech C;6.;Matoušek Michal;1982;kraj. muži 801. - 900.;Okresní přebor 1. třída
+SK Viktorie Ořech C;7.;Matoušek Tomáš;1985;kraj. muži 901. - 1000.;Okresní přebor 1. třída
+SK Viktorie Ořech C;8.;Veverka Jan;1997;kraj. muži 901. - 1000.;Okresní přebor 1. třída
+SK Viktorie Ořech C;9.;Blažek Jiří;1994;reg. muži 91. - 100.;Okresní přebor 1. třída
+SK Viktorie Ořech C;10.;Hruška Ondřej;1995;reg. muži 101. - 110.;Okresní přebor 1. třída
+SK Viktorie Ořech C;11.;Pavlín Jiří;1962;reg. muži 101. - 110.;Okresní přebor 1. třída
+SK Viktorie Ořech C;12.;Křižka Václav;1972;reg. muži 101. - 110.N;Okresní přebor 1. třída
+SK Viktorie Ořech C;13.;Veverka Václav ml.;2000;reg. muži 121. - 130.;Okresní přebor 1. třída
+SK Viktorie Ořech C;14.;Heřman Miroslav;1978;reg. muži 121. - 130.;Okresní přebor 1. třída
+SK Viktorie Ořech C;15.;Teleňko Jaroslav;2006;reg. muži 121. - 130.;Okresní přebor 1. třída
+SK Viktorie Ořech C;16.;Fürst Mirko;1946;reg. muži 131. - 141.N;Okresní přebor 1. třída
+SK Viktorie Ořech C;17.;Yaroslavtsev Vitaly;1959;reg. muži 141. - 150.;Okresní přebor 1. třída
 Sokol Mníšek pod Brdy C;1.;Kilian Vít;1989;kraj. muži 401. - 450.;Okresní přebor 1. třída
 Sokol Mníšek pod Brdy C;2.;Skoupil Lukáš;1984;kraj. muži 401. - 450.;Okresní přebor 1. třída
 Sokol Mníšek pod Brdy C;3.;Pospíšil Antonín;1964;kraj. muži 501. - 600.;Okresní přebor 1. třída
@@ -207,18 +207,19 @@ Sokol Rudná B;6.;Švehla Filip;2009;reg. muži 171. - 179.N;Okresní přebor 2.
 Sokol Rudná B;7.;Novotný David;1980;reg. muži 171. - 179.N;Okresní přebor 2. třída
 Sokol Rudná B;8.;Šenbauer Jiří;1958;nez.;Okresní přebor 2. třída
 SK Viktorie Ořech D;1.;Matoušek Michal;1982;kraj. muži 801. - 900.;Okresní přebor 2. třída
-SK Viktorie Ořech D;2.;Matoušek Tomáš;1985;kraj. muži 901. - 1000.;Okresní přebor 2. třída
-SK Viktorie Ořech D;3.;Veverka Jan;1997;kraj. muži 901. - 1000.;Okresní přebor 2. třída
-SK Viktorie Ořech D;4.;Pavlín Jiří;1962;reg. muži 101. - 110.;Okresní přebor 2. třída
-SK Viktorie Ořech D;5.;Křižka Václav;1972;reg. muži 101. - 110.N;Okresní přebor 2. třída
-SK Viktorie Ořech D;6.;Fürst Mirko;1946;reg. muži 131. - 141.N;Okresní přebor 2. třída
-SK Viktorie Ořech D;7.;Matoušek Zdeněk;1956;reg. muži 141. - 150.;Okresní přebor 2. třída
-SK Viktorie Ořech D;8.;Veverka Václav st.;1961;reg. muži 161. - 170.N;Okresní přebor 2. třída
-SK Viktorie Ořech D;9.;Paliatka Jakub;2009;reg. muži 171. - 179.;Okresní přebor 2. třída
-SK Viktorie Ořech D;10.;Kohlík Miroslav ml.;1973;nez.;Okresní přebor 2. třída
-SK Viktorie Ořech D;11.;Olexa Jakub;2011;nez.;Okresní přebor 2. třída
-SK Viktorie Ořech D;12.;Juan Tiago;2014;nez.;Okresní přebor 2. třída
-SK Viktorie Ořech D;13.;Severa Martin;1968;reg. muži 161. - 170.;Okresní přebor 2. třída
+SK Viktorie Ořech D;2.;Bulín Zdeněk;1972;kraj. muži 801. - 900.;Okresní přebor 2. třída
+SK Viktorie Ořech D;3.;Matoušek Tomáš;1985;kraj. muži 901. - 1000.;Okresní přebor 2. třída
+SK Viktorie Ořech D;4.;Veverka Jan;1997;kraj. muži 901. - 1000.;Okresní přebor 2. třída
+SK Viktorie Ořech D;5.;Pavlín Jiří;1962;reg. muži 101. - 110.;Okresní přebor 2. třída
+SK Viktorie Ořech D;6.;Křižka Václav;1972;reg. muži 101. - 110.N;Okresní přebor 2. třída
+SK Viktorie Ořech D;7.;Fürst Mirko;1946;reg. muži 131. - 141.N;Okresní přebor 2. třída
+SK Viktorie Ořech D;8.;Matoušek Zdeněk;1956;reg. muži 141. - 150.;Okresní přebor 2. třída
+SK Viktorie Ořech D;9.;Veverka Václav st.;1961;reg. muži 161. - 170.N;Okresní přebor 2. třída
+SK Viktorie Ořech D;10.;Paliatka Jakub;2009;reg. muži 171. - 179.;Okresní přebor 2. třída
+SK Viktorie Ořech D;11.;Kohlík Miroslav ml.;1973;nez.;Okresní přebor 2. třída
+SK Viktorie Ořech D;12.;Severa Martin;1968;reg. muži 161. - 170.;Okresní přebor 2. třída
+SK Viktorie Ořech D;13.;Olexa Jakub;2011;nez.;Okresní přebor 2. třída
+SK Viktorie Ořech D;14.;Juan Tiago;2014;nez.;Okresní přebor 2. třída
 SK Viktorie Ořech E;1.;Blažek Jiří;1994;reg. muži 91. - 100.;Okresní přebor 2. třída
 SK Viktorie Ořech E;2.;Hruška Ondřej;1995;reg. muži 101. - 110.;Okresní přebor 2. třída
 SK Viktorie Ořech E;3.;Veverka Václav ml.;2000;reg. muži 121. - 130.;Okresní přebor 2. třída
