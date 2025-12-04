@@ -128,13 +128,13 @@ SLAVOJ Obecnice A;3.;Dlouhý Jiří;1972;kraj. muži 71.-100.;Divize
 SLAVOJ Obecnice A;4.;Sýkora Josef;1995;kraj. muži 71.-100.;Divize
 SLAVOJ Obecnice A;5.;Srch Radek;1977;kraj. muži 71.-100.;Divize
 SLAVOJ Obecnice A;6.;Herink Jan;1993;kraj. muži 131.-160.;Divize
-SLAVOJ Obecnice A;7.;Tůma Radek;1992;kraj. muži 301. - 350.;Divize
-SLAVOJ Obecnice A;8.;Petráň Zdeněk;1985;kraj. muži 301. - 350.;Divize
-SLAVOJ Obecnice A;9.;Koros Zdeněk;1980;kraj. muži 301. - 350.;Divize
-SLAVOJ Obecnice A;10.;Koros Filip;2010;kraj. muži 501.-600.;Divize
-SLAVOJ Obecnice A;11.;Steiner František;1983;kraj. muži 601.-700N;Divize
-SLAVOJ Obecnice A;12.;Ječmen Jaroslav;1962;kraj. muži 701.-800.;Divize
-SLAVOJ Obecnice A;13.;Hála Pavel;1977;nez.;Divize
+SLAVOJ Obecnice A;7.;Hála Pavel;1977;kraj. muži 161.-200.N;Divize
+SLAVOJ Obecnice A;8.;Tůma Radek;1992;kraj. muži 301. - 350.;Divize
+SLAVOJ Obecnice A;9.;Petráň Zdeněk;1985;kraj. muži 301. - 350.;Divize
+SLAVOJ Obecnice A;10.;Koros Zdeněk;1980;kraj. muži 301. - 350.;Divize
+SLAVOJ Obecnice A;11.;Koros Filip;2010;kraj. muži 501.-600.;Divize
+SLAVOJ Obecnice A;12.;Steiner František;1983;kraj. muži 601.-700N;Divize
+SLAVOJ Obecnice A;13.;Ječmen Jaroslav;1962;kraj. muži 701.-800.;Divize
 TTC Kladno A;1.;Novák Petr;1970;kraj. muži 41-50;Divize
 TTC Kladno A;2.;Špalek Jiří;1973;kraj. muži 51-70;Divize
 TTC Kladno A;3.;Ebert Tomáš ml.;1989;kraj. muži 51-70;Divize
@@ -1069,24 +1069,25 @@ Sokol Hořovice C;13.;Skalka Josef;1974;nez.;Krajská soutěž 2.třídy sk. D
 Sokol Hořovice C;14.;Kumst František st.;1983;nez.;Krajská soutěž 2.třídy sk. D
 SLAVOJ Obecnice B;1.;Srch Radek;1977;kraj. muži 71.-100.;Krajská soutěž 2.třídy sk. D
 SLAVOJ Obecnice B;2.;Herink Jan;1993;kraj. muži 131.-160.;Krajská soutěž 2.třídy sk. D
-SLAVOJ Obecnice B;3.;Tůma Radek;1992;kraj. muži 301. - 350.;Krajská soutěž 2.třídy sk. D
-SLAVOJ Obecnice B;4.;Petráň Zdeněk;1985;kraj. muži 301. - 350.;Krajská soutěž 2.třídy sk. D
-SLAVOJ Obecnice B;5.;Koros Zdeněk;1980;kraj. muži 301. - 350.;Krajská soutěž 2.třídy sk. D
-SLAVOJ Obecnice B;6.;Koros Filip;2010;kraj. muži 501.-600.;Krajská soutěž 2.třídy sk. D
-SLAVOJ Obecnice B;7.;Steiner František;1983;kraj. muži 601.-700N;Krajská soutěž 2.třídy sk. D
-SLAVOJ Obecnice B;8.;Ječmen Jaroslav;1962;kraj. muži 701.-800.;Krajská soutěž 2.třídy sk. D
-SLAVOJ Obecnice B;9.;Vinš Stanislav;1979;kraj. muži 901.-1000.;Krajská soutěž 2.třídy sk. D
-SLAVOJ Obecnice B;10.;Steiner Petr;1971;reg. muži 51.-70.;Krajská soutěž 2.třídy sk. D
-SLAVOJ Obecnice B;11.;Srch Radek ml.;2009;reg. muži 101.-127.;Krajská soutěž 2.třídy sk. D
-SLAVOJ Obecnice B;12.;Hanzlík Miroslav;1976;reg. muži 101.-127.;Krajská soutěž 2.třídy sk. D
-SLAVOJ Obecnice B;13.;Kuchařová Věra;1994;reg. muži 101.-127.;Krajská soutěž 2.třídy sk. D
-SLAVOJ Obecnice B;14.;Srch Marek;2016;reg. muži 101.-127.;Krajská soutěž 2.třídy sk. D
-SLAVOJ Obecnice B;15.;Čepelák Miroslav;1981;reg. muži 127N;Krajská soutěž 2.třídy sk. D
-SLAVOJ Obecnice B;16.;Král Pavel;1970;reg. muži 127N;Krajská soutěž 2.třídy sk. D
-SLAVOJ Obecnice B;17.;Srch Jaroslav ml.;2019;reg. muži 127N;Krajská soutěž 2.třídy sk. D
-SLAVOJ Obecnice B;18.;Srch Tomáš;2013;reg. muži 127N;Krajská soutěž 2.třídy sk. D
-SLAVOJ Obecnice B;19.;Vacura Josef ml.;1993;nez.;Krajská soutěž 2.třídy sk. D
-SLAVOJ Obecnice B;20.;Lukeš Tomáš;1993;nez.;Krajská soutěž 2.třídy sk. D
+SLAVOJ Obecnice B;3.;Hála Pavel;1977;kraj. muži 161.-200.N;Krajská soutěž 2.třídy sk. D
+SLAVOJ Obecnice B;4.;Tůma Radek;1992;kraj. muži 301. - 350.;Krajská soutěž 2.třídy sk. D
+SLAVOJ Obecnice B;5.;Petráň Zdeněk;1985;kraj. muži 301. - 350.;Krajská soutěž 2.třídy sk. D
+SLAVOJ Obecnice B;6.;Koros Zdeněk;1980;kraj. muži 301. - 350.;Krajská soutěž 2.třídy sk. D
+SLAVOJ Obecnice B;7.;Koros Filip;2010;kraj. muži 501.-600.;Krajská soutěž 2.třídy sk. D
+SLAVOJ Obecnice B;8.;Steiner František;1983;kraj. muži 601.-700N;Krajská soutěž 2.třídy sk. D
+SLAVOJ Obecnice B;9.;Ječmen Jaroslav;1962;kraj. muži 701.-800.;Krajská soutěž 2.třídy sk. D
+SLAVOJ Obecnice B;10.;Vinš Stanislav;1979;kraj. muži 901.-1000.;Krajská soutěž 2.třídy sk. D
+SLAVOJ Obecnice B;11.;Steiner Petr;1971;reg. muži 51.-70.;Krajská soutěž 2.třídy sk. D
+SLAVOJ Obecnice B;12.;Srch Radek ml.;2009;reg. muži 101.-127.;Krajská soutěž 2.třídy sk. D
+SLAVOJ Obecnice B;13.;Hanzlík Miroslav;1976;reg. muži 101.-127.;Krajská soutěž 2.třídy sk. D
+SLAVOJ Obecnice B;14.;Kuchařová Věra;1994;reg. muži 101.-127.;Krajská soutěž 2.třídy sk. D
+SLAVOJ Obecnice B;15.;Srch Marek;2016;reg. muži 101.-127.;Krajská soutěž 2.třídy sk. D
+SLAVOJ Obecnice B;16.;Čepelák Miroslav;1981;reg. muži 127N;Krajská soutěž 2.třídy sk. D
+SLAVOJ Obecnice B;17.;Král Pavel;1970;reg. muži 127N;Krajská soutěž 2.třídy sk. D
+SLAVOJ Obecnice B;18.;Srch Jaroslav ml.;2019;reg. muži 127N;Krajská soutěž 2.třídy sk. D
+SLAVOJ Obecnice B;19.;Srch Tomáš;2013;reg. muži 127N;Krajská soutěž 2.třídy sk. D
+SLAVOJ Obecnice B;20.;Vacura Josef ml.;1993;nez.;Krajská soutěž 2.třídy sk. D
+SLAVOJ Obecnice B;21.;Lukeš Tomáš;1993;nez.;Krajská soutěž 2.třídy sk. D
 Slovan Lochovice B;1.;Budělovský Petr;1980;kraj. muži 161.-200.;Krajská soutěž 2.třídy sk. D
 Slovan Lochovice B;2.;Červený Tomáš;2004;kraj. muži 301.-350.;Krajská soutěž 2.třídy sk. D
 Slovan Lochovice B;3.;Zitta Přemysl;1969;kraj. muži 301.-350.N;Krajská soutěž 2.třídy sk. D
@@ -1173,10 +1174,16 @@ TJ Sokol Malín B;7.;Marešová Barbora;2010;reg. F15 1.;Divize Ž
 TJ Sokol Malín B;8.;Dittrichová Adéla;2011;reg. F15 2.;Divize Ž
 TJ Sokol Malín B;9.;Hnátková Patricie;2010;reg. F15 4.;Divize Ž
 TJ Sokol Malín B;10.;Beranová Andrea;2015;reg. F15 5.;Divize Ž
-TJ Sokol Malín C;1.;Marešová Barbora;2010;reg. F15 1.;Krajská soutěž Ž
-TJ Sokol Malín C;2.;Dittrichová Adéla;2011;reg. F15 2.;Krajská soutěž Ž
-TJ Sokol Malín C;3.;Hnátková Patricie;2010;reg. F15 4.;Krajská soutěž Ž
-TJ Sokol Malín C;4.;Beranová Andrea;2015;reg. F15 5.;Krajská soutěž Ž
+TJ Sokol Malín C;1.;Beranová Andrea st.;1983;reg. ženy 10.N;Krajská soutěž Ž
+TJ Sokol Malín C;2.;Rybenská Jitka;1975;reg. ženy 13.N;Krajská soutěž Ž
+TJ Sokol Malín C;3.;Marešová Barbora;2010;reg. F15 1.;Krajská soutěž Ž
+TJ Sokol Malín C;4.;Dittrichová Adéla;2011;reg. F15 2.;Krajská soutěž Ž
+TJ Sokol Malín C;5.;Hnátková Patricie;2010;reg. F15 4.;Krajská soutěž Ž
+TJ Sokol Malín C;6.;Beranová Andrea;2015;reg. F15 5.;Krajská soutěž Ž
+TJ Sokol Malín C;7.;Chlubnová Elen;2014;nez.;Krajská soutěž Ž
+TJ Sokol Malín C;8.;Hrčková Elen;2018;nez.;Krajská soutěž Ž
+TJ Sokol Malín C;9.;Najjar Mona;2014;nez.;Krajská soutěž Ž
+TJ Sokol Malín C;10.;Řípová Ema;2014;nez.;Krajská soutěž Ž
 TJ Sokol Otradovice;1.;Doležalová Daniela;1956;reg. muži 151-180;Krajská soutěž Ž
 TJ Sokol Otradovice;2.;Hradecká Šárka;1994;reg. muži 151-180;Krajská soutěž Ž
 TJ Sokol Otradovice;3.;Fabianová Pavla;1972;nez.;Krajská soutěž Ž
