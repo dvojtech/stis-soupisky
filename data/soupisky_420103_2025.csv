@@ -215,6 +215,7 @@ Sokol Velký Osek A;11.;Procházka Roman;1979;kraj. muži 451-500;Krajská sout�
 Sokol Velký Osek A;12.;Čebišová Linda;2010;reg. muži 61-90;Krajská soutěž 1.třídy sk. A
 Sokol Velký Osek A;13.;Čebiš Patrik;2006;reg. muži 61-90;Krajská soutěž 1.třídy sk. A
 Sokol Velký Osek A;14.;Kaipr Petr;1965;kraj. muži N;Krajská soutěž 1.třídy sk. A
+Sokol Velký Osek A;15.;Matýsek Libor;1987;kraj. muži N;Krajská soutěž 1.třídy sk. A
 TTC Brandýs n.L. B;1.;Sysel Vojtěch;2000;kraj. muži 71.-100.;Krajská soutěž 1.třídy sk. A
 TTC Brandýs n.L. B;2.;Šubrt Jaroslav;1976;kraj. muži 71.-100.;Krajská soutěž 1.třídy sk. A
 TTC Brandýs n.L. B;3.;Zatřepálek Pavel;1968;kraj. muži 101.-130.;Krajská soutěž 1.třídy sk. A
@@ -330,165 +331,155 @@ Sokol Malín A;8.;Ulrich Radek;1973;kraj. muži 251-300.;Krajská soutěž 1.tř
 Sokol Malín A;9.;Kepka Jaroslav ml.;2001;kraj. muži 351-400.;Krajská soutěž 1.třídy sk. A
 Sokol Malín A;10.;Beňuš Petr;1976;kraj. muži 401-450.;Krajská soutěž 1.třídy sk. A
 Sokol Malín A;11.;Sytař Dan;2001;kraj. muži 601-700.;Krajská soutěž 1.třídy sk. A
-Sokol Hředle A;1.;Hájek Miroslav;1975;kraj. muži 101-130;Krajská soutěž 1.třídy sk. B
-Sokol Hředle A;2.;Macek Zdeněk ml.;1991;kraj. muži 131-160;Krajská soutěž 1.třídy sk. B
-Sokol Hředle A;3.;Chládek David;2008;kraj. muži 161-200;Krajská soutěž 1.třídy sk. B
-Sokol Hředle A;4.;Pacourek Jan;1974;kraj. muži 251-300;Krajská soutěž 1.třídy sk. B
-Sokol Hředle A;5.;Novák Tomáš;1975;kraj. muži 251-300;Krajská soutěž 1.třídy sk. B
-Sokol Hředle A;6.;Sviták Martin;1996;kraj. muži 251-300N;Krajská soutěž 1.třídy sk. B
-Sokol Hředle A;7.;Beránek Josef;1958;kraj. muži 451-500;Krajská soutěž 1.třídy sk. B
-Sokol Hředle A;8.;Vyskočil Jiří;1999;kraj. muži 501-600;Krajská soutěž 1.třídy sk. B
-Sokol Hředle A;9.;Skoupý Jaroslav;1984;kraj. muži 801-900;Krajská soutěž 1.třídy sk. B
-Sokol Hředle A;10.;Maurerová Lucie;2007;kraj. muži 201-250;Krajská soutěž 1.třídy sk. B
-TJ Úholičky A;1.;Hluchý Marek;1989;kraj. muži 101. - 130.;Krajská soutěž 1.třídy sk. B
-TJ Úholičky A;2.;Rudolf Tomáš;1973;kraj. muži 131. - 160.;Krajská soutěž 1.třídy sk. B
-TJ Úholičky A;3.;Stočes Luděk;1973;kraj. muži 131. - 160.;Krajská soutěž 1.třídy sk. B
-TJ Úholičky A;4.;Vojtěch Dušan;1973;kraj. muži 131. - 160.;Krajská soutěž 1.třídy sk. B
-TJ Úholičky A;5.;Dvořák František;2002;kraj. muži 251. - 300.;Krajská soutěž 1.třídy sk. B
-TJ Úholičky A;6.;Pešina Jiří;1974;kraj. muži 301. - 350.;Krajská soutěž 1.třídy sk. B
-TJ Úholičky A;7.;Matousch Šimon;2001;kraj. muži 351. - 400.;Krajská soutěž 1.třídy sk. B
-TJ Úholičky A;8.;Novák Martin;1974;kraj. muži 501. - 600.;Krajská soutěž 1.třídy sk. B
-SK Viktorie Ořech A;1.;Redlich Michal;2003;kraj. muži 101. - 130.;Krajská soutěž 1.třídy sk. B
-SK Viktorie Ořech A;2.;Soukup Vojtěch;2002;kraj. muži 201. - 250.;Krajská soutěž 1.třídy sk. B
-SK Viktorie Ořech A;3.;Hlaváč Jan;2001;kraj. muži 301. - 350.;Krajská soutěž 1.třídy sk. B
-SK Viktorie Ořech A;4.;Vávra Aleš;1998;kraj. muži 301. - 350.;Krajská soutěž 1.třídy sk. B
-SK Viktorie Ořech A;5.;Poncar Karel;2001;kraj. muži 351. - 400.;Krajská soutěž 1.třídy sk. B
-SK Viktorie Ořech A;6.;Skřivánek Jiří;1973;kraj. muži 451. - 500.N;Krajská soutěž 1.třídy sk. B
-SK Viktorie Ořech A;7.;Krasničan Jaroslav;1977;kraj. muži 501. - 600.N;Krajská soutěž 1.třídy sk. B
-SK Viktorie Ořech A;8.;Novák Marek;1996;kraj. muži 701. - 800.;Krajská soutěž 1.třídy sk. B
-SK Viktorie Ořech A;9.;Zacharda Aleš;1972;kraj. muži 701. - 800.;Krajská soutěž 1.třídy sk. B
-SK Viktorie Ořech A;10.;Timonina Vjatsheslavovna Valerija (E);1999;kraj. muži 701.-800.N;Krajská soutěž 1.třídy sk. B
-SK Viktorie Ořech A;11.;Píš Daniel;1969;kraj. muži 801. - 900.;Krajská soutěž 1.třídy sk. B
-SK Viktorie Ořech A;12.;Stejskal Michal;1997;kraj. muži 801. - 900.;Krajská soutěž 1.třídy sk. B
-SK Viktorie Ořech A;13.;Hlavenka Joel Mathias;2007;kraj. muži 301. - 350.;Krajská soutěž 1.třídy sk. B
-Sokol Lány B;1.;Tomsová Kateřina;1990;kraj. muži 71-100;Krajská soutěž 1.třídy sk. B
-Sokol Lány B;2.;Vojna Daniel;2004;kraj. muži 101-130;Krajská soutěž 1.třídy sk. B
-Sokol Lány B;3.;Vyskočil Zbyněk;1999;kraj. muži 161-200;Krajská soutěž 1.třídy sk. B
-Sokol Lány B;4.;Chrt Lukáš;1989;kraj. muži 201-250;Krajská soutěž 1.třídy sk. B
-Sokol Lány B;5.;Moravec Milan;1964;kraj. muži 201-250;Krajská soutěž 1.třídy sk. B
-Sokol Lány B;6.;Szabo Jiří;1974;kraj. muži 201-250;Krajská soutěž 1.třídy sk. B
-Sokol Lány B;7.;Cibík Pavel;2004;kraj. muži 251-300;Krajská soutěž 1.třídy sk. B
-Sokol Lány B;8.;Moravec Petr st.;1960;kraj. muži 251-300;Krajská soutěž 1.třídy sk. B
-Sokol Lány B;9.;Trpák Radek;1972;kraj. muži 351-400;Krajská soutěž 1.třídy sk. B
-Sokol Lány B;10.;Jirkovský Václav;1956;kraj. muži 801-900;Krajská soutěž 1.třídy sk. B
-Sokol Buštěhrad A;1.;Krahulec Petr;1985;kraj. muži 41-50;Krajská soutěž 1.třídy sk. B
-Sokol Buštěhrad A;2.;Krejčí Tomáš;1989;kraj. muži 101-130;Krajská soutěž 1.třídy sk. B
-Sokol Buštěhrad A;3.;Bareš Jaroslav ml.;1978;kraj. muži 131-160;Krajská soutěž 1.třídy sk. B
-Sokol Buštěhrad A;4.;Lafek Dominik;2002;kraj. muži 201-250;Krajská soutěž 1.třídy sk. B
-Sokol Buštěhrad A;5.;Hnidka Marian;1975;kraj. muži 201-250;Krajská soutěž 1.třídy sk. B
-Sokol Buštěhrad A;6.;Stolz Daniel;1974;kraj. muži 351-400;Krajská soutěž 1.třídy sk. B
-Sokol Buštěhrad A;7.;Řezníček Lukáš;1993;kraj. muži 451-500;Krajská soutěž 1.třídy sk. B
-Sokol Buštěhrad A;8.;Král Adam;2005;kraj. muži 501-600.N;Krajská soutěž 1.třídy sk. B
-Sokol Buštěhrad A;9.;Kratochvíl Tomáš;1975;kraj. muži 801-900;Krajská soutěž 1.třídy sk. B
-Sokol Buštěhrad A;10.;Marák Michal;1969;reg. muži 91-100;Krajská soutěž 1.třídy sk. B
-Sokol Buštěhrad A;11.;Táborský Oldřich;1959;reg. muži 131-150;Krajská soutěž 1.třídy sk. B
-Sokol Buštěhrad A;12.;Jíra Jiří;2009;reg. muži 131-150;Krajská soutěž 1.třídy sk. B
-Sokol Buštěhrad A;13.;Jíra Šimon;2011;reg. muži 151-166;Krajská soutěž 1.třídy sk. B
-Sokol Buštěhrad A;14.;Zelenka Vojtěch;2008;reg. muži 151-166;Krajská soutěž 1.třídy sk. B
-Sokol Buštěhrad A;15.;Kováč Pavel;2011;reg. muži 151-166;Krajská soutěž 1.třídy sk. B
-Aero Odolena Voda A;1.;Hendrych Jan;1987;kraj. muži 51.-70.;Krajská soutěž 1.třídy sk. B
-Aero Odolena Voda A;2.;Brožík Karel;1978;kraj. muži 131.-160.N;Krajská soutěž 1.třídy sk. B
-Aero Odolena Voda A;3.;Hudečková Hana;1987;kraj. muži 161.-200.;Krajská soutěž 1.třídy sk. B
-Aero Odolena Voda A;4.;Schmelz Richard;1985;kraj. muži 201.-250.N;Krajská soutěž 1.třídy sk. B
-Aero Odolena Voda A;5.;Topol Martin;1973;kraj. muži 201.-250.N;Krajská soutěž 1.třídy sk. B
-Aero Odolena Voda A;6.;Novák Samuel Emil;2010;kraj. muži 301.-350.;Krajská soutěž 1.třídy sk. B
-Aero Odolena Voda A;7.;Polák Karel;1997;kraj. muži 351.-400.;Krajská soutěž 1.třídy sk. B
-Aero Odolena Voda A;8.;Vyvial Pavel;1975;kraj. muži 351.-400.;Krajská soutěž 1.třídy sk. B
-Aero Odolena Voda A;9.;Procházka Petr ml.;1997;kraj. muži 351.-400.;Krajská soutěž 1.třídy sk. B
-Aero Odolena Voda A;10.;Procházka Michal;2002;kraj. muži 451.-500.;Krajská soutěž 1.třídy sk. B
-Aero Odolena Voda A;11.;Jelínek Tomáš;1972;kraj. muži 601.-700.N;Krajská soutěž 1.třídy sk. B
-Aero Odolena Voda A;12.;Šulek Jakub;2011;reg. muži 101.-130.N;Krajská soutěž 1.třídy sk. B
-Aero Odolena Voda A;13.;Novák František;2011;reg. muži 131.-160.N;Krajská soutěž 1.třídy sk. B
-Aero Odolena Voda A;14.;Šťastný Ondřej;2008;kraj. muži 701.-800.;Krajská soutěž 1.třídy sk. B
-TJ Olešná A;1.;Sviták Lukáš;2007;kraj. muži 131. - 160.;Krajská soutěž 1.třídy sk. B
-TJ Olešná A;2.;Kuksa Zdeněk;1975;kraj. muži 161. - 200.;Krajská soutěž 1.třídy sk. B
-TJ Olešná A;3.;Herman Miloš ml.;2003;kraj. muži 201. - 250.;Krajská soutěž 1.třídy sk. B
-TJ Olešná A;4.;Herman Miloš;1976;kraj. muži 501. - 600.;Krajská soutěž 1.třídy sk. B
-TJ Olešná A;5.;Kopp Jan;1959;kraj. muži 401. - 450.;Krajská soutěž 1.třídy sk. B
-TJ Olešná A;6.;Švamberk Jan;1995;kraj. muži 601. - 700.;Krajská soutěž 1.třídy sk. B
-TJ Olešná A;7.;Solar Václav;1991;kraj. muži 701. - 800.;Krajská soutěž 1.třídy sk. B
-TJ Olešná A;8.;Vurm Radek;1996;kraj. muži 701. - 800.;Krajská soutěž 1.třídy sk. B
-TJ Olešná A;9.;Kopp Stanislav;1962;kraj. muži 701. - 800.;Krajská soutěž 1.třídy sk. B
-TJ Olešná A;10.;Kroc František;1973;kraj. muži 701. - 800.;Krajská soutěž 1.třídy sk. B
-TJ Olešná A;11.;Novák Aleš;1995;kraj. muži 801. - 900.;Krajská soutěž 1.třídy sk. B
-TJ Olešná A;12.;Novák Petr;1971;reg. muži 81. - 100.;Krajská soutěž 1.třídy sk. B
-Tatran Sedlčany B;1.;Linhart František ml.;1977;kraj. muži 131.-160.N;Krajská soutěž 1.třídy sk. B
-Tatran Sedlčany B;2.;Lískovec Jindřich;1987;kraj. muži 161.-200.;Krajská soutěž 1.třídy sk. B
-Tatran Sedlčany B;3.;Černý Pavel;1998;kraj. muži 251.-300.;Krajská soutěž 1.třídy sk. B
-Tatran Sedlčany B;4.;Matuška Vojtěch;2007;kraj. muži 451.-500.;Krajská soutěž 1.třídy sk. B
-Tatran Sedlčany B;5.;Procházka Michal;1967;kraj. muži 351.-400.;Krajská soutěž 1.třídy sk. B
-Tatran Sedlčany B;6.;Šíp Martin;1981;kraj. muži 501.-600.;Krajská soutěž 1.třídy sk. B
-Tatran Sedlčany B;7.;Poslední Pavel;1961;kraj. muži 501.-600.;Krajská soutěž 1.třídy sk. B
-Tatran Sedlčany B;8.;Strnad Vladimír;1961;kraj. muži 600N;Krajská soutěž 1.třídy sk. B
-Tatran Sedlčany B;9.;Málek Miloš;1965;kraj. muži 601.-700;Krajská soutěž 1.třídy sk. B
-Tatran Sedlčany B;10.;Kunc Zdeněk;1967;reg. muži 71.-100.;Krajská soutěž 1.třídy sk. B
-Tatran Sedlčany B;11.;Janda Jaromír;1998;nez.;Krajská soutěž 1.třídy sk. B
-Tatran Sedlčany B;12.;Faktor Tadeáš;2010;nez.;Krajská soutěž 1.třídy sk. B
-Tatran Sedlčany B;13.;Král Ondřej;2007;nez.;Krajská soutěž 1.třídy sk. B
-Tatran Sedlčany B;14.;Novák František;2010;nez.;Krajská soutěž 1.třídy sk. B
-Tatran Sedlčany B;15.;Stibor Dominik;2010;nez.;Krajská soutěž 1.třídy sk. B
-Tatran Sedlčany B;16.;Černý Jan;2002;nez.;Krajská soutěž 1.třídy sk. B
-Tatran Sedlčany B;17.;Riant Augustin;2007;kraj. muži 401-500;Krajská soutěž 1.třídy sk. B
-Sokol Hořovice B;1.;Jirouch Tomáš;1973;kraj. muži 71. - 100.;Krajská soutěž 1.třídy sk. B
-Sokol Hořovice B;2.;Drož Jan;1965;kraj. muži 161. - 200.;Krajská soutěž 1.třídy sk. B
-Sokol Hořovice B;3.;Hnízdil Michal;2010;kraj. muži 201. - 250.;Krajská soutěž 1.třídy sk. B
-Sokol Hořovice B;4.;Steffl Jan;1981;kraj. muži 201. - 250.;Krajská soutěž 1.třídy sk. B
-Sokol Hořovice B;5.;Křikava Richard;1994;kraj. muži 301. - 350.;Krajská soutěž 1.třídy sk. B
-Sokol Hořovice B;6.;Müller Jiří;1976;kraj. muži 351. - 400.;Krajská soutěž 1.třídy sk. B
-Sokol Hořovice B;7.;Čepelák Vladimír ml.;1988;kraj. muži 451. - 500.;Krajská soutěž 1.třídy sk. B
-Sokol Hořovice B;8.;Chlustina Jaroslav;1971;kraj. muži 601. - 700.;Krajská soutěž 1.třídy sk. B
-Sokol Hořovice B;9.;Hnízdil Tomáš;1974;kraj. muži 901. - 1000. N;Krajská soutěž 1.třídy sk. B
-Sokol Hořovice B;10.;Kumst František;2012;reg. muži 81.-100. N;Krajská soutěž 1.třídy sk. B
-Sokol Hořovice B;11.;Kureš Milan;1978;reg. muži 101. - 120.;Krajská soutěž 1.třídy sk. B
-Sokol Hořovice B;12.;Horská Jana;2010;reg. muži 141. - 160.;Krajská soutěž 1.třídy sk. B
-TTC Kladno B;1.;Bajer Jiří;1976;kraj. muži 21-30;Krajská soutěž 1.třídy sk. B
-TTC Kladno B;2.;Špalek Miroslav;1978;kraj. muži 71-100;Krajská soutěž 1.třídy sk. B
-TTC Kladno B;3.;Škach Martin;1970;kraj. muži 71-100;Krajská soutěž 1.třídy sk. B
-TTC Kladno B;4.;Hrubý Vlastimil;1967;kraj. muži 101-130;Krajská soutěž 1.třídy sk. B
-TTC Kladno B;5.;Macák Milan;1976;kraj. muži 161-200.N;Krajská soutěž 1.třídy sk. B
-TTC Kladno B;6.;Jelínek Filip;2007;kraj. muži 301-350;Krajská soutěž 1.třídy sk. B
-TTC Kladno B;7.;Jedlička Stanislav;1959;kraj. muži 301-350;Krajská soutěž 1.třídy sk. B
-TTC Kladno B;8.;Hlava Jiří;1947;kraj. muži 301-350;Krajská soutěž 1.třídy sk. B
-TTC Kladno B;9.;Bílý Tomáš;1978;kraj. muži 301-350;Krajská soutěž 1.třídy sk. B
-TTC Kladno B;10.;Levenec Alexandr;1977;kraj. muži 351-400;Krajská soutěž 1.třídy sk. B
-TTC Kladno B;11.;Krous Martin;1970;kraj. muži 401-450;Krajská soutěž 1.třídy sk. B
-TTC Kladno B;12.;Rybička Jan;1986;kraj. muži 451-500;Krajská soutěž 1.třídy sk. B
-TTC Kladno B;13.;Tuček Miroslav;1963;kraj. muži 501-600;Krajská soutěž 1.třídy sk. B
-TTC Kladno B;14.;Jůza Jan;1976;kraj. muži 601-700;Krajská soutěž 1.třídy sk. B
-TTC Kladno B;15.;Pachman Tomáš;1967;kraj. muži 601-700;Krajská soutěž 1.třídy sk. B
-TTC Kladno B;16.;Šulc Ladislav;1951;kraj. muži 601-700;Krajská soutěž 1.třídy sk. B
-TTC Kladno B;17.;Hloch Matěj;2011;reg. muži 91-100;Krajská soutěž 1.třídy sk. B
-TTC Kladno B;18.;Fleislébr Jiří;1969;reg. muži 101-115;Krajská soutěž 1.třídy sk. B
-TTC Kladno B;19.;Gábriš Michal;1962;nez.;Krajská soutěž 1.třídy sk. B
-TTC Kladno B;20.;Prágr Lukáš;1987;nez.;Krajská soutěž 1.třídy sk. B
-SK Březnice A;1.;Šimek Jakub;1994;kraj. muži 71.-100.;Krajská soutěž 1.třídy sk. B
-SK Březnice A;2.;Provazník Lukáš;1995;kraj. muži 101-130N;Krajská soutěž 1.třídy sk. B
-SK Březnice A;3.;Drábek Martin;1996;kraj. muži 131.-160.;Krajská soutěž 1.třídy sk. B
-SK Březnice A;4.;Čížek Marek;1995;kraj. muži 131.-160.;Krajská soutěž 1.třídy sk. B
-SK Březnice A;5.;Soused Zbyněk;1974;kraj. muži 201.-250.;Krajská soutěž 1.třídy sk. B
-SK Březnice A;6.;Čížek Pavel;1967;kraj. muži 201.-250.;Krajská soutěž 1.třídy sk. B
-SK Březnice A;7.;Lněničková Marta;1979;kraj. muži 251.-300.;Krajská soutěž 1.třídy sk. B
-SK Březnice A;8.;Petrovic Pavel;1964;kraj. muži 301.-350.;Krajská soutěž 1.třídy sk. B
-SK Březnice A;9.;Haník Josef;1961;kraj. muži 351.-400.;Krajská soutěž 1.třídy sk. B
-SK Březnice A;10.;Michal Radek;1976;kraj. muži 451.-500.;Krajská soutěž 1.třídy sk. B
-SK Březnice A;11.;Říha Bohumil;1983;kraj. muži 501.-600.;Krajská soutěž 1.třídy sk. B
-SK Březnice A;12.;Soused Milan;1970;kraj. muži 501.-600.;Krajská soutěž 1.třídy sk. B
-SK Březnice A;13.;Suchopár Miroslav;1959;kraj. muži 501.-600.;Krajská soutěž 1.třídy sk. B
-SK Březnice A;14.;Medvecký Jan;1951;kraj. muži 701.-800.;Krajská soutěž 1.třídy sk. B
-SK Březnice A;15.;Michal Tomáš;1981;reg. muži 100N;Krajská soutěž 1.třídy sk. B
-Lokomotiva Zdice A;1.;Adam Ondřej;1987;kraj. muži 71.-100.N;Krajská soutěž 1.třídy sk. B
-Lokomotiva Zdice A;2.;Stehlík Jan ml.;1993;kraj. muži 101. - 130.;Krajská soutěž 1.třídy sk. B
-Lokomotiva Zdice A;3.;Gregor Martin;1990;kraj. muži 101. - 130.;Krajská soutěž 1.třídy sk. B
-Lokomotiva Zdice A;4.;Bláha Hynek;2000;kraj. muži 161. - 200.;Krajská soutěž 1.třídy sk. B
-Lokomotiva Zdice A;5.;Flodr Leoš;1976;kraj. muži 201. - 250.;Krajská soutěž 1.třídy sk. B
-Lokomotiva Zdice A;6.;Jiroušek Pavel;1963;kraj. muži 201. - 250.;Krajská soutěž 1.třídy sk. B
-Lokomotiva Zdice A;7.;Šín Jaroslav ml.;1977;kraj. muži 201. - 250.;Krajská soutěž 1.třídy sk. B
-Lokomotiva Zdice A;8.;Prokop Břetislav;1969;kraj. muži 351. - 400.;Krajská soutěž 1.třídy sk. B
-Lokomotiva Zdice A;9.;Slezák Václav;1967;kraj. muži 351. - 400.;Krajská soutěž 1.třídy sk. B
-Lokomotiva Zdice A;10.;Argaláš František;1977;kraj. muži 451. - 500.;Krajská soutěž 1.třídy sk. B
-Lokomotiva Zdice A;11.;Praizler Roman;1963;kraj. muži 501. - 600.;Krajská soutěž 1.třídy sk. B
-Lokomotiva Zdice A;12.;Spousta Martin;2000;kraj. muži 801. - 900.;Krajská soutěž 1.třídy sk. B
-Lokomotiva Zdice A;13.;Rein Tomáš;2005;kraj. muži 251-300;Krajská soutěž 1.třídy sk. B
+TJ Úholičky A;1.;Hluchý Marek;1989;kraj. muži 101. - 130.;Krajská soutěž 1.třídy sk. A
+TJ Úholičky A;2.;Rudolf Tomáš;1973;kraj. muži 131. - 160.;Krajská soutěž 1.třídy sk. A
+TJ Úholičky A;3.;Stočes Luděk;1973;kraj. muži 131. - 160.;Krajská soutěž 1.třídy sk. A
+TJ Úholičky A;4.;Vojtěch Dušan;1973;kraj. muži 131. - 160.;Krajská soutěž 1.třídy sk. A
+TJ Úholičky A;5.;Dvořák František;2002;kraj. muži 251. - 300.;Krajská soutěž 1.třídy sk. A
+TJ Úholičky A;6.;Pešina Jiří;1974;kraj. muži 301. - 350.;Krajská soutěž 1.třídy sk. A
+TJ Úholičky A;7.;Matousch Šimon;2001;kraj. muži 351. - 400.;Krajská soutěž 1.třídy sk. A
+TJ Úholičky A;8.;Novák Martin;1974;kraj. muži 501. - 600.;Krajská soutěž 1.třídy sk. A
+SK Viktorie Ořech A;1.;Redlich Michal;2003;kraj. muži 101. - 130.;Krajská soutěž 1.třídy sk. A
+SK Viktorie Ořech A;2.;Soukup Vojtěch;2002;kraj. muži 201. - 250.;Krajská soutěž 1.třídy sk. A
+SK Viktorie Ořech A;3.;Hlaváč Jan;2001;kraj. muži 301. - 350.;Krajská soutěž 1.třídy sk. A
+SK Viktorie Ořech A;4.;Vávra Aleš;1998;kraj. muži 301. - 350.;Krajská soutěž 1.třídy sk. A
+SK Viktorie Ořech A;5.;Poncar Karel;2001;kraj. muži 351. - 400.;Krajská soutěž 1.třídy sk. A
+SK Viktorie Ořech A;6.;Skřivánek Jiří;1973;kraj. muži 451. - 500.N;Krajská soutěž 1.třídy sk. A
+SK Viktorie Ořech A;7.;Krasničan Jaroslav;1977;kraj. muži 501. - 600.N;Krajská soutěž 1.třídy sk. A
+SK Viktorie Ořech A;8.;Novák Marek;1996;kraj. muži 701. - 800.;Krajská soutěž 1.třídy sk. A
+SK Viktorie Ořech A;9.;Zacharda Aleš;1972;kraj. muži 701. - 800.;Krajská soutěž 1.třídy sk. A
+SK Viktorie Ořech A;10.;Timonina Vjatsheslavovna Valerija (E);1999;kraj. muži 701.-800.N;Krajská soutěž 1.třídy sk. A
+SK Viktorie Ořech A;11.;Píš Daniel;1969;kraj. muži 801. - 900.;Krajská soutěž 1.třídy sk. A
+SK Viktorie Ořech A;12.;Stejskal Michal;1997;kraj. muži 801. - 900.;Krajská soutěž 1.třídy sk. A
+SK Viktorie Ořech A;13.;Hlavenka Joel Mathias;2007;kraj. muži 301. - 350.;Krajská soutěž 1.třídy sk. A
+Sokol Lány B;1.;Tomsová Kateřina;1990;kraj. muži 71-100;Krajská soutěž 1.třídy sk. A
+Sokol Lány B;2.;Vojna Daniel;2004;kraj. muži 101-130;Krajská soutěž 1.třídy sk. A
+Sokol Lány B;3.;Vyskočil Zbyněk;1999;kraj. muži 161-200;Krajská soutěž 1.třídy sk. A
+Sokol Lány B;4.;Chrt Lukáš;1989;kraj. muži 201-250;Krajská soutěž 1.třídy sk. A
+Sokol Lány B;5.;Moravec Milan;1964;kraj. muži 201-250;Krajská soutěž 1.třídy sk. A
+Sokol Lány B;6.;Szabo Jiří;1974;kraj. muži 201-250;Krajská soutěž 1.třídy sk. A
+Sokol Lány B;7.;Cibík Pavel;2004;kraj. muži 251-300;Krajská soutěž 1.třídy sk. A
+Sokol Lány B;8.;Moravec Petr st.;1960;kraj. muži 251-300;Krajská soutěž 1.třídy sk. A
+Sokol Lány B;9.;Trpák Radek;1972;kraj. muži 351-400;Krajská soutěž 1.třídy sk. A
+Sokol Lány B;10.;Jirkovský Václav;1956;kraj. muži 801-900;Krajská soutěž 1.třídy sk. A
+Sokol Buštěhrad A;1.;Krahulec Petr;1985;kraj. muži 41-50;Krajská soutěž 1.třídy sk. A
+Sokol Buštěhrad A;2.;Krejčí Tomáš;1989;kraj. muži 101-130;Krajská soutěž 1.třídy sk. A
+Sokol Buštěhrad A;3.;Bareš Jaroslav ml.;1978;kraj. muži 131-160;Krajská soutěž 1.třídy sk. A
+Sokol Buštěhrad A;4.;Lafek Dominik;2002;kraj. muži 201-250;Krajská soutěž 1.třídy sk. A
+Sokol Buštěhrad A;5.;Hnidka Marian;1975;kraj. muži 201-250;Krajská soutěž 1.třídy sk. A
+Sokol Buštěhrad A;6.;Stolz Daniel;1974;kraj. muži 351-400;Krajská soutěž 1.třídy sk. A
+Sokol Buštěhrad A;7.;Řezníček Lukáš;1993;kraj. muži 451-500;Krajská soutěž 1.třídy sk. A
+Sokol Buštěhrad A;8.;Král Adam;2005;kraj. muži 501-600.N;Krajská soutěž 1.třídy sk. A
+Sokol Buštěhrad A;9.;Kratochvíl Tomáš;1975;kraj. muži 801-900;Krajská soutěž 1.třídy sk. A
+Sokol Buštěhrad A;10.;Marák Michal;1969;reg. muži 91-100;Krajská soutěž 1.třídy sk. A
+Sokol Buštěhrad A;11.;Táborský Oldřich;1959;reg. muži 131-150;Krajská soutěž 1.třídy sk. A
+Sokol Buštěhrad A;12.;Jíra Jiří;2009;reg. muži 131-150;Krajská soutěž 1.třídy sk. A
+Sokol Buštěhrad A;13.;Jíra Šimon;2011;reg. muži 151-166;Krajská soutěž 1.třídy sk. A
+Sokol Buštěhrad A;14.;Zelenka Vojtěch;2008;reg. muži 151-166;Krajská soutěž 1.třídy sk. A
+Sokol Buštěhrad A;15.;Kováč Pavel;2011;reg. muži 151-166;Krajská soutěž 1.třídy sk. A
+Aero Odolena Voda A;1.;Hendrych Jan;1987;kraj. muži 51.-70.;Krajská soutěž 1.třídy sk. A
+Aero Odolena Voda A;2.;Brožík Karel;1978;kraj. muži 131.-160.N;Krajská soutěž 1.třídy sk. A
+Aero Odolena Voda A;3.;Hudečková Hana;1987;kraj. muži 161.-200.;Krajská soutěž 1.třídy sk. A
+Aero Odolena Voda A;4.;Schmelz Richard;1985;kraj. muži 201.-250.N;Krajská soutěž 1.třídy sk. A
+Aero Odolena Voda A;5.;Topol Martin;1973;kraj. muži 201.-250.N;Krajská soutěž 1.třídy sk. A
+Aero Odolena Voda A;6.;Novák Samuel Emil;2010;kraj. muži 301.-350.;Krajská soutěž 1.třídy sk. A
+Aero Odolena Voda A;7.;Polák Karel;1997;kraj. muži 351.-400.;Krajská soutěž 1.třídy sk. A
+Aero Odolena Voda A;8.;Vyvial Pavel;1975;kraj. muži 351.-400.;Krajská soutěž 1.třídy sk. A
+Aero Odolena Voda A;9.;Procházka Petr ml.;1997;kraj. muži 351.-400.;Krajská soutěž 1.třídy sk. A
+Aero Odolena Voda A;10.;Procházka Michal;2002;kraj. muži 451.-500.;Krajská soutěž 1.třídy sk. A
+Aero Odolena Voda A;11.;Jelínek Tomáš;1972;kraj. muži 601.-700.N;Krajská soutěž 1.třídy sk. A
+Aero Odolena Voda A;12.;Šulek Jakub;2011;reg. muži 101.-130.N;Krajská soutěž 1.třídy sk. A
+Aero Odolena Voda A;13.;Novák František;2011;reg. muži 131.-160.N;Krajská soutěž 1.třídy sk. A
+Aero Odolena Voda A;14.;Šťastný Ondřej;2008;kraj. muži 701.-800.;Krajská soutěž 1.třídy sk. A
+TJ Olešná A;1.;Sviták Lukáš;2007;kraj. muži 131. - 160.;Krajská soutěž 1.třídy sk. A
+TJ Olešná A;2.;Kuksa Zdeněk;1975;kraj. muži 161. - 200.;Krajská soutěž 1.třídy sk. A
+TJ Olešná A;3.;Herman Miloš ml.;2003;kraj. muži 201. - 250.;Krajská soutěž 1.třídy sk. A
+TJ Olešná A;4.;Herman Miloš;1976;kraj. muži 501. - 600.;Krajská soutěž 1.třídy sk. A
+TJ Olešná A;5.;Kopp Jan;1959;kraj. muži 401. - 450.;Krajská soutěž 1.třídy sk. A
+TJ Olešná A;6.;Švamberk Jan;1995;kraj. muži 601. - 700.;Krajská soutěž 1.třídy sk. A
+TJ Olešná A;7.;Solar Václav;1991;kraj. muži 701. - 800.;Krajská soutěž 1.třídy sk. A
+TJ Olešná A;8.;Vurm Radek;1996;kraj. muži 701. - 800.;Krajská soutěž 1.třídy sk. A
+TJ Olešná A;9.;Kopp Stanislav;1962;kraj. muži 701. - 800.;Krajská soutěž 1.třídy sk. A
+TJ Olešná A;10.;Kroc František;1973;kraj. muži 701. - 800.;Krajská soutěž 1.třídy sk. A
+TJ Olešná A;11.;Novák Aleš;1995;kraj. muži 801. - 900.;Krajská soutěž 1.třídy sk. A
+TJ Olešná A;12.;Novák Petr;1971;reg. muži 81. - 100.;Krajská soutěž 1.třídy sk. A
+Tatran Sedlčany B;1.;Linhart František ml.;1977;kraj. muži 131.-160.N;Krajská soutěž 1.třídy sk. A
+Tatran Sedlčany B;2.;Lískovec Jindřich;1987;kraj. muži 161.-200.;Krajská soutěž 1.třídy sk. A
+Tatran Sedlčany B;3.;Černý Pavel;1998;kraj. muži 251.-300.;Krajská soutěž 1.třídy sk. A
+Tatran Sedlčany B;4.;Matuška Vojtěch;2007;kraj. muži 451.-500.;Krajská soutěž 1.třídy sk. A
+Tatran Sedlčany B;5.;Procházka Michal;1967;kraj. muži 351.-400.;Krajská soutěž 1.třídy sk. A
+Tatran Sedlčany B;6.;Šíp Martin;1981;kraj. muži 501.-600.;Krajská soutěž 1.třídy sk. A
+Tatran Sedlčany B;7.;Poslední Pavel;1961;kraj. muži 501.-600.;Krajská soutěž 1.třídy sk. A
+Tatran Sedlčany B;8.;Strnad Vladimír;1961;kraj. muži 600N;Krajská soutěž 1.třídy sk. A
+Tatran Sedlčany B;9.;Málek Miloš;1965;kraj. muži 601.-700;Krajská soutěž 1.třídy sk. A
+Tatran Sedlčany B;10.;Kunc Zdeněk;1967;reg. muži 71.-100.;Krajská soutěž 1.třídy sk. A
+Tatran Sedlčany B;11.;Janda Jaromír;1998;nez.;Krajská soutěž 1.třídy sk. A
+Tatran Sedlčany B;12.;Faktor Tadeáš;2010;nez.;Krajská soutěž 1.třídy sk. A
+Tatran Sedlčany B;13.;Král Ondřej;2007;nez.;Krajská soutěž 1.třídy sk. A
+Tatran Sedlčany B;14.;Novák František;2010;nez.;Krajská soutěž 1.třídy sk. A
+Tatran Sedlčany B;15.;Stibor Dominik;2010;nez.;Krajská soutěž 1.třídy sk. A
+Tatran Sedlčany B;16.;Černý Jan;2002;nez.;Krajská soutěž 1.třídy sk. A
+Tatran Sedlčany B;17.;Riant Augustin;2007;kraj. muži 401-500;Krajská soutěž 1.třídy sk. A
+Sokol Hořovice B;1.;Jirouch Tomáš;1973;kraj. muži 71. - 100.;Krajská soutěž 1.třídy sk. A
+Sokol Hořovice B;2.;Drož Jan;1965;kraj. muži 161. - 200.;Krajská soutěž 1.třídy sk. A
+Sokol Hořovice B;3.;Hnízdil Michal;2010;kraj. muži 201. - 250.;Krajská soutěž 1.třídy sk. A
+Sokol Hořovice B;4.;Steffl Jan;1981;kraj. muži 201. - 250.;Krajská soutěž 1.třídy sk. A
+Sokol Hořovice B;5.;Křikava Richard;1994;kraj. muži 301. - 350.;Krajská soutěž 1.třídy sk. A
+Sokol Hořovice B;6.;Müller Jiří;1976;kraj. muži 351. - 400.;Krajská soutěž 1.třídy sk. A
+Sokol Hořovice B;7.;Čepelák Vladimír ml.;1988;kraj. muži 451. - 500.;Krajská soutěž 1.třídy sk. A
+Sokol Hořovice B;8.;Chlustina Jaroslav;1971;kraj. muži 601. - 700.;Krajská soutěž 1.třídy sk. A
+Sokol Hořovice B;9.;Hnízdil Tomáš;1974;kraj. muži 901. - 1000. N;Krajská soutěž 1.třídy sk. A
+Sokol Hořovice B;10.;Kumst František;2012;reg. muži 81.-100. N;Krajská soutěž 1.třídy sk. A
+Sokol Hořovice B;11.;Kureš Milan;1978;reg. muži 101. - 120.;Krajská soutěž 1.třídy sk. A
+Sokol Hořovice B;12.;Horská Jana;2010;reg. muži 141. - 160.;Krajská soutěž 1.třídy sk. A
+TTC Kladno B;1.;Bajer Jiří;1976;kraj. muži 21-30;Krajská soutěž 1.třídy sk. A
+TTC Kladno B;2.;Špalek Miroslav;1978;kraj. muži 71-100;Krajská soutěž 1.třídy sk. A
+TTC Kladno B;3.;Škach Martin;1970;kraj. muži 71-100;Krajská soutěž 1.třídy sk. A
+TTC Kladno B;4.;Hrubý Vlastimil;1967;kraj. muži 101-130;Krajská soutěž 1.třídy sk. A
+TTC Kladno B;5.;Macák Milan;1976;kraj. muži 161-200.N;Krajská soutěž 1.třídy sk. A
+TTC Kladno B;6.;Jelínek Filip;2007;kraj. muži 301-350;Krajská soutěž 1.třídy sk. A
+TTC Kladno B;7.;Jedlička Stanislav;1959;kraj. muži 301-350;Krajská soutěž 1.třídy sk. A
+TTC Kladno B;8.;Hlava Jiří;1947;kraj. muži 301-350;Krajská soutěž 1.třídy sk. A
+TTC Kladno B;9.;Bílý Tomáš;1978;kraj. muži 301-350;Krajská soutěž 1.třídy sk. A
+TTC Kladno B;10.;Levenec Alexandr;1977;kraj. muži 351-400;Krajská soutěž 1.třídy sk. A
+TTC Kladno B;11.;Krous Martin;1970;kraj. muži 401-450;Krajská soutěž 1.třídy sk. A
+TTC Kladno B;12.;Rybička Jan;1986;kraj. muži 451-500;Krajská soutěž 1.třídy sk. A
+TTC Kladno B;13.;Tuček Miroslav;1963;kraj. muži 501-600;Krajská soutěž 1.třídy sk. A
+TTC Kladno B;14.;Jůza Jan;1976;kraj. muži 601-700;Krajská soutěž 1.třídy sk. A
+TTC Kladno B;15.;Pachman Tomáš;1967;kraj. muži 601-700;Krajská soutěž 1.třídy sk. A
+TTC Kladno B;16.;Šulc Ladislav;1951;kraj. muži 601-700;Krajská soutěž 1.třídy sk. A
+TTC Kladno B;17.;Hloch Matěj;2011;reg. muži 91-100;Krajská soutěž 1.třídy sk. A
+TTC Kladno B;18.;Fleislébr Jiří;1969;reg. muži 101-115;Krajská soutěž 1.třídy sk. A
+TTC Kladno B;19.;Gábriš Michal;1962;nez.;Krajská soutěž 1.třídy sk. A
+TTC Kladno B;20.;Prágr Lukáš;1987;nez.;Krajská soutěž 1.třídy sk. A
+SK Březnice A;1.;Šimek Jakub;1994;kraj. muži 71.-100.;Krajská soutěž 1.třídy sk. A
+SK Březnice A;2.;Provazník Lukáš;1995;kraj. muži 101-130N;Krajská soutěž 1.třídy sk. A
+SK Březnice A;3.;Drábek Martin;1996;kraj. muži 131.-160.;Krajská soutěž 1.třídy sk. A
+SK Březnice A;4.;Čížek Marek;1995;kraj. muži 131.-160.;Krajská soutěž 1.třídy sk. A
+SK Březnice A;5.;Soused Zbyněk;1974;kraj. muži 201.-250.;Krajská soutěž 1.třídy sk. A
+SK Březnice A;6.;Čížek Pavel;1967;kraj. muži 201.-250.;Krajská soutěž 1.třídy sk. A
+SK Březnice A;7.;Lněničková Marta;1979;kraj. muži 251.-300.;Krajská soutěž 1.třídy sk. A
+SK Březnice A;8.;Petrovic Pavel;1964;kraj. muži 301.-350.;Krajská soutěž 1.třídy sk. A
+SK Březnice A;9.;Haník Josef;1961;kraj. muži 351.-400.;Krajská soutěž 1.třídy sk. A
+SK Březnice A;10.;Michal Radek;1976;kraj. muži 451.-500.;Krajská soutěž 1.třídy sk. A
+SK Březnice A;11.;Říha Bohumil;1983;kraj. muži 501.-600.;Krajská soutěž 1.třídy sk. A
+SK Březnice A;12.;Soused Milan;1970;kraj. muži 501.-600.;Krajská soutěž 1.třídy sk. A
+SK Březnice A;13.;Suchopár Miroslav;1959;kraj. muži 501.-600.;Krajská soutěž 1.třídy sk. A
+SK Březnice A;14.;Medvecký Jan;1951;kraj. muži 701.-800.;Krajská soutěž 1.třídy sk. A
+SK Březnice A;15.;Michal Tomáš;1981;reg. muži 100N;Krajská soutěž 1.třídy sk. A
+Lokomotiva Zdice A;1.;Adam Ondřej;1987;kraj. muži 71.-100.N;Krajská soutěž 1.třídy sk. A
+Lokomotiva Zdice A;2.;Stehlík Jan ml.;1993;kraj. muži 101. - 130.;Krajská soutěž 1.třídy sk. A
+Lokomotiva Zdice A;3.;Gregor Martin;1990;kraj. muži 101. - 130.;Krajská soutěž 1.třídy sk. A
+Lokomotiva Zdice A;4.;Bláha Hynek;2000;kraj. muži 161. - 200.;Krajská soutěž 1.třídy sk. A
+Lokomotiva Zdice A;5.;Flodr Leoš;1976;kraj. muži 201. - 250.;Krajská soutěž 1.třídy sk. A
+Lokomotiva Zdice A;6.;Jiroušek Pavel;1963;kraj. muži 201. - 250.;Krajská soutěž 1.třídy sk. A
+Lokomotiva Zdice A;7.;Šín Jaroslav ml.;1977;kraj. muži 201. - 250.;Krajská soutěž 1.třídy sk. A
+Lokomotiva Zdice A;8.;Prokop Břetislav;1969;kraj. muži 351. - 400.;Krajská soutěž 1.třídy sk. A
+Lokomotiva Zdice A;9.;Slezák Václav;1967;kraj. muži 351. - 400.;Krajská soutěž 1.třídy sk. A
+Lokomotiva Zdice A;10.;Argaláš František;1977;kraj. muži 451. - 500.;Krajská soutěž 1.třídy sk. A
+Lokomotiva Zdice A;11.;Praizler Roman;1963;kraj. muži 501. - 600.;Krajská soutěž 1.třídy sk. A
+Lokomotiva Zdice A;12.;Spousta Martin;2000;kraj. muži 801. - 900.;Krajská soutěž 1.třídy sk. A
+Lokomotiva Zdice A;13.;Rein Tomáš;2005;kraj. muži 251-300;Krajská soutěž 1.třídy sk. A
 Sokol Velký Osek B;1.;Lhoták Jakub;1992;reg. muži 201-250;Krajská soutěž 2.třídy sk. A
 Sokol Velký Osek B;2.;Lhoták Lubor;1978;kraj. muži 251-300;Krajská soutěž 2.třídy sk. A
 Sokol Velký Osek B;3.;Buriánek Daniel;2000;kraj. muži 251-300 N;Krajská soutěž 2.třídy sk. A
