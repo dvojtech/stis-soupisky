@@ -7,7 +7,7 @@ from playwright.sync_api import sync_playwright
 
 # ===== konfigurace =====
 SVAZY   = ["420103", "420210"]                 # doplň dle potřeby
-ROCNIK  = os.getenv("ROCNIK", "2025")
+ROCNIK  = os.getenv("ROCNIK", "2026")
 BASE    = "https://stis.ping-pong.cz"
 OUTDIR  = "data"
 DEBUG   = os.path.join(OUTDIR, "debug")
