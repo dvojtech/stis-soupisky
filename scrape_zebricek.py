@@ -9,7 +9,7 @@ BASE    = "https://stis.ping-pong.cz"
 OUTDIR  = "data"
 DEBUG   = os.path.join(OUTDIR, "debug")
 SVAZY   = [s.strip() for s in os.getenv("ZEBR_SVAZY", "420210").split(",") if s.strip()]
-ROCNIK  = os.getenv("ROCNIK", "2025")
+ROCNIK  = os.getenv("ROCNIK", "2026")
 KAT     = os.getenv("KATEGORIE", "s")             # "s" = dospělí
 ZVYSS   = os.getenv("ZVYSSICH", "ano")            # "ano" / "ne"
 
