@@ -1,0 +1,84 @@
+
+name: STIS - STR zebricek
+
+on:
+  workflow_dispatch:
+    inputs:
+      rocnik:
+        description: 'Ročník STR žebříčků'
+        required: true
+        default: '2026'
+        type: string
+
+  schedule:
+    - cron: '23 */2 * * *'
+      timezone: 'Europe/Prague'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: stis-csv-update
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-24.04
+
+    container:
+      image: mcr.microsoft.com/playwright/python:v1.55.0-jammy
+
+    defaults:
+      run:
+        working-directory: ${{ github.workspace }}
+
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+
+      - name: Install Playwright
+        run: |
+          python -V
+          pip install --no-cache-dir playwright==1.55.0
+          python -m playwright install --with-deps chromium
+
+      - name: Run STR scraper
+        env:
+          ROCNIK: ${{ inputs.rocnik || '2026' }}
+          ZEBR_SVAZY: "420210,420103"
+          KATEGORIE: "s"
+          ZVYSSICH: "ano"
+        run: python scrape_zebricek.py
+
+      - name: Upload debug on failure
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: debug-zebricek
+          path: data/debug/*
+          if-no-files-found: ignore
+
+      - name: Commit STR CSV
+        env:
+          GIT_AUTHOR_NAME: github-actions[bot]
+          GIT_AUTHOR_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
+          GIT_COMMITTER_NAME: github-actions[bot]
+          GIT_COMMITTER_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
+        run: |
+          git config --global --add safe.directory "$GITHUB_WORKSPACE"
+
+          if ls data/zebricek_*.csv >/dev/null 2>&1; then
+            git add data/zebricek_*.csv
+
+            if git diff --cached --quiet; then
+              echo "STR žebříčky beze změny."
+            else
+              git commit -m "Update STR CSV [skip ci]"
+              git pull --rebase origin main
+              git push origin HEAD:main
+            fi
+          else
+            echo "CHYBA: CSV žebříčků chybí."
+            exit 1
+          fi
