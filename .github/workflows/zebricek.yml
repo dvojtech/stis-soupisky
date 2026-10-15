@@ -11,7 +11,7 @@ on:
         type: string
 
   schedule:
-    - cron: '23 */2 * * *'
+    - cron: '23 8,10,12,14,16,18,20,22 * * *'
       timezone: 'Europe/Prague'
 
 permissions:
