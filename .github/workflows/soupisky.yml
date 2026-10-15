@@ -1,3 +1,4 @@
+
 name: STIS soupisky export
 
 on:
@@ -11,7 +12,7 @@ on:
       rocnik_zebricku:
         description: 'Ročník STR žebříčků'
         required: true
-        default: '2025'
+        default: '2026'
         type: string
 
   schedule:
@@ -73,7 +74,7 @@ jobs:
 
       - name: Run rankings scraper (zebricek)
         env:
-          ROCNIK: ${{ inputs.rocnik_zebricku || '2025' }}
+          ROCNIK: ${{ inputs.rocnik_zebricku || '2026' }}
           ZEBR_SVAZY: "420210,420103"
           KATEGORIE: "s"
           ZVYSSICH: "ano"
