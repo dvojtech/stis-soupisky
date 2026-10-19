@@ -10,7 +10,6 @@ Sokol Velký Osek;8.;Procházka Roman;1979;kraj. muži 451-500;Divize
 Sokol Velký Osek;9.;Roudný Petr;1968;kraj. muži 451-500;Divize
 Sokol Velký Osek;10.;Čebiš Luboš;1973;kraj. muži 501-600;Divize
 Sokol Velký Osek;11.;Mokříž Bohuslav;1964;kraj. muži 601-700;Divize
-Sokol Velký Osek;12.;Čebiš Patrik;2006;kraj. muži 901-1000;Divize
 TTC Brandýs nad Labem;1.;Šejvl Jakub;2000;kraj. muži 21.-30.;Divize
 TTC Brandýs nad Labem;2.;Zatřepálek Petr;1995;kraj. muži 51.-70.;Divize
 TTC Brandýs nad Labem;3.;Sysel Vojtěch;2000;kraj. muži 71.-100.;Divize
@@ -395,19 +394,18 @@ SLAVOJ Obecnice;11.;Steiner František;1983;kraj. muži 501.-600.;Krajská sout�
 SLAVOJ Obecnice;12.;Koros Filip;2010;kraj. muži 501.-600.;Krajská soutěž 1.třídy sk.B
 SLAVOJ Obecnice;13.;Ječmen Jaroslav;1962;kraj. muži 701.-800.;Krajská soutěž 1.třídy sk.B
 SLAVOJ Obecnice;14.;Brabenec Václav;1959;kraj. muži 801.-900.N;Krajská soutěž 1.třídy sk.B
-Sokol Mníšek pod Brdy;1.;Taller Filip;1989;kraj. muži 101. - 130.;Krajská soutěž 1.třídy sk.B
-Sokol Mníšek pod Brdy;2.;Fialová Zuzana;1966;kraj. muži 101. - 130.N;Krajská soutěž 1.třídy sk.B
-Sokol Mníšek pod Brdy;3.;Stacho Libor;1966;kraj. muži 161. - 200.;Krajská soutěž 1.třídy sk.B
-Sokol Mníšek pod Brdy;4.;Urban Jan;1957;kraj. muži 301. - 350.;Krajská soutěž 1.třídy sk.B
-Sokol Mníšek pod Brdy;5.;Kilian Vít;1989;kraj. muži 351. - 400.;Krajská soutěž 1.třídy sk.B
-Sokol Mníšek pod Brdy;6.;Tůma Martin;1982;kraj. muži 351. - 400.;Krajská soutěž 1.třídy sk.B
-Sokol Mníšek pod Brdy;7.;Skoupil Lukáš;1984;kraj. muži 401. - 450.;Krajská soutěž 1.třídy sk.B
-Sokol Mníšek pod Brdy;8.;Pospíšil Antonín;1964;kraj. muži 601. - 700.;Krajská soutěž 1.třídy sk.B
-Sokol Mníšek pod Brdy;9.;Dáňa Martin;1963;kraj. muži 901. - 1000.;Krajská soutěž 1.třídy sk.B
-Sokol Mníšek pod Brdy;10.;Freisleben Radek;1984;kraj. muži 901. - 1000.;Krajská soutěž 1.třídy sk.B
-Sokol Mníšek pod Brdy;11.;Kuncl Marek;1975;reg. muži 101. - 110.;Krajská soutěž 1.třídy sk.B
-Sokol Mníšek pod Brdy;12.;Polavka Zdeněk;1959;reg. muži 101. - 110.;Krajská soutěž 1.třídy sk.B
-Sokol Mníšek pod Brdy;13.;Štěpánek Pavel;1965;kraj. muži N;Krajská soutěž 1.třídy sk.B
+Sokol Mníšek pod Brdy;1.;Štěpánek Pavel;1965;kraj. muži 41. - 50.N;Krajská soutěž 1.třídy sk.B
+Sokol Mníšek pod Brdy;2.;Taller Filip;1989;kraj. muži 101. - 130.;Krajská soutěž 1.třídy sk.B
+Sokol Mníšek pod Brdy;3.;Fialová Zuzana;1966;kraj. muži 101. - 130.N;Krajská soutěž 1.třídy sk.B
+Sokol Mníšek pod Brdy;4.;Stacho Libor;1966;kraj. muži 161. - 200.;Krajská soutěž 1.třídy sk.B
+Sokol Mníšek pod Brdy;5.;Urban Jan;1957;kraj. muži 301. - 350.;Krajská soutěž 1.třídy sk.B
+Sokol Mníšek pod Brdy;6.;Kilian Vít;1989;kraj. muži 351. - 400.;Krajská soutěž 1.třídy sk.B
+Sokol Mníšek pod Brdy;7.;Tůma Martin;1982;kraj. muži 351. - 400.;Krajská soutěž 1.třídy sk.B
+Sokol Mníšek pod Brdy;8.;Prošek František;1978;kraj. muži 351.- 400.N;Krajská soutěž 1.třídy sk.B
+Sokol Mníšek pod Brdy;9.;Skoupil Lukáš;1984;kraj. muži 401. - 450.;Krajská soutěž 1.třídy sk.B
+Sokol Mníšek pod Brdy;10.;Pospíšil Antonín;1964;kraj. muži 601. - 700.;Krajská soutěž 1.třídy sk.B
+Sokol Mníšek pod Brdy;11.;Dáňa Martin;1963;kraj. muži 901. - 1000.;Krajská soutěž 1.třídy sk.B
+Sokol Mníšek pod Brdy;12.;Freisleben Radek;1984;kraj. muži 901. - 1000.;Krajská soutěž 1.třídy sk.B
 Sokol Hořovice B;1.;Jirouch Tomáš;1973;kraj. muži 131. - 160.;Krajská soutěž 1.třídy sk.B
 Sokol Hořovice B;2.;Drož Jan;1965;kraj. muži 161. - 200.;Krajská soutěž 1.třídy sk.B
 Sokol Hořovice B;3.;Hnízdil Michal;2010;kraj. muži 251. - 300.;Krajská soutěž 1.třídy sk.B
@@ -575,9 +573,10 @@ Spartak Čelákovice B;4.;Škoda Jiří;1992;kraj. muži 401-450;Krajská soutě
 Spartak Čelákovice B;5.;Ulman Nicolas;2010;kraj. muži 501-600;Krajská soutěž 2.třídy sk. A
 Spartak Čelákovice B;6.;Frajt Patrik;1990;kraj. muži 701-800;Krajská soutěž 2.třídy sk. A
 Spartak Čelákovice B;7.;Janoušek Jiří;2014;reg. muži 101-130;Krajská soutěž 2.třídy sk. A
-Spartak Čelákovice B;8.;Jankovská Monika;2013;reg. muži 191-220;Krajská soutěž 2.třídy sk. A
-Spartak Čelákovice B;9.;Lajnerová Natálie;2010;reg. muži 221-232;Krajská soutěž 2.třídy sk. A
-Spartak Čelákovice B;10.;Andrejsová Zuzana;2009;reg. muži 101.-150.;Krajská soutěž 2.třídy sk. A
+Spartak Čelákovice B;8.;Smolíková Jana;1983;reg. muži 131-160;Krajská soutěž 2.třídy sk. A
+Spartak Čelákovice B;9.;Jankovská Monika;2013;reg. muži 191-220;Krajská soutěž 2.třídy sk. A
+Spartak Čelákovice B;10.;Lajnerová Natálie;2010;reg. muži 221-232;Krajská soutěž 2.třídy sk. A
+Spartak Čelákovice B;11.;Andrejsová Zuzana;2009;reg. muži 101.-150.;Krajská soutěž 2.třídy sk. A
 TTC Říčany C;1.;Erlich Luboš;1963;kraj. muži 201-250;Krajská soutěž 2.třídy sk. A
 TTC Říčany C;2.;Dušek Zdeněk;1983;kraj. muži 201-250 N;Krajská soutěž 2.třídy sk. A
 TTC Říčany C;3.;Černý Roman;1980;kraj. muži 401-450;Krajská soutěž 2.třídy sk. A
@@ -1060,19 +1059,20 @@ Tatran Sedlčany B;9.;Šíp Martin;1981;nez.;Krajská soutěž 2.třídy sk. D
 Tatran Sedlčany B;10.;Faktor Tadeáš;2010;nez.;Krajská soutěž 2.třídy sk. D
 Tatran Sedlčany B;11.;Novák František;2010;nez.;Krajská soutěž 2.třídy sk. D
 Tatran Sedlčany B;12.;Stibor Dominik;2010;nez.;Krajská soutěž 2.třídy sk. D
-Sokol Mníšek pod Brdy B;1.;Kilian Vít;1989;kraj. muži 351. - 400.;Krajská soutěž 2.třídy sk. D
-Sokol Mníšek pod Brdy B;2.;Tůma Martin;1982;kraj. muži 351. - 400.;Krajská soutěž 2.třídy sk. D
-Sokol Mníšek pod Brdy B;3.;Skoupil Lukáš;1984;kraj. muži 401. - 450.;Krajská soutěž 2.třídy sk. D
-Sokol Mníšek pod Brdy B;4.;Pospíšil Antonín;1964;kraj. muži 601. - 700.;Krajská soutěž 2.třídy sk. D
-Sokol Mníšek pod Brdy B;5.;Dáňa Martin;1963;kraj. muži 901. - 1000.;Krajská soutěž 2.třídy sk. D
-Sokol Mníšek pod Brdy B;6.;Freisleben Radek;1984;kraj. muži 901. - 1000.;Krajská soutěž 2.třídy sk. D
-Sokol Mníšek pod Brdy B;7.;Kuncl Marek;1975;reg. muži 101. - 110.;Krajská soutěž 2.třídy sk. D
-Sokol Mníšek pod Brdy B;8.;Polavka Zdeněk;1959;reg. muži 101. - 110.;Krajská soutěž 2.třídy sk. D
-Sokol Mníšek pod Brdy B;9.;Stržínek Jiří;1950;reg. muži 111. - 120.;Krajská soutěž 2.třídy sk. D
-Sokol Mníšek pod Brdy B;10.;Tkáč Ivan;1978;reg. muži 121. - 130.;Krajská soutěž 2.třídy sk. D
-Sokol Mníšek pod Brdy B;11.;Hokeš Daniel;1971;reg. muži 131. - 140.;Krajská soutěž 2.třídy sk. D
-Sokol Mníšek pod Brdy B;12.;Prošek František;1978;kraj. muži N;Krajská soutěž 2.třídy sk. D
-Sokol Mníšek pod Brdy B;13.;Suchánek Daniel (E);1954;kraj. muži N;Krajská soutěž 2.třídy sk. D
+Sokol Mníšek pod Brdy B;1.;Urban Jan;1957;kraj. muži 301. - 350.;Krajská soutěž 2.třídy sk. D
+Sokol Mníšek pod Brdy B;2.;Kilian Vít;1989;kraj. muži 351. - 400.;Krajská soutěž 2.třídy sk. D
+Sokol Mníšek pod Brdy B;3.;Tůma Martin;1982;kraj. muži 351. - 400.;Krajská soutěž 2.třídy sk. D
+Sokol Mníšek pod Brdy B;4.;Prošek František;1978;kraj. muži 351.- 400.N;Krajská soutěž 2.třídy sk. D
+Sokol Mníšek pod Brdy B;5.;Skoupil Lukáš;1984;kraj. muži 401. - 450.;Krajská soutěž 2.třídy sk. D
+Sokol Mníšek pod Brdy B;6.;Pospíšil Antonín;1964;kraj. muži 601. - 700.;Krajská soutěž 2.třídy sk. D
+Sokol Mníšek pod Brdy B;7.;Dáňa Martin;1963;kraj. muži 901. - 1000.;Krajská soutěž 2.třídy sk. D
+Sokol Mníšek pod Brdy B;8.;Freisleben Radek;1984;kraj. muži 901. - 1000.;Krajská soutěž 2.třídy sk. D
+Sokol Mníšek pod Brdy B;9.;Kuncl Marek;1975;reg. muži 101. - 110.;Krajská soutěž 2.třídy sk. D
+Sokol Mníšek pod Brdy B;10.;Polavka Zdeněk;1959;reg. muži 101. - 110.;Krajská soutěž 2.třídy sk. D
+Sokol Mníšek pod Brdy B;11.;Stržínek Jiří;1950;reg. muži 111. - 120.;Krajská soutěž 2.třídy sk. D
+Sokol Mníšek pod Brdy B;12.;Tkáč Ivan;1978;reg. muži 121. - 130.;Krajská soutěž 2.třídy sk. D
+Sokol Mníšek pod Brdy B;13.;Hokeš Daniel;1971;reg. muži 131. - 140.;Krajská soutěž 2.třídy sk. D
+Sokol Mníšek pod Brdy B;14.;Suchánek Daniel (E);1954;kraj. muži N;Krajská soutěž 2.třídy sk. D
 Slovan Lochovice C;1.;Zitta PřemyslT10;1969;kraj. muži 301.-350.;Krajská soutěž 2.třídy sk. D
 Slovan Lochovice C;2.;Nevolný Milan;1975;kraj. muži 401.-450.;Krajská soutěž 2.třídy sk. D
 Slovan Lochovice C;3.;Jirkovský Antonín st.;1975;kraj. muži 601.-700.;Krajská soutěž 2.třídy sk. D
